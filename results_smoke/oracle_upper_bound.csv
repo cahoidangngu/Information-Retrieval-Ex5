@@ -1,0 +1,2 @@
+ranker,MAP,NDCG@10
+oracle re-ranking of the same candidates (uses test labels; upper bound only),0.22169478534364806,0.5524406048586555

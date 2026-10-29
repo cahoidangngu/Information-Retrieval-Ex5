@@ -1,0 +1,279 @@
+[2026-10-15 14:18:18] === run_features smoke=False seed=42 | python 3.11.17 | numpy 2.4.6 | scipy 1.17.1 | sklearn 1.9.1 | pandas 3.0.6 | Windows-10-10.0.19045-SP0
+[2026-10-15 14:18:59] nfcorpus.zip sha256=efe5be03f8c5b86a5870102d0599d227c8c6e2484328e68c6522560385671b0b
+[2026-10-15 14:18:59] dataset stats: {"n_docs": 3633, "n_queries_total": 3237, "doc_words_mean": 233.76520781723093, "doc_words_median": 237.0, "n_duplicate_text_groups": 40, "n_docs_in_duplicate_groups": 80, "train": {"n_queries": 2590, "n_judgments": 110575, "levels": {"1": 110575}, "mean_judged_per_query": 42.69305019305019, "n_docs_judged": 3588}, "dev": {"n_queries": 324, "n_judgments": 11385, "levels": {"1": 10864, "2": 521}, "mean_judged_per_query": 35.138888888888886, "n_docs_judged": 3119}, "test": {"n_queries": 323, "n_judgments": 12334, "levels": {"1": 11758, "2": 576}, "mean_judged_per_query": 38.18575851393189, "n_docs_judged": 3128}, "dev_judged_docs_also_judged_in_train": 0.989740301378647, "test_judged_docs_also_judged_in_train": 0.995843989769821}
+[2026-10-15 14:19:00] index built in 0.5s | vocab=26071
+[2026-10-15 14:19:02] stage1+2 for 3237 queries -> 208847 rows in 2.2s
+[2026-10-15 14:19:02] candidate recall:
+   split  n_queries  recall@100_macro  recall@100_micro  frac_queries_zero_rel_in_cand  n_queries_zero_rel_in_cand  frac_queries_lt100_cand  mean_rel_per_query  frac_queries_with_gt100_rel
+0    dev        324          0.204890          0.157224                       0.274691                          89                 0.459877           35.138889                     0.058642
+1   test        323          0.233074          0.153397                       0.235294                          76                 0.461300           38.185759                     0.068111
+2  train       2590          0.232319          0.144761                       0.225483                         584                 0.450193           42.693050                     0.069112
+[2026-10-15 14:19:02] label counts among candidates:
+split  label
+dev    0         18600
+       1          1533
+       2           257
+test   0         18663
+       1          1601
+       2           291
+train  0        151895
+       1         16007
+[2026-10-15 14:19:12] === run_models smoke=False seed=42 | python 3.11.17 | numpy 2.4.6 | scipy 1.17.1 | sklearn 1.9.1 | pandas 3.0.6 | Windows-10-10.0.19045-SP0
+[2026-10-15 14:19:15] pair stats: {"n_train_rows": 167902, "n_train_queries": 2440, "n_features": 14, "n_valid_pairs_all": 977151, "est_train_memory_gb_all_pairs": 0.3348957449197769, "memory_budget_gb": 2.0, "all_pairs_fit_budget": true, "sample_cap_per_query": 200}
+[2026-10-15 14:19:15] tuning on DEV (never on test)
+[2026-10-15 14:19:15]   linreg                         C=nan     dev NDCG@10=0.2761 MAP=0.1016 pairacc=0.7356 train=0.0s peak=275MB conv_warn=False
+[2026-10-15 14:19:16]   logreg                         C=0.001   dev NDCG@10=0.2791 MAP=0.1045 pairacc=0.7414 train=0.1s peak=279MB conv_warn=False
+[2026-10-15 14:19:16]   logreg                         C=0.01    dev NDCG@10=0.2794 MAP=0.1058 pairacc=0.7410 train=0.2s peak=279MB conv_warn=False
+[2026-10-15 14:19:16]   logreg                         C=0.1     dev NDCG@10=0.2786 MAP=0.1050 pairacc=0.7402 train=0.2s peak=279MB conv_warn=False
+[2026-10-15 14:19:16]   logreg                         C=1       dev NDCG@10=0.2782 MAP=0.1049 pairacc=0.7399 train=0.2s peak=279MB conv_warn=False
+[2026-10-15 14:19:17]   logreg                         C=10      dev NDCG@10=0.2782 MAP=0.1050 pairacc=0.7399 train=0.3s peak=279MB conv_warn=False
+[2026-10-15 14:19:17]   logreg                         C=100     dev NDCG@10=0.2782 MAP=0.1050 pairacc=0.7399 train=0.3s peak=280MB conv_warn=False
+[2026-10-15 14:19:17] ranksvm_all: 977151 pairs (104 MB dense), +1 fraction=0.5000, built in 0.3s
+[2026-10-15 14:19:23]   ranksvm_all                    C=0.001   dev NDCG@10=0.2798 MAP=0.1049 pairacc=0.7453 train=6.0s peak=660MB conv_warn=False
+[2026-10-15 14:19:29]   ranksvm_all                    C=0.01    dev NDCG@10=0.2804 MAP=0.1059 pairacc=0.7467 train=6.0s peak=662MB conv_warn=False
+[2026-10-15 14:19:37]   ranksvm_all                    C=0.1     dev NDCG@10=0.2805 MAP=0.1059 pairacc=0.7469 train=7.2s peak=665MB conv_warn=False
+[2026-10-15 14:19:43]   ranksvm_all                    C=1       dev NDCG@10=0.2805 MAP=0.1059 pairacc=0.7469 train=6.4s peak=666MB conv_warn=False
+[2026-10-15 14:19:50]   ranksvm_all                    C=10      dev NDCG@10=0.2805 MAP=0.1060 pairacc=0.7469 train=6.6s peak=669MB conv_warn=False
+[2026-10-15 14:19:56]   ranksvm_all                    C=100     dev NDCG@10=0.2805 MAP=0.1060 pairacc=0.7469 train=6.5s peak=671MB conv_warn=False
+[2026-10-15 14:19:56] ranksvm_sampled: 283577 pairs (30 MB dense), +1 fraction=0.5000, built in 0.2s
+[2026-10-15 14:19:58]   ranksvm_sampled                C=0.001   dev NDCG@10=0.2805 MAP=0.1047 pairacc=0.7441 train=1.2s peak=386MB conv_warn=False
+[2026-10-15 14:20:00]   ranksvm_sampled                C=0.01    dev NDCG@10=0.2808 MAP=0.1060 pairacc=0.7470 train=2.0s peak=387MB conv_warn=False
+[2026-10-15 14:20:02]   ranksvm_sampled                C=0.1     dev NDCG@10=0.2817 MAP=0.1067 pairacc=0.7472 train=2.0s peak=387MB conv_warn=False
+[2026-10-15 14:20:04]   ranksvm_sampled                C=1       dev NDCG@10=0.2814 MAP=0.1064 pairacc=0.7473 train=2.2s peak=388MB conv_warn=False
+[2026-10-15 14:20:06]   ranksvm_sampled                C=10      dev NDCG@10=0.2814 MAP=0.1064 pairacc=0.7473 train=2.1s peak=389MB conv_warn=False
+[2026-10-15 14:20:09]   ranksvm_sampled                C=100     dev NDCG@10=0.2814 MAP=0.1064 pairacc=0.7472 train=2.3s peak=390MB conv_warn=False
+[2026-10-15 14:20:09] ranksvm_gapweighted: 977151 pairs (104 MB dense), +1 fraction=0.5000, built in 0.3s
+[2026-10-15 14:20:15]   ranksvm_gapweighted            C=0.001   dev NDCG@10=0.2798 MAP=0.1049 pairacc=0.7453 train=5.8s peak=676MB conv_warn=False
+[2026-10-15 14:20:21]   ranksvm_gapweighted            C=0.01    dev NDCG@10=0.2804 MAP=0.1059 pairacc=0.7467 train=5.7s peak=678MB conv_warn=False
+[2026-10-15 14:20:28]   ranksvm_gapweighted            C=0.1     dev NDCG@10=0.2805 MAP=0.1059 pairacc=0.7469 train=7.1s peak=681MB conv_warn=False
+[2026-10-15 14:20:34]   ranksvm_gapweighted            C=1       dev NDCG@10=0.2805 MAP=0.1059 pairacc=0.7469 train=6.4s peak=683MB conv_warn=False
+[2026-10-15 14:20:40]   ranksvm_gapweighted            C=10      dev NDCG@10=0.2805 MAP=0.1060 pairacc=0.7469 train=6.3s peak=685MB conv_warn=False
+[2026-10-15 14:20:47]   ranksvm_gapweighted            C=100     dev NDCG@10=0.2805 MAP=0.1060 pairacc=0.7469 train=6.2s peak=687MB conv_warn=False
+[2026-10-15 14:20:47] ranksvm_dndcgweighted_extra: 977151 pairs (104 MB dense), +1 fraction=0.5000, built in 0.3s
+[2026-10-15 14:20:52]   ranksvm_dndcgweighted_extra    C=0.001   dev NDCG@10=0.2800 MAP=0.1043 pairacc=0.7429 train=4.8s peak=692MB conv_warn=False
+[2026-10-15 14:20:58]   ranksvm_dndcgweighted_extra    C=0.01    dev NDCG@10=0.2812 MAP=0.1052 pairacc=0.7442 train=6.2s peak=695MB conv_warn=False
+[2026-10-15 14:21:04]   ranksvm_dndcgweighted_extra    C=0.1     dev NDCG@10=0.2811 MAP=0.1052 pairacc=0.7443 train=6.3s peak=697MB conv_warn=False
+[2026-10-15 14:21:11]   ranksvm_dndcgweighted_extra    C=1       dev NDCG@10=0.2811 MAP=0.1052 pairacc=0.7443 train=6.5s peak=699MB conv_warn=False
+[2026-10-15 14:21:17]   ranksvm_dndcgweighted_extra    C=10      dev NDCG@10=0.2811 MAP=0.1052 pairacc=0.7443 train=6.0s peak=701MB conv_warn=False
+[2026-10-15 14:21:24]   ranksvm_dndcgweighted_extra    C=100     dev NDCG@10=0.2811 MAP=0.1052 pairacc=0.7443 train=6.5s peak=702MB conv_warn=False
+[2026-10-15 14:21:24] chosen C (dev NDCG@10): {"linreg": null, "logreg": 0.01, "ranksvm_all": 10.0, "ranksvm_sampled": 0.1, "ranksvm_gapweighted": 10.0, "ranksvm_dndcgweighted_extra": 0.01}
+[2026-10-15 14:21:24] TEST metrics:
+                         model       MAP    NDCG@5   NDCG@10  pair_acc_micro      C   train_s  predict_s
+0                         bm25  0.140764  0.343253  0.313430        0.735762    NaN  0.000000        NaN
+1                       linreg  0.140818  0.342638  0.309688        0.717544    NaN  0.035850   0.000080
+2                       logreg  0.141878  0.344860  0.312502        0.723433   0.01  0.196870   0.000056
+3                  ranksvm_all  0.141829  0.343707  0.309298        0.742621  10.00  6.555754   0.000047
+4              ranksvm_sampled  0.142513  0.346525  0.311686        0.743661   0.10  1.976121   0.000047
+5          ranksvm_gapweighted  0.141829  0.343707  0.309298        0.742621  10.00  6.278121   0.000066
+6  ranksvm_dndcgweighted_extra  0.142069  0.346902  0.312747        0.743425   0.01  6.180418   0.000047
+[2026-10-15 14:21:25] best LTR model on DEV by NDCG@10: ranksvm_sampled
+[2026-10-15 14:21:25] significance vs BM25 (test):
+                          model  metric  n_queries  mean_delta  ci95_lo  ci95_hi  p_ttest  p_ttest_holm  p_wilcoxon  p_wilcoxon_holm  cohen_dz  n_improved  n_harmed  n_unchanged  n_nonzero  t_stat
+0                        linreg  ndcg10        323     -0.0037  -0.0097   0.0021   0.2148           1.0      0.3257              1.0   -0.0692          69        72          182        141 -1.2429
+1                        logreg  ndcg10        323     -0.0009  -0.0066   0.0043   0.7412           1.0      0.7370              1.0   -0.0184          73        65          185        138 -0.3306
+2                   ranksvm_all  ndcg10        323     -0.0041  -0.0122   0.0036   0.3133           1.0      0.4490              1.0   -0.0562          69        80          174        149 -1.0098
+3               ranksvm_sampled  ndcg10        323     -0.0017  -0.0098   0.0057   0.6550           1.0      0.6894              1.0   -0.0249          67        78          178        145 -0.4472
+4           ranksvm_gapweighted  ndcg10        323     -0.0041  -0.0122   0.0038   0.3133           1.0      0.4490              1.0   -0.0562          69        80          174        149 -1.0098
+5   ranksvm_dndcgweighted_extra  ndcg10        323     -0.0007  -0.0073   0.0058   0.8411           1.0      0.9297              1.0   -0.0112          69        69          185        138 -0.2006
+6                        linreg      ap        323      0.0001  -0.0024   0.0025   0.9649           1.0      0.7304              1.0    0.0025          91        98          134        189  0.0440
+7                        logreg      ap        323      0.0011  -0.0009   0.0032   0.2879           1.0      0.4551              1.0    0.0592          96        92          135        188  1.0645
+8                   ranksvm_all      ap        323      0.0011  -0.0019   0.0041   0.4878           1.0      0.4299              1.0    0.0386          96        91          136        187  0.6946
+9               ranksvm_sampled      ap        323      0.0017  -0.0012   0.0047   0.2533           1.0      0.2754              1.0    0.0637          97        89          137        186  1.1444
+10          ranksvm_gapweighted      ap        323      0.0011  -0.0020   0.0039   0.4878           1.0      0.4299              1.0    0.0386          96        91          136        187  0.6946
+11  ranksvm_dndcgweighted_extra      ap        323      0.0013  -0.0012   0.0037   0.3026           1.0      0.2429              1.0    0.0575          96        90          137        186  1.0326
+[2026-10-15 14:21:25] done
+[2026-10-15 14:21:27] === analysis
+[2026-10-15 14:21:31] analysis done; best model ranksvm_sampled
+[2026-10-15 14:21:42] ablation:
+                                          variant    C  n_pairs  intercept  dev_NDCG@10  dev_MAP  dev_pair_acc  test_NDCG@10  test_MAP  test_pair_acc  train_pair_acc_on_own_pairs                                                                     unbalanced_directions_(all +1)
+0  A within-query pairs, no intercept (reference)  0.1   283577     0.0000       0.2819   0.1069        0.7474        0.3109    0.1425         0.7433                       0.7510  fails: This solver needs samples of at least 2 classes in the data, but the data contains only on
+1     B cross-query pairs, no intercept (pitfall)  0.1   283577     0.0000       0.2791   0.1057        0.7428        0.3135    0.1417         0.7233                       0.8325  fails: This solver needs samples of at least 2 classes in the data, but the data contains only on
+2            C within-query pairs, WITH intercept  0.1   283577     0.0016       0.2819   0.1069        0.7474        0.3111    0.1425         0.7433                       0.7511  fails: This solver needs samples of at least 2 classes in the data, but the data contains only on
+[2026-10-15 14:21:50] crosscheck vs ranx:
+             model metric_set  ndcg10_lin_ours  ndcg10_lin_ref  ndcg10_exp_ours  ndcg10_exp_ref  ndcg5_exp_ours  map_ours   map_ref  max_abs_diff
+0             bm25       ranx         0.312596        0.312596         0.313430        0.313430        0.343253  0.140764  0.140764  5.551115e-17
+1  ranksvm_sampled       ranx         0.311211        0.311211         0.311686        0.311686        0.346525  0.142513  0.142513  2.775558e-17
+2           logreg       ranx         0.312245        0.312245         0.312502        0.312502        0.344860  0.141878  0.141878  5.551115e-17
+[2026-10-15 14:21:52] === run_hinge smoke=False | python 3.11.17 | numpy 2.4.6 | scipy 1.17.1 | sklearn 1.9.1 | pandas 3.0.6 | Windows-10-10.0.19045-SP0
+[2026-10-15 14:21:57]   ranksvm_hinge_all            C=0.001   val NDCG@10=0.2794 MAP=0.1046 train=1.2s conv_warn=False
+[2026-10-15 14:21:59]   ranksvm_hinge_all            C=0.01    val NDCG@10=0.2796 MAP=0.1049 train=1.9s conv_warn=True
+[2026-10-15 14:22:07]   ranksvm_hinge_all            C=0.1     val NDCG@10=0.2807 MAP=0.1052 train=7.8s conv_warn=True
+[2026-10-15 14:22:56]   ranksvm_hinge_all            C=1       val NDCG@10=0.2808 MAP=0.1052 train=49.3s conv_warn=True
+[2026-10-15 14:25:45]   ranksvm_hinge_all            C=10      val NDCG@10=0.2799 MAP=0.1049 train=168.2s conv_warn=True
+[2026-10-15 14:29:46]   ranksvm_hinge_all            C=100     val NDCG@10=0.1991 MAP=0.0770 train=241.7s conv_warn=True
+[2026-10-15 14:29:47]   ranksvm_hinge_sampled        C=0.001   val NDCG@10=0.2796 MAP=0.1043 train=0.6s conv_warn=False
+[2026-10-15 14:29:48]   ranksvm_hinge_sampled        C=0.01    val NDCG@10=0.2795 MAP=0.1048 train=0.4s conv_warn=True
+[2026-10-15 14:29:49]   ranksvm_hinge_sampled        C=0.1     val NDCG@10=0.2814 MAP=0.1063 train=1.4s conv_warn=True
+[2026-10-15 14:29:59]   ranksvm_hinge_sampled        C=1       val NDCG@10=0.2813 MAP=0.1066 train=9.5s conv_warn=True
+[2026-10-15 14:30:35]   ranksvm_hinge_sampled        C=10      val NDCG@10=0.2807 MAP=0.1061 train=35.9s conv_warn=True
+[2026-10-15 14:31:28]   ranksvm_hinge_sampled        C=100     val NDCG@10=0.1592 MAP=0.0594 train=52.9s conv_warn=True
+[2026-10-15 14:31:28] hinge test metrics:
+                   model    C       MAP    NDCG@5   NDCG@10  pair_acc_micro    train_s  converged
+0      ranksvm_hinge_all  1.0  0.141306  0.340134  0.308553        0.744360  49.261062      False
+1  ranksvm_hinge_sampled  0.1  0.142123  0.346024  0.310938        0.744762   1.409147      False
+[2026-10-15 14:31:31] === run_featuresets smoke=False | python 3.11.17 | numpy 2.4.6 | scipy 1.17.1 | sklearn 1.9.1 | pandas 3.0.6 | Windows-10-10.0.19045-SP0
+[2026-10-15 14:31:40] v2 features computed for 208847 rows in 5.6s
+[2026-10-15 14:31:40] v1_reduced keeps ['bm25_title', 'bm25_body', 'tfidf_cos_title', 'tfidf_cos_body', 'lm_dirichlet', 'doc_len', 'title_len', 'matched_terms', 'coverage_ratio', 'max_idf_matched', 'bm25_rank']; dropped in order ['bm25_comb', 'sum_idf_matched', 'query_len']
+[2026-10-15 14:31:41] --- feature set v1 (14 features)
+[2026-10-15 14:31:41]   linreg                       C=nan     val NDCG@10=0.2761 MAP=0.1016 train=0.0s conv_warn=False
+[2026-10-15 14:31:41]   logreg                       C=0.001   val NDCG@10=0.2791 MAP=0.1045 train=0.2s conv_warn=False
+[2026-10-15 14:31:41]   logreg                       C=0.01    val NDCG@10=0.2794 MAP=0.1058 train=0.2s conv_warn=False
+[2026-10-15 14:31:42]   logreg                       C=0.1     val NDCG@10=0.2786 MAP=0.1050 train=0.2s conv_warn=False
+[2026-10-15 14:31:42]   logreg                       C=1       val NDCG@10=0.2782 MAP=0.1049 train=0.3s conv_warn=False
+[2026-10-15 14:31:42]   logreg                       C=10      val NDCG@10=0.2782 MAP=0.1050 train=0.3s conv_warn=False
+[2026-10-15 14:31:42]   logreg                       C=100     val NDCG@10=0.2782 MAP=0.1050 train=0.3s conv_warn=False
+[2026-10-15 14:31:49]   ranksvm_all                  C=0.001   val NDCG@10=0.2798 MAP=0.1049 train=5.9s conv_warn=False
+[2026-10-15 14:31:55]   ranksvm_all                  C=0.01    val NDCG@10=0.2804 MAP=0.1059 train=5.8s conv_warn=False
+[2026-10-15 14:32:02]   ranksvm_all                  C=0.1     val NDCG@10=0.2805 MAP=0.1059 train=7.0s conv_warn=False
+[2026-10-15 14:32:08]   ranksvm_all                  C=1       val NDCG@10=0.2805 MAP=0.1059 train=6.7s conv_warn=False
+[2026-10-15 14:32:15]   ranksvm_all                  C=10      val NDCG@10=0.2805 MAP=0.1060 train=6.2s conv_warn=False
+[2026-10-15 14:32:21]   ranksvm_all                  C=100     val NDCG@10=0.2805 MAP=0.1060 train=6.4s conv_warn=False
+[2026-10-15 14:32:23]   ranksvm_sampled              C=0.001   val NDCG@10=0.2805 MAP=0.1047 train=1.2s conv_warn=False
+[2026-10-15 14:32:25]   ranksvm_sampled              C=0.01    val NDCG@10=0.2808 MAP=0.1060 train=1.9s conv_warn=False
+[2026-10-15 14:32:27]   ranksvm_sampled              C=0.1     val NDCG@10=0.2817 MAP=0.1067 train=2.1s conv_warn=False
+[2026-10-15 14:32:29]   ranksvm_sampled              C=1       val NDCG@10=0.2814 MAP=0.1064 train=2.1s conv_warn=False
+[2026-10-15 14:32:31]   ranksvm_sampled              C=10      val NDCG@10=0.2814 MAP=0.1064 train=2.1s conv_warn=False
+[2026-10-15 14:32:33]   ranksvm_sampled              C=100     val NDCG@10=0.2814 MAP=0.1064 train=2.1s conv_warn=False
+[2026-10-15 14:32:33] --- feature set v1_reduced (11 features)
+[2026-10-15 14:32:33]   linreg                       C=nan     val NDCG@10=0.2770 MAP=0.1040 train=0.0s conv_warn=False
+[2026-10-15 14:32:34]   logreg                       C=0.001   val NDCG@10=0.2800 MAP=0.1048 train=0.1s conv_warn=False
+[2026-10-15 14:32:34]   logreg                       C=0.01    val NDCG@10=0.2787 MAP=0.1044 train=0.1s conv_warn=False
+[2026-10-15 14:32:34]   logreg                       C=0.1     val NDCG@10=0.2786 MAP=0.1043 train=0.1s conv_warn=False
+[2026-10-15 14:32:34]   logreg                       C=1       val NDCG@10=0.2787 MAP=0.1043 train=0.1s conv_warn=False
+[2026-10-15 14:32:34]   logreg                       C=10      val NDCG@10=0.2787 MAP=0.1043 train=0.1s conv_warn=False
+[2026-10-15 14:32:35]   logreg                       C=100     val NDCG@10=0.2787 MAP=0.1043 train=0.1s conv_warn=False
+[2026-10-15 14:32:39]   ranksvm_all                  C=0.001   val NDCG@10=0.2809 MAP=0.1060 train=3.6s conv_warn=False
+[2026-10-15 14:32:43]   ranksvm_all                  C=0.01    val NDCG@10=0.2812 MAP=0.1068 train=4.3s conv_warn=False
+[2026-10-15 14:32:47]   ranksvm_all                  C=0.1     val NDCG@10=0.2813 MAP=0.1068 train=4.3s conv_warn=False
+[2026-10-15 14:32:52]   ranksvm_all                  C=1       val NDCG@10=0.2812 MAP=0.1068 train=4.4s conv_warn=False
+[2026-10-15 14:32:56]   ranksvm_all                  C=10      val NDCG@10=0.2812 MAP=0.1068 train=4.3s conv_warn=False
+[2026-10-15 14:33:00]   ranksvm_all                  C=100     val NDCG@10=0.2812 MAP=0.1068 train=4.3s conv_warn=False
+[2026-10-15 14:33:02]   ranksvm_sampled              C=0.001   val NDCG@10=0.2822 MAP=0.1061 train=0.9s conv_warn=False
+[2026-10-15 14:33:03]   ranksvm_sampled              C=0.01    val NDCG@10=0.2811 MAP=0.1063 train=1.1s conv_warn=False
+[2026-10-15 14:33:04]   ranksvm_sampled              C=0.1     val NDCG@10=0.2813 MAP=0.1067 train=1.2s conv_warn=False
+[2026-10-15 14:33:05]   ranksvm_sampled              C=1       val NDCG@10=0.2813 MAP=0.1067 train=1.2s conv_warn=False
+[2026-10-15 14:33:07]   ranksvm_sampled              C=10      val NDCG@10=0.2813 MAP=0.1067 train=1.2s conv_warn=False
+[2026-10-15 14:33:08]   ranksvm_sampled              C=100     val NDCG@10=0.2813 MAP=0.1067 train=1.2s conv_warn=False
+[2026-10-15 14:33:08] --- feature set v2 (19 features)
+[2026-10-15 14:33:08]   linreg                       C=nan     val NDCG@10=0.2852 MAP=0.1083 train=0.0s conv_warn=False
+[2026-10-15 14:33:08]   logreg                       C=0.001   val NDCG@10=0.2896 MAP=0.1119 train=0.1s conv_warn=False
+[2026-10-15 14:33:09]   logreg                       C=0.01    val NDCG@10=0.2889 MAP=0.1114 train=0.2s conv_warn=False
+[2026-10-15 14:33:09]   logreg                       C=0.1     val NDCG@10=0.2877 MAP=0.1109 train=0.2s conv_warn=False
+[2026-10-15 14:33:09]   logreg                       C=1       val NDCG@10=0.2884 MAP=0.1111 train=0.2s conv_warn=False
+[2026-10-15 14:33:09]   logreg                       C=10      val NDCG@10=0.2882 MAP=0.1111 train=0.3s conv_warn=False
+[2026-10-15 14:33:10]   logreg                       C=100     val NDCG@10=0.2882 MAP=0.1111 train=0.2s conv_warn=False
+[2026-10-15 14:33:20]   ranksvm_all                  C=0.001   val NDCG@10=0.2903 MAP=0.1122 train=9.3s conv_warn=False
+[2026-10-15 14:33:31]   ranksvm_all                  C=0.01    val NDCG@10=0.2923 MAP=0.1130 train=11.5s conv_warn=False
+[2026-10-15 14:33:43]   ranksvm_all                  C=0.1     val NDCG@10=0.2927 MAP=0.1130 train=12.3s conv_warn=False
+[2026-10-15 14:33:56]   ranksvm_all                  C=1       val NDCG@10=0.2927 MAP=0.1129 train=12.5s conv_warn=False
+[2026-10-15 14:34:09]   ranksvm_all                  C=10      val NDCG@10=0.2929 MAP=0.1130 train=13.3s conv_warn=False
+[2026-10-15 14:34:22]   ranksvm_all                  C=100     val NDCG@10=0.2929 MAP=0.1130 train=12.7s conv_warn=False
+[2026-10-15 14:34:25]   ranksvm_sampled              C=0.001   val NDCG@10=0.2916 MAP=0.1136 train=2.4s conv_warn=False
+[2026-10-15 14:34:29]   ranksvm_sampled              C=0.01    val NDCG@10=0.2924 MAP=0.1127 train=3.5s conv_warn=False
+[2026-10-15 14:34:32]   ranksvm_sampled              C=0.1     val NDCG@10=0.2930 MAP=0.1129 train=3.6s conv_warn=False
+[2026-10-15 14:34:36]   ranksvm_sampled              C=1       val NDCG@10=0.2928 MAP=0.1129 train=3.6s conv_warn=False
+[2026-10-15 14:34:40]   ranksvm_sampled              C=10      val NDCG@10=0.2930 MAP=0.1130 train=4.0s conv_warn=False
+[2026-10-15 14:34:43]   ranksvm_sampled              C=100     val NDCG@10=0.2930 MAP=0.1129 train=3.5s conv_warn=False
+[2026-10-15 14:34:45] feature-set test metrics:
+   feature_set            model       C       MAP   NDCG@10  pair_acc_micro
+0           v1           linreg     NaN  0.140818  0.309688        0.717544
+1           v1           logreg   0.010  0.141878  0.312502        0.723433
+2           v1      ranksvm_all  10.000  0.141829  0.309298        0.742621
+3           v1  ranksvm_sampled   0.100  0.142513  0.311686        0.743661
+4   v1_reduced           linreg     NaN  0.141527  0.310910        0.715176
+5   v1_reduced           logreg   0.001  0.141894  0.313534        0.728702
+6   v1_reduced      ranksvm_all   0.100  0.141905  0.311568        0.740218
+7   v1_reduced  ranksvm_sampled   0.001  0.141659  0.309634        0.739100
+8           v2           linreg     NaN  0.143568  0.320188        0.733307
+9           v2           logreg   0.001  0.145660  0.324592        0.745854
+10          v2      ranksvm_all  10.000  0.144287  0.323327        0.757851
+11          v2  ranksvm_sampled   0.100  0.144085  0.323379        0.757204
+[2026-10-15 14:34:47] === run_cv smoke=False folds=5 | python 3.11.17 | numpy 2.4.6 | scipy 1.17.1 | sklearn 1.9.1 | pandas 3.0.6 | Windows-10-10.0.19045-SP0
+[2026-10-15 14:34:48] 3237 queries pooled; fold sizes [648, 648, 647, 647, 647]
+[2026-10-15 14:34:48] --- fold 0: test 648 queries (42435 rows), train folds 2589 (inner train 2071 / val 518)
+[2026-10-15 14:34:48]   linreg                       C=nan     fold-0 test NDCG@10=0.2954 MAP=0.1230
+[2026-10-15 14:34:50]   logreg                       C=0.001   fold-0 test NDCG@10=0.2970 MAP=0.1235
+[2026-10-15 14:35:26]   ranksvm_all                  C=0.001   fold-0 test NDCG@10=0.2959 MAP=0.1232
+[2026-10-15 14:35:36]   ranksvm_sampled              C=0.001   fold-0 test NDCG@10=0.2984 MAP=0.1246
+[2026-10-15 14:36:13]   ranksvm_gapweighted          C=0.001   fold-0 test NDCG@10=0.2961 MAP=0.1233
+[2026-10-15 14:36:51]   ranksvm_dndcgweighted_extra  C=0.1     fold-0 test NDCG@10=0.2972 MAP=0.1234
+[2026-10-15 14:36:51] --- fold 1: test 648 queries (41078 rows), train folds 2589 (inner train 2071 / val 518)
+[2026-10-15 14:36:52]   linreg                       C=nan     fold-1 test NDCG@10=0.3275 MAP=0.1369
+[2026-10-15 14:36:54]   logreg                       C=0.001   fold-1 test NDCG@10=0.3276 MAP=0.1377
+[2026-10-15 14:37:28]   ranksvm_all                  C=0.001   fold-1 test NDCG@10=0.3270 MAP=0.1368
+[2026-10-15 14:37:38]   ranksvm_sampled              C=0.001   fold-1 test NDCG@10=0.3263 MAP=0.1368
+[2026-10-15 14:38:15]   ranksvm_gapweighted          C=0.001   fold-1 test NDCG@10=0.3269 MAP=0.1369
+[2026-10-15 14:38:49]   ranksvm_dndcgweighted_extra  C=0.001   fold-1 test NDCG@10=0.3267 MAP=0.1365
+[2026-10-15 14:38:49] --- fold 2: test 647 queries (42757 rows), train folds 2590 (inner train 2072 / val 518)
+[2026-10-15 14:38:50]   linreg                       C=nan     fold-2 test NDCG@10=0.2988 MAP=0.1175
+[2026-10-15 14:38:51]   logreg                       C=0.001   fold-2 test NDCG@10=0.2989 MAP=0.1174
+[2026-10-15 14:39:29]   ranksvm_all                  C=0.001   fold-2 test NDCG@10=0.2981 MAP=0.1177
+[2026-10-15 14:39:40]   ranksvm_sampled              C=0.001   fold-2 test NDCG@10=0.2990 MAP=0.1177
+[2026-10-15 14:40:19]   ranksvm_gapweighted          C=0.001   fold-2 test NDCG@10=0.2980 MAP=0.1178
+[2026-10-15 14:40:58]   ranksvm_dndcgweighted_extra  C=0.001   fold-2 test NDCG@10=0.2995 MAP=0.1178
+[2026-10-15 14:40:58] --- fold 3: test 647 queries (40506 rows), train folds 2590 (inner train 2072 / val 518)
+[2026-10-15 14:40:59]   linreg                       C=nan     fold-3 test NDCG@10=0.3102 MAP=0.1332
+[2026-10-15 14:41:01]   logreg                       C=10.0    fold-3 test NDCG@10=0.3083 MAP=0.1329
+[2026-10-15 14:41:48]   ranksvm_all                  C=0.001   fold-3 test NDCG@10=0.3056 MAP=0.1303
+[2026-10-15 14:41:59]   ranksvm_sampled              C=0.001   fold-3 test NDCG@10=0.3087 MAP=0.1323
+[2026-10-15 14:42:36]   ranksvm_gapweighted          C=0.001   fold-3 test NDCG@10=0.3055 MAP=0.1302
+[2026-10-15 14:43:13]   ranksvm_dndcgweighted_extra  C=0.1     fold-3 test NDCG@10=0.3094 MAP=0.1325
+[2026-10-15 14:43:14] --- fold 4: test 647 queries (42071 rows), train folds 2590 (inner train 2072 / val 518)
+[2026-10-15 14:43:14]   linreg                       C=nan     fold-4 test NDCG@10=0.2997 MAP=0.1234
+[2026-10-15 14:43:16]   logreg                       C=0.01    fold-4 test NDCG@10=0.3023 MAP=0.1248
+[2026-10-15 14:43:53]   ranksvm_all                  C=0.001   fold-4 test NDCG@10=0.3036 MAP=0.1245
+[2026-10-15 14:44:05]   ranksvm_sampled              C=0.01    fold-4 test NDCG@10=0.3038 MAP=0.1247
+[2026-10-15 14:44:39]   ranksvm_gapweighted          C=0.001   fold-4 test NDCG@10=0.3032 MAP=0.1243
+[2026-10-15 14:45:13]   ranksvm_dndcgweighted_extra  C=10.0    fold-4 test NDCG@10=0.3030 MAP=0.1253
+[2026-10-15 14:45:16] CV summary (mean over folds):
+                         model  MAP_mean  MAP_std  NDCG@5_mean  NDCG@5_std  NDCG@10_mean  NDCG@10_std  pair_acc_micro_mean  pair_acc_micro_std
+0                         bm25    0.1257   0.0079       0.3417      0.0167        0.3037       0.0130               0.7237              0.0115
+1                       linreg    0.1268   0.0080       0.3441      0.0157        0.3063       0.0131               0.7287              0.0097
+2                       logreg    0.1272   0.0080       0.3440      0.0160        0.3068       0.0124               0.7323              0.0102
+3                  ranksvm_all    0.1265   0.0073       0.3431      0.0157        0.3060       0.0123               0.7380              0.0096
+4              ranksvm_sampled    0.1272   0.0074       0.3449      0.0155        0.3072       0.0114               0.7364              0.0091
+5          ranksvm_gapweighted    0.1265   0.0073       0.3431      0.0156        0.3059       0.0123               0.7379              0.0096
+6  ranksvm_dndcgweighted_extra    0.1271   0.0074       0.3450      0.0161        0.3071       0.0119               0.7354              0.0100
+[2026-10-15 14:45:16] CV significance (pooled out-of-fold queries):
+                          model  metric  mean_delta  ci95_lo  ci95_hi  p_ttest  p_wilcoxon
+0                        linreg  ndcg10      0.0026   0.0005   0.0048   0.0164      0.0042
+1                        logreg  ndcg10      0.0031   0.0011   0.0052   0.0022      0.0003
+2                   ranksvm_all  ndcg10      0.0023  -0.0001   0.0048   0.0612      0.0967
+3               ranksvm_sampled  ndcg10      0.0035   0.0013   0.0058   0.0018      0.0044
+4           ranksvm_gapweighted  ndcg10      0.0022  -0.0002   0.0046   0.0713      0.0993
+5   ranksvm_dndcgweighted_extra  ndcg10      0.0035   0.0014   0.0056   0.0010      0.0006
+6                        linreg      ap      0.0011   0.0001   0.0021   0.0324      0.0004
+7                        logreg      ap      0.0016   0.0006   0.0025   0.0019      0.0000
+8                   ranksvm_all      ap      0.0009  -0.0007   0.0023   0.2546      0.0000
+9               ranksvm_sampled      ap      0.0016   0.0004   0.0027   0.0064      0.0000
+10          ranksvm_gapweighted      ap      0.0008  -0.0007   0.0023   0.2682      0.0000
+11  ranksvm_dndcgweighted_extra      ap      0.0015   0.0003   0.0026   0.0157      0.0000
+[2026-10-15 16:50:34] === run_stemmed_stage1 smoke=False | python 3.11.17 | numpy 2.4.6 | scipy 1.17.1 | sklearn 1.9.1 | pandas 3.0.6 | Windows-10-10.0.19045-SP0
+[2026-10-15 16:50:41] stemmed index+stage1+features: 220598 rows for 3237 queries in 3.2s | vocab=18833
+[2026-10-15 16:50:43] stage-1 comparison:
+             stage1  split  n_queries  recall@100_micro  recall@100_macro  frac_queries_no_relevant_candidate  n_queries_no_relevant_candidate  frac_queries_lt100_cand  oracle_NDCG@10  oracle_MAP  stage1_NDCG@10  stage1_MAP
+0  unstemmed (main)  train       2590            0.1448            0.2323                              0.2255                              584                   0.4502          0.5384      0.2323          0.3061      0.1266
+1  unstemmed (main)    dev        324            0.1572            0.2049                              0.2747                               89                   0.4599          0.4831      0.2049          0.2744      0.1028
+2  unstemmed (main)   test        323            0.1534            0.2331                              0.2353                               76                   0.4613          0.5235      0.2331          0.3134      0.1408
+3    Porter-stemmed  train       2590            0.1557            0.2491                              0.2035                              527                   0.4058          0.5640      0.2491          0.3232      0.1360
+4    Porter-stemmed    dev        324            0.1724            0.2267                              0.2438                               79                   0.4167          0.5210      0.2267          0.2995      0.1205
+5    Porter-stemmed   test        323            0.1729            0.2483                              0.2105                               68                   0.3932          0.5472      0.2483          0.3302      0.1468
+[2026-10-15 16:50:43]   linreg                       C=nan     val NDCG@10=0.3013 MAP=0.1207 train=0.2s conv_warn=False
+[2026-10-15 16:50:44]   logreg                       C=0.001   val NDCG@10=0.3078 MAP=0.1249 train=0.2s conv_warn=False
+[2026-10-15 16:50:44]   logreg                       C=0.01    val NDCG@10=0.3053 MAP=0.1242 train=0.2s conv_warn=False
+[2026-10-15 16:50:44]   logreg                       C=0.1     val NDCG@10=0.3034 MAP=0.1235 train=0.2s conv_warn=False
+[2026-10-15 16:50:44]   logreg                       C=1       val NDCG@10=0.3036 MAP=0.1235 train=0.2s conv_warn=False
+[2026-10-15 16:50:45]   logreg                       C=10      val NDCG@10=0.3035 MAP=0.1235 train=0.2s conv_warn=False
+[2026-10-15 16:50:45]   logreg                       C=100     val NDCG@10=0.3035 MAP=0.1235 train=0.3s conv_warn=False
+[2026-10-15 16:50:47]   ranksvm_sampled              C=0.001   val NDCG@10=0.3036 MAP=0.1247 train=1.5s conv_warn=False
+[2026-10-15 16:50:49]   ranksvm_sampled              C=0.01    val NDCG@10=0.3048 MAP=0.1241 train=1.9s conv_warn=False
+[2026-10-15 16:50:51]   ranksvm_sampled              C=0.1     val NDCG@10=0.3066 MAP=0.1247 train=1.9s conv_warn=False
+[2026-10-15 16:50:53]   ranksvm_sampled              C=1       val NDCG@10=0.3066 MAP=0.1247 train=1.9s conv_warn=False
+[2026-10-15 16:50:54]   ranksvm_sampled              C=10      val NDCG@10=0.3066 MAP=0.1247 train=1.8s conv_warn=False
+[2026-10-15 16:50:56]   ranksvm_sampled              C=100     val NDCG@10=0.3066 MAP=0.1247 train=1.9s conv_warn=False
+[2026-10-15 16:50:57] stemmed-stage1 test metrics:
+             model        C       MAP    NDCG@5   NDCG@10  pair_acc_micro
+0     stemmed_bm25      NaN  0.146779  0.358994  0.330161        0.723338
+1           linreg      NaN  0.148769  0.362609  0.328290        0.716207
+2           logreg    0.001  0.150102  0.364614  0.331330        0.721647
+3  ranksvm_sampled  100.000  0.150851  0.364205  0.331979        0.735154

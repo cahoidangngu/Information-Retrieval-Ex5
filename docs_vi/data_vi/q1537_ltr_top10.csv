@@ -1,0 +1,11 @@
+ltr_rank,doc_id,label,bm25_rank,ltr_score,title
+1,MED-4880,0,1,1.4654242740472023,Effects of very-low-carbohydrate (horsemeat- or beef-based) 
+2,MED-5267,0,6,-0.4191314300182477,Mediterranean and low-fat diets improve endothelial function
+3,MED-2588,1,11,-0.4413646323605876,Low-Carbohydrate Diets and All-Cause Mortality: A Systematic
+4,MED-4514,1,21,-0.4565453886380111,Low-carbohydrate diets and all-cause and cause-specific mort
+5,MED-3273,0,3,-0.4770820871923518,The low-methionine content of vegan diets may make methionin
+6,MED-1134,0,25,-0.4786617947635982,Effects of low animal protein or high-fiber diets on urine c
+7,MED-1669,0,20,-0.4926649173967627,"The effect of two energy-restricted diets, a low-fructose di"
+8,MED-4831,0,7,-0.5008481795013989,Effects of plant-based diets on plasma lipids.
+9,MED-3557,0,59,-0.5027109403854957,VEGETARIAN DIETS AND THE INCIDENCE OF CANCER IN A LOW-RISK P
+10,MED-3149,0,2,-0.5290591873948882,Four therapeutic diets: adherence and acceptability.

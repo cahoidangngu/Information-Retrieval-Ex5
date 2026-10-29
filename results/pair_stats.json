@@ -1,0 +1,14 @@
+{
+  "n_train_rows": 167902,
+  "n_train_queries": 2440,
+  "n_features": 14,
+  "n_valid_pairs_all": 977151,
+  "est_train_memory_gb_all_pairs": 0.3348957449197769,
+  "memory_budget_gb": 2.0,
+  "all_pairs_fit_budget": true,
+  "sample_cap_per_query": 200,
+  "n_pairs_ranksvm_all": 977151,
+  "n_pairs_ranksvm_sampled": 283577,
+  "n_pairs_ranksvm_gapweighted": 977151,
+  "n_pairs_ranksvm_dndcgweighted_extra": 977151
+}

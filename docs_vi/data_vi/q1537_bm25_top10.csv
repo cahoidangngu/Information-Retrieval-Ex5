@@ -1,0 +1,11 @@
+bm25_rank,doc_id,label,bm25_comb,matched_terms,coverage_ratio,ltr_rank,title
+1,MED-4880,0,21.202306632277555,3.0,1.0,1,Effects of very-low-carbohydrate (horsemeat- or beef-based) 
+2,MED-3149,0,7.756799091674825,2.0,0.6666666666666666,10,Four therapeutic diets: adherence and acceptability.
+3,MED-3273,0,7.658460578724862,2.0,0.6666666666666666,5,The low-methionine content of vegan diets may make methionin
+4,MED-4353,0,7.358418425938805,2.0,0.6666666666666666,33,Effects of dietary proteins on plasma lipoprotein levels in 
+5,MED-1257,0,7.331625555219858,2.0,0.6666666666666666,25,Protein and coronary heart disease: the role of different pr
+6,MED-5267,0,7.136175068551596,2.0,0.6666666666666666,2,Mediterranean and low-fat diets improve endothelial function
+7,MED-4831,0,7.068782948079656,2.0,0.6666666666666666,8,Effects of plant-based diets on plasma lipids.
+8,MED-3874,0,7.057965437396783,2.0,0.6666666666666666,48,Flaxseed Supplementation (not Dietary Fat Restriction) Reduc
+9,MED-4885,0,7.057965437396783,2.0,0.6666666666666666,50,Flaxseed Supplementation (not Dietary Fat Restriction) Reduc
+10,MED-5272,0,7.0334262866175585,2.0,0.6666666666666666,13,Chronic effects of a high-fat diet enriched with virgin oliv

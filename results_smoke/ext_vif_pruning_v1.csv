@@ -1,0 +1,5 @@
+feature,vif_at_drop
+bm25_comb,36.42854057224243
+sum_idf_matched,18.846116342618014
+query_len,15.39653463109921
+tfidf_cos_title,10.139565275798502

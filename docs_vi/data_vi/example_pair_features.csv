@@ -1,0 +1,3 @@
+role,doc_id,label,title,bm25_title,bm25_body,bm25_comb,tfidf_cos_title,tfidf_cos_body,lm_dirichlet,query_len,doc_len,title_len,matched_terms,coverage_ratio,sum_idf_matched,max_idf_matched,bm25_rank
+relevant,MED-2588,1,Low-Carbohydrate Diets and All-Cause Mortality: A Systematic,7.348766250326431,6.7360680545049005,7.00692017403856,0.24931604556449868,0.07836269727909341,-21.640194937501867,3.0,233.0,11.0,2.0,0.6666666666666666,4.126062375633744,2.516211609687965,11.0
+bm25_top1_not_relevant,MED-4880,0,Effects of very-low-carbohydrate (horsemeat- or beef-based) ,6.322050216450798,20.364243408291028,21.202306632277555,0.1645158851016103,0.38866049258670643,-15.447437083434783,3.0,167.0,15.0,3.0,1.0,11.918686516481696,7.792624140847952,1.0

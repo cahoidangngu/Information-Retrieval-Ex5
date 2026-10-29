@@ -1,0 +1,14 @@
+# Numeric literals that may appear untagged in the Vietnamese documents, each with a verifiable justification.
+#   slide:<page>  -> the literal must occur on that page of Chap_8.pdf (checked by check_numbers.py)
+#   cfg:<NAME>    -> equals the constant NAME in src/config.py (checked)
+#   def:<why>     -> definition / unit constant, not a result
+# Format:  literal | justification
+0.4 | slide:115
+1.5 | slide:115
+0.5 | slide:115
+0.8 | slide:115
+100 | cfg:TOP_K
+1,000 | slide:98
+0.05 | def:conventional significance level used in the decision rule (report.md section 9)
+0.01 | def:practical-significance threshold chosen in report.md section 5.1
+95% | def:confidence level of the bootstrap CI (report.md section 3.5)

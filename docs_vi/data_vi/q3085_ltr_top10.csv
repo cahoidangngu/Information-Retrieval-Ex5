@@ -1,0 +1,11 @@
+ltr_rank,doc_id,label,bm25_rank,ltr_score,title
+1,MED-4575,0,14,2.109762642547021,Vitamin D: extraskeletal health.
+2,MED-920,0,5,2.102967794609253,Vitamin D in the treatment of pulmonary tuberculosis.
+3,MED-4872,0,1,2.032413015479554,Safety considerations and potential interactions of vitamins
+4,MED-961,0,21,2.023773546432943,Vitamin D(3) is more potent than vitamin D(2) in humans.
+5,MED-716,0,4,2.015680677887139,VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH
+6,MED-3985,0,18,2.009946064654848,Vitamin D deficiency treated by consuming UVB-irradiated mus
+7,MED-714,0,11,1.9823779187569652,Towards prevention of vitamin D deficiency and beyond: knowl
+8,MED-4574,0,7,1.9585402957488145,Prevalence and correlates of vitamin D deficiency in US adul
+9,MED-4470,0,2,1.931428199414734,"Effects of vitamins C and E on N-nitroso compound formation,"
+10,MED-3990,0,6,1.9298968130232177,Vitamin D supplementation for prevention of mortality in adu

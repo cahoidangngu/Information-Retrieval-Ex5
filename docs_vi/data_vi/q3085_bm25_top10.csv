@@ -1,0 +1,11 @@
+bm25_rank,doc_id,label,bm25_comb,matched_terms,coverage_ratio,ltr_rank,title
+1,MED-4872,0,13.14848693364162,3.0,0.6,3,Safety considerations and potential interactions of vitamins
+2,MED-4470,0,11.284545826938935,2.0,0.4,9,"Effects of vitamins C and E on N-nitroso compound formation,"
+3,MED-4573,2,11.260657414502793,2.0,0.4,22,"Low Vitamin D Status: Definition, Prevalence, Consequences a"
+4,MED-716,0,11.03502290662458,2.0,0.4,5,VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH
+5,MED-920,0,11.005293670686012,2.0,0.4,2,Vitamin D in the treatment of pulmonary tuberculosis.
+6,MED-3990,0,10.98318036952459,2.0,0.4,10,Vitamin D supplementation for prevention of mortality in adu
+7,MED-4574,0,10.943356624256134,2.0,0.4,8,Prevalence and correlates of vitamin D deficiency in US adul
+8,MED-3986,0,10.94208153944978,2.0,0.4,20,Bioavailability of vitamin D₂ from UV-B-irradiated button mu
+9,MED-3988,0,10.850803032560613,2.0,0.4,18,Vitamin D2 Is as Effective as Vitamin D3 in Maintaining Circ
+10,MED-4570,2,10.813467455997369,2.0,0.4,12,Vitamin D supplement doses and serum 25-hydroxyvitamin D in 

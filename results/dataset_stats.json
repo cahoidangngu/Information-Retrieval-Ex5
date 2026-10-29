@@ -1,0 +1,39 @@
+{
+  "n_docs": 3633,
+  "n_queries_total": 3237,
+  "doc_words_mean": 233.76520781723093,
+  "doc_words_median": 237.0,
+  "n_duplicate_text_groups": 40,
+  "n_docs_in_duplicate_groups": 80,
+  "train": {
+    "n_queries": 2590,
+    "n_judgments": 110575,
+    "levels": {
+      "1": 110575
+    },
+    "mean_judged_per_query": 42.69305019305019,
+    "n_docs_judged": 3588
+  },
+  "dev": {
+    "n_queries": 324,
+    "n_judgments": 11385,
+    "levels": {
+      "1": 10864,
+      "2": 521
+    },
+    "mean_judged_per_query": 35.138888888888886,
+    "n_docs_judged": 3119
+  },
+  "test": {
+    "n_queries": 323,
+    "n_judgments": 12334,
+    "levels": {
+      "1": 11758,
+      "2": 576
+    },
+    "mean_judged_per_query": 38.18575851393189,
+    "n_docs_judged": 3128
+  },
+  "dev_judged_docs_also_judged_in_train": 0.989740301378647,
+  "test_judged_docs_also_judged_in_train": 0.995843989769821
+}

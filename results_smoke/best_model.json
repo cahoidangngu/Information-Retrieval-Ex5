@@ -1,0 +1,11 @@
+{
+  "best_ltr_by_dev_NDCG@10": "ranksvm_sampled",
+  "chosen_C": {
+    "linreg": null,
+    "logreg": 0.01,
+    "ranksvm_all": 0.001,
+    "ranksvm_sampled": 0.001,
+    "ranksvm_gapweighted": 0.001,
+    "ranksvm_dndcgweighted_extra": 1.0
+  }
+}

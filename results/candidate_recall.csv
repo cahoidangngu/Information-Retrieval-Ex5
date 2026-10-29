@@ -1,0 +1,3238 @@
+qid,split,query,n_cand,n_rel_total,n_rel_in_cand,recall_at_100
+PLAIN-3,train,Breast Cancer Cells Feed on Cholesterol,100,65,17,0.26153846153846155
+PLAIN-4,train,Using Diet to Treat Asthma and Eczema,100,3,1,0.3333333333333333
+PLAIN-5,train,Treating Asthma With Plants vs. Pills,100,83,23,0.27710843373493976
+PLAIN-6,train,How Fruits and Vegetables Can Treat Asthma,100,62,19,0.3064516129032258
+PLAIN-7,train,How Fruits and Vegetables Can Prevent Asthma,100,87,22,0.25287356321839083
+PLAIN-8,train,Our Tax Dollars Subsidize Unhealthy Foods,100,23,1,0.043478260869565216
+PLAIN-9,train,Reducing Arsenic in Chicken and Rice,100,26,6,0.23076923076923078
+PLAIN-10,train,How Contaminated Are Our Children?,100,79,2,0.02531645569620253
+PLAIN-14,train,"Blood Type Diet Perceived as ""Crass Fraud""",100,23,4,0.17391304347826086
+PLAIN-15,train,Why Do Heart Doctors Favor Surgery and Drugs Over Diet?,100,39,8,0.20512820512820512
+PLAIN-16,train,Phytates in Beans: Anti-Nutrient or Anti-Cancer?,100,72,6,0.08333333333333333
+PLAIN-17,train,How Phytates Fight Cancer Cells,100,55,8,0.14545454545454545
+PLAIN-18,train,Colon Cancer Prevention: Is it the Fiber or the Phytates?,100,85,15,0.17647058823529413
+PLAIN-19,train,Low Carb Diets Found to Feed Heart Disease,100,29,7,0.2413793103448276
+PLAIN-20,train,How Curry Can Kill Cancer Cells,100,42,9,0.21428571428571427
+PLAIN-21,train,Testing Turmeric on Smokers,100,32,9,0.28125
+PLAIN-24,train,Alkylphenol Endocrine Disruptors and Allergies,64,48,13,0.2708333333333333
+PLAIN-25,train,Slowing Cognitive Decline with Berries,100,29,6,0.20689655172413793
+PLAIN-26,train,What is ‘Meat Glue’?,100,50,5,0.1
+PLAIN-27,train,Is Liquid Smoke Safe?,100,61,8,0.13114754098360656
+PLAIN-28,train,Does Antioxidant Intake Matter for Stroke and Heart Disease?,100,43,2,0.046511627906976744
+PLAIN-29,train,Does Antioxidant Intake Matter for Cancer?,100,43,8,0.18604651162790697
+PLAIN-30,train,Is buying organic worth it? A review of the science in new DVD,100,10,0,0.0
+PLAIN-31,train,Orange Aromatherapy for Anxiety,76,74,23,0.3108108108108108
+PLAIN-34,train,Food Manufacturers Get to Decide if Their Own Additives Are Safe,100,23,2,0.08695652173913043
+PLAIN-35,train,Meat Industry Wins Right to Sell Tainted Meat,100,60,4,0.06666666666666667
+PLAIN-36,train,Chicken Salmonella Outbreaks Show Food Safety Systems Failure,100,82,19,0.23170731707317074
+PLAIN-37,train,Viral Food Poisoning from Pesticides?,100,10,1,0.1
+PLAIN-38,train,The Reversal on Fish Oil,100,33,6,0.18181818181818182
+PLAIN-40,train,Are Multivitamins Just a Waste of Money?,65,21,9,0.42857142857142855
+PLAIN-41,train,Understanding Lifestyle Medicine From the Heart,100,25,3,0.12
+PLAIN-42,train,Don't Forget Fiber,100,34,4,0.11764705882352941
+PLAIN-46,train,Why Pepper Boosts Turmeric Blood Levels,100,53,7,0.1320754716981132
+PLAIN-47,train,Foods That Fight Osteoarthritis & Inflammation,100,50,14,0.28
+PLAIN-49,train,The Spice That Helps Ease Rheumatoid Arthritis Pain,100,79,27,0.34177215189873417
+PLAIN-50,train,The Top Three DNA Protecting Spices,100,29,2,0.06896551724137931
+PLAIN-51,train,The Top Four Anti-Inflammatory Spices,100,60,5,0.08333333333333333
+PLAIN-52,train,Superbugs on Retail Chicken,91,38,9,0.23684210526315788
+PLAIN-53,train,Foods for Computer Eye Strain,100,42,5,0.11904761904761904
+PLAIN-54,train,Currant Treatment for Glaucoma,100,41,5,0.12195121951219512
+PLAIN-57,train,How Long to Avoid Fish Before Conception?,100,51,9,0.17647058823529413
+PLAIN-58,train,Boosting Anti-Cancer Immunity with Berries,100,41,4,0.0975609756097561
+PLAIN-59,train,The Vitamin Everyone on a Plant-Based Diet Needs,100,30,3,0.1
+PLAIN-60,train,Comparing Vegans' Arteries to Runners',100,37,7,0.1891891891891892
+PLAIN-61,train,"Add Beans, Berries, and Greens to More Meals",100,66,6,0.09090909090909091
+PLAIN-63,train,How to Get Enough Antioxidants Each Day,100,42,4,0.09523809523809523
+PLAIN-64,train,The Reason We Need More Antioxidants,100,68,7,0.10294117647058823
+PLAIN-65,train,How Avoiding Eggs Could Help You Avoid Diabetes,100,36,6,0.16666666666666666
+PLAIN-69,train,Does Caramel Color Cause Cancer?,100,56,2,0.03571428571428571
+PLAIN-70,train,We Can End the Heart Disease Epidemic,100,31,4,0.12903225806451613
+PLAIN-71,train,How to Prevent Heart Disease,100,35,1,0.02857142857142857
+PLAIN-72,train,How Seafood Can Impact Brain Development,100,42,10,0.23809523809523808
+PLAIN-73,train,Why Pregnant Women Should Avoid Tuna,100,29,3,0.10344827586206896
+PLAIN-74,train,How Fatty Foods May Affect Our Love Life,100,50,5,0.1
+PLAIN-75,train,Can One Become a Sugar Addict?,76,39,1,0.02564102564102564
+PLAIN-76,train,Where are Phosphate Additives Found?,70,37,13,0.35135135135135137
+PLAIN-79,train,What to Eat to Reduce Our Toxic Exposure,100,43,2,0.046511627906976744
+PLAIN-80,train,Our Immune System Uses Plants To Activate Gut Protection,100,46,8,0.17391304347826086
+PLAIN-82,train,Are Canned Beans as Healthy as Home Cooked?,100,36,7,0.19444444444444445
+PLAIN-84,train,Can Eating Soy Prevent Breast Cancer?,100,40,10,0.25
+PLAIN-85,train,Eat Beans to Live Longer,100,37,10,0.2702702702702703
+PLAIN-86,train,Overdosing on Poppy Seeds,46,24,3,0.125
+PLAIN-87,train,The Healthiest Diet for Weight Control,100,29,2,0.06896551724137931
+PLAIN-88,train,Why Athletes Should Eat Nutritional Yeast,100,30,5,0.16666666666666666
+PLAIN-92,train,Why the Egg-Cancer Link?,100,60,6,0.1
+PLAIN-93,train,How Eggs Can Impact Body Odor,100,44,3,0.06818181818181818
+PLAIN-94,train,How to Design a Misleading Study,100,4,0,0.0
+PLAIN-95,train,How Grapefruit Affects Prescription Drugs,100,51,14,0.27450980392156865
+PLAIN-97,train,Test to See If Your Diet is Alkaline or Acid Forming,100,55,11,0.2
+PLAIN-98,train,Does Animal Protein Cause Osteoporosis?,100,18,2,0.1111111111111111
+PLAIN-99,train,Quadrupling Breast Cancer Survival,100,38,3,0.07894736842105263
+PLAIN-100,train,Cancer and the Animal-to-Plant Protein Ratio,100,41,6,0.14634146341463414
+PLAIN-103,train,How Plant-Based Diets May Extend Our Lives,100,50,4,0.08
+PLAIN-104,train,A Low Methionine Diet May Help Starve Cancer Cells,100,74,17,0.22972972972972974
+PLAIN-105,train,How Animal Proteins May Trigger Autoimmune Disease,100,57,2,0.03508771929824561
+PLAIN-106,train,Handling Poultry Tied to Liver/Pancreatic Cancers,100,59,8,0.13559322033898305
+PLAIN-107,train,Improving Attractiveness in Six Weeks,100,58,6,0.10344827586206896
+PLAIN-108,train,Want to be Healthier? Change Your Taste Buds,100,33,7,0.21212121212121213
+PLAIN-109,train,How to Get Parents to Eat Their Vegetables,100,75,8,0.10666666666666667
+PLAIN-110,train,How To Get Our Kids to Eat Their Vegetables,100,40,7,0.175
+PLAIN-114,train,How to Treat ADHD Without Drugs,100,39,1,0.02564102564102564
+PLAIN-115,train,Avoid Butter-Flavored Microwave Popcorn,68,47,4,0.0851063829787234
+PLAIN-116,train,Pistachios May Help Erectile Dysfunction,100,83,29,0.3493975903614458
+PLAIN-117,train,Foods for a Long Life and Love Life,100,63,0,0.0
+PLAIN-118,train,Pills vs. Diet For Erectile Dysfunction,100,49,22,0.4489795918367347
+PLAIN-119,train,Which Seaweed to Help Prevent Breast Cancer?,100,55,13,0.23636363636363636
+PLAIN-120,train,Preloading With Watercress Before Exercise,100,54,17,0.3148148148148148
+PLAIN-121,train,Berries to Prevent Muscle Soreness,100,70,8,0.11428571428571428
+PLAIN-124,train,Toxin Contamination of Spirulina Supplements,100,31,4,0.12903225806451613
+PLAIN-125,train,Is Noni or Mangosteen Juice Safe?,100,46,4,0.08695652173913043
+PLAIN-126,train,Should Carrageenan Be Avoided?,20,46,7,0.15217391304347827
+PLAIN-127,train,Treating Menstrual Pain With Diet,100,44,13,0.29545454545454547
+PLAIN-128,train,Cayenne for Irritable Bowel,100,51,9,0.17647058823529413
+PLAIN-129,train,Natural Treatment for Cluster Headaches,100,46,7,0.15217391304347827
+PLAIN-130,train,Foods With Natural Melatonin,100,49,18,0.3673469387755102
+PLAIN-131,train,Two Kiwifruit an Hour Before Bedtime,80,28,4,0.14285714285714285
+PLAIN-134,train,Breast Cancer and Wine,100,42,8,0.19047619047619047
+PLAIN-135,train,Why Do Vegan Women Have Fewer Female Cancers?,100,45,7,0.15555555555555556
+PLAIN-136,train,When a Scraped Knee May Once Again Kill,12,37,0,0.0
+PLAIN-137,train,Why We Should Eat More Beans,92,56,8,0.14285714285714285
+PLAIN-138,train,Egg Industry Caught Making False Claims,100,36,3,0.08333333333333333
+PLAIN-139,train,Male Fertility and Dietary Pollutants,100,43,8,0.18604651162790697
+PLAIN-140,train,Trans Fat in Animal Fat,100,29,9,0.3103448275862069
+PLAIN-141,train,Ginger & Lemon Balm for Radiation Exposure,100,60,22,0.36666666666666664
+PLAIN-144,train,How Risky are CT Scans?,29,36,3,0.08333333333333333
+PLAIN-145,train,Fukushima Radiation and Seafood,88,35,13,0.37142857142857144
+PLAIN-146,train,Tea and Fluoride Risk,100,67,5,0.07462686567164178
+PLAIN-147,train,Does Cranberry Juice Work Against Bladder Infections?,100,68,22,0.3235294117647059
+PLAIN-148,train,How Avoiding Chicken Could Prevent Bladder Infections,100,41,10,0.24390243902439024
+PLAIN-149,train,Preventing Bacterial Vaginosis With Diet,100,45,7,0.15555555555555556
+PLAIN-150,train,Treating Migraines With Lavender,58,40,11,0.275
+PLAIN-151,train,Using Lavender to Treat Anxiety,100,66,14,0.21212121212121213
+PLAIN-154,train,Probiotics During Cold Season?,61,63,8,0.12698412698412698
+PLAIN-155,train,Probiotics and Diarrhea,45,35,7,0.2
+PLAIN-156,train,Mushrooms and Immunity,48,40,8,0.2
+PLAIN-158,train,Raspberries Reverse Precancerous Lesions,100,52,9,0.17307692307692307
+PLAIN-159,train,Strawberries Can Reverse Precancerous Progression,100,62,9,0.14516129032258066
+PLAIN-160,train,Anti-Cancer Nutrient Synergy in Cranberries,100,50,8,0.16
+PLAIN-161,train,Which Common Fruit Fights Cancer Better?,100,61,4,0.06557377049180328
+PLAIN-163,train,Half of Doctors Give Placebos,100,36,10,0.2777777777777778
+PLAIN-166,train,Best Nutrition Bang for Your Buck,100,25,2,0.08
+PLAIN-167,train,Schoolchildren Should Drink More Water,100,42,10,0.23809523809523808
+PLAIN-168,train,Why Are Eggs Linked to Cancer Progression?,100,32,4,0.125
+PLAIN-169,train,Avoid Carnitine and Lethicin Supplements,100,40,5,0.125
+PLAIN-170,train,Treating Breast Pain with Flax Seeds,100,42,4,0.09523809523809523
+PLAIN-171,train,Treating Breast Pain With Diet,100,47,10,0.2127659574468085
+PLAIN-172,train,Tarragon Toxicity?,100,39,5,0.1282051282051282
+PLAIN-173,train,Nutmeg Toxicity,100,39,5,0.1282051282051282
+PLAIN-176,train,Industry Influence on Our Dietary Guidelines,100,25,3,0.12
+PLAIN-177,train,Flax and Breast Cancer Survival,100,70,16,0.22857142857142856
+PLAIN-178,train,Flax and Breast Cancer Prevention,100,47,9,0.19148936170212766
+PLAIN-179,train,Treating Sensitive Skin From the Inside Out,100,24,3,0.125
+PLAIN-180,train,Flaxseeds for Diabetes,100,33,1,0.030303030303030304
+PLAIN-181,train,Flaxseeds for Prostate Cancer,100,57,17,0.2982456140350877
+PLAIN-182,train,Why Is Selling Salmonella-Tainted Chicken Legal?,100,39,15,0.38461538461538464
+PLAIN-184,train,Raisins vs. Energy Gels for Athletic Performance,100,28,2,0.07142857142857142
+PLAIN-187,train,Best Dried Fruit For Cholesterol,100,31,4,0.12903225806451613
+PLAIN-188,train,"Eggs, Cigarettes, and Atherosclerosis",100,23,1,0.043478260869565216
+PLAIN-189,train,Rooibos & Nettle Tea,100,33,8,0.24242424242424243
+PLAIN-190,train,Hibiscus Tea: The Best Beverage?,100,67,7,0.1044776119402985
+PLAIN-191,train,Treating Parkinson’s Disease With Diet,100,37,10,0.2702702702702703
+PLAIN-192,train,Avoiding Dairy to Prevent Parkinson's,100,28,6,0.21428571428571427
+PLAIN-193,train,The Science on Acai Berries,86,65,8,0.12307692307692308
+PLAIN-194,train,NutritionFacts.org Video Hits a Million Views,71,40,0,0.0
+PLAIN-197,train,The Best Way to Prevent the Common Cold?,100,37,5,0.13513513513513514
+PLAIN-198,train,Which Pets Improve Children’s Health?,100,36,4,0.1111111111111111
+PLAIN-199,train,"Vitamin D from Mushrooms, Sun, or Supplements?",100,30,10,0.3333333333333333
+PLAIN-200,train,Is Coconut Oil Bad For You?,100,39,8,0.20512820512820512
+PLAIN-201,train,Do Vegans Get More Cavities?,38,45,4,0.08888888888888889
+PLAIN-202,train,Head Shrinking from Grilling Meat,100,31,3,0.0967741935483871
+PLAIN-203,train,Broccoli Boosts Liver Detox Enzymes,100,25,2,0.08
+PLAIN-204,train,Dr. Greger's New Year-in-Review Presentation,100,21,0,0.0
+PLAIN-208,train,Estrogenic Chemicals in Meat,100,42,8,0.19047619047619047
+PLAIN-209,train,Plant-Based Diets for Fibromyalgia,100,58,15,0.25862068965517243
+PLAIN-210,train,Apple Peels Turn On Anticancer Genes,100,35,5,0.14285714285714285
+PLAIN-211,train,Uric Acid From Meat and Sugar,100,31,3,0.0967741935483871
+PLAIN-212,train,Go Nuts for Breast Cancer Prevention,100,35,2,0.05714285714285714
+PLAIN-213,train,Prevent Breast Cancer by Any Greens Necessary,100,24,0,0.0
+PLAIN-214,train,Why Less Breast Cancer in Asia?,100,35,5,0.14285714285714285
+PLAIN-215,train,Mushrooms For Breast Cancer Prevention,100,57,15,0.2631578947368421
+PLAIN-218,train,Dr. Greger's Natural Nausea Remedy Recipe,100,42,5,0.11904761904761904
+PLAIN-219,train,Plant-Based Diets for Multiple Sclerosis,100,27,3,0.1111111111111111
+PLAIN-220,train,Plant-Based Diets for Rheumatoid Arthritis,100,59,17,0.288135593220339
+PLAIN-221,train,How Tumors Use Meat to Grow,100,60,6,0.1
+PLAIN-222,train,How to Gain Weight on Diet Soda,100,27,3,0.1111111111111111
+PLAIN-223,train,"Is There a Safe, Low-Calorie Sweetener?",100,31,7,0.22580645161290322
+PLAIN-224,train,Are Microgreens Healthier?,24,27,1,0.037037037037037035
+PLAIN-225,train,Aspartame: Fibromyalgia & Preterm Birth,78,27,1,0.037037037037037035
+PLAIN-228,train,The Anti-Wrinkle Diet,100,29,1,0.034482758620689655
+PLAIN-229,train,Treadmill Desks: Stand Up For Health,100,25,1,0.04
+PLAIN-231,train,Gerson Therapy for Cancer?,100,28,2,0.07142857142857142
+PLAIN-232,train,Are Bioidentical Hormones Safe?,100,36,5,0.1388888888888889
+PLAIN-233,train,Ergothioneine: A New Vitamin?,100,29,1,0.034482758620689655
+PLAIN-234,train,How To Reduce Dietary Antibiotic Intake,100,37,3,0.08108108108108109
+PLAIN-235,train,Countering Dietary Pollutants & Pesticides,100,33,4,0.12121212121212122
+PLAIN-236,train,Protecting Our Babies From Pollutants,54,38,0,0.0
+PLAIN-239,train,Saffron vs. Prozac for Depression,100,40,10,0.25
+PLAIN-240,train,Treating PMS with Saffron,56,41,2,0.04878048780487805
+PLAIN-241,train,Eating Green to Prevent Cancer,100,52,4,0.07692307692307693
+PLAIN-242,train,What Is the Healthiest Meat?,100,25,3,0.12
+PLAIN-243,train,Lead Poisoning Risk From Venison,100,28,1,0.03571428571428571
+PLAIN-244,train,The Real Paleo Diet,100,27,0,0.0
+PLAIN-245,train,How Much Soy Is Too Much?,76,38,7,0.18421052631578946
+PLAIN-246,train,Vegan Men: More Testosterone But Less Cancer,100,22,4,0.18181818181818182
+PLAIN-249,train,Cancer-Proofing Your Body,100,30,1,0.03333333333333333
+PLAIN-250,train,Plant-Based Workplace Intervention,100,26,2,0.07692307692307693
+PLAIN-251,train,Biblical Daniel Fast Tested,100,48,3,0.0625
+PLAIN-252,train,Poultry Paunch: Meat & Weight Gain,100,24,2,0.08333333333333333
+PLAIN-253,train,Diet vs. Exercise: What’s More Important?,100,26,2,0.07692307692307693
+PLAIN-254,train,The Ice Diet,100,27,0,0.0
+PLAIN-255,train,Boosting Gut Flora Without Probiotics,100,46,9,0.1956521739130435
+PLAIN-257,train,Burning Fat With Flavonoids,100,2,0,0.0
+PLAIN-260,train,Cholesterol Lowering in a Nut Shell,100,2,2,1.0
+PLAIN-261,train,The True Shelf Life of Cooking Oils,100,27,1,0.037037037037037035
+PLAIN-262,train,Ractopamine and Yersinia in U.S. Pork,100,21,18,0.8571428571428571
+PLAIN-264,train,How To Boost Serotonin Naturally,78,7,2,0.2857142857142857
+PLAIN-265,train,Magnesium-Rich Foods to Prevent Sudden Death,100,3,1,0.3333333333333333
+PLAIN-266,train,How to Enhance Mineral Absorption,100,23,8,0.34782608695652173
+PLAIN-267,train,Eating To Extend Our Lifespan,100,17,0,0.0
+PLAIN-268,train,Kiwi Fruit for Irritable Bowel Syndrome,100,30,3,0.1
+PLAIN-271,train,How Much Arsenic In Rice Came From Chickens?,87,3,3,1.0
+PLAIN-272,train,How Does Meat Cause Inflammation?,100,29,3,0.10344827586206896
+PLAIN-273,train,Treating Crohn’s Disease With Diet,100,27,2,0.07407407407407407
+PLAIN-274,train,Antioxidants in a Pinch: Dried Herbs and Spices,100,15,3,0.2
+PLAIN-275,train,The Most Anti-Inflammatory Mushroom,100,47,3,0.06382978723404255
+PLAIN-276,train,Why is it Legal to Sell Unsafe Meat?,100,16,3,0.1875
+PLAIN-277,train,Health Food Store Advice: Often Worthless or Worst,100,20,9,0.45
+PLAIN-278,train,Adding FDA-Approved Viruses to Meat,100,23,1,0.043478260869565216
+PLAIN-281,train,Preserving Vision Through Diet,100,16,3,0.1875
+PLAIN-282,train,Skim Milk and Acne,100,8,7,0.875
+PLAIN-284,train,Do Eden Beans Have Too Much Iodine?,65,22,11,0.5
+PLAIN-285,train,Fighting Inflammation With Food Synergy,100,24,0,0.0
+PLAIN-286,train,"Cow’s Milk Casomorphin, Crib Death, and Autism",100,10,5,0.5
+PLAIN-287,train,Treating COPD With Diet,100,16,2,0.125
+PLAIN-288,train,Watermelon For Erectile Dysfunction,100,20,4,0.2
+PLAIN-289,train,Poultry and Penis Cancer,100,8,4,0.5
+PLAIN-292,train,Breast Cancer Survival and Soy,100,1,0,0.0
+PLAIN-293,train,Mad Cow California: Is the Milk Supply Safe?,100,2,1,0.5
+PLAIN-294,train,Breast Cancer Stem Cells vs. Broccoli,100,14,1,0.07142857142857142
+PLAIN-295,train,The Best Detox,72,5,0,0.0
+PLAIN-296,train,Using Greens to Improve Athletic Performance,100,1,0,0.0
+PLAIN-300,train,Paula Deen: diabetes drug spokesperson,100,2,2,1.0
+PLAIN-301,train,"Amla: Indian gooseberries vs. cancer, diabetes, and cholesterol",100,1,1,1.0
+PLAIN-303,train,Hibiscus tea: flower power,100,10,10,1.0
+PLAIN-308,train,Beans and Gas: Clearing the air,100,8,6,0.75
+PLAIN-309,train,Alzheimer’s Disease: Up to half of cases potentially preventable,100,4,1,0.25
+PLAIN-310,train,Nutrition Education in Medicine: a Doctor a Day Keeps the Apples Away,100,2,0,0.0
+PLAIN-312,train,The Best Foods: test your nutrition knowledge,100,8,0,0.0
+PLAIN-313,train,Supreme Court case: meat industry sues to keep downed animals in food supply,100,4,1,0.25
+PLAIN-314,train,Foie gras ban in California: human health implications,100,2,0,0.0
+PLAIN-316,train,Heart disease: there is a cure,100,5,3,0.6
+PLAIN-317,train,"Inflammation, Diet, and ""Vitamin S""",100,7,1,0.14285714285714285
+PLAIN-321,train,NutritionFacts.org: the first month,100,10,0,0.0
+PLAIN-323,train,Eating chicken may lead to a smaller penis,100,4,0,0.0
+PLAIN-324,train,How much pus is there in milk?,100,2,2,1.0
+PLAIN-325,train,Natural Alzheimer's Treatment,100,9,2,0.2222222222222222
+PLAIN-327,train,Physician-assisted suicide? When doctors give nutrition advice,100,2,1,0.5
+PLAIN-328,train,Bad Egg,49,4,4,1.0
+PLAIN-329,train,Soy and breast cancer: an update,100,12,9,0.75
+PLAIN-330,train,Soymilk: shake it up!,4,2,0,0.0
+PLAIN-333,train,The Last Heart Attack: Perfect timing for the launch of NutritionFacts.org,100,1,0,0.0
+PLAIN-335,train,Welcome to NutritionFacts.org!,8,2,0,0.0
+PLAIN-336,train,Hives from Tick Bite-Induced Meat Allergies,100,51,9,0.17647058823529413
+PLAIN-337,train,How a Tick Bite Can Lead to Food Allergies,100,88,10,0.11363636363636363
+PLAIN-338,train,What Do Eggs Do To Our Arteries?,80,9,3,0.3333333333333333
+PLAIN-339,train,Dietary Cholesterol Affects Blood Cholesterol Levels,100,22,3,0.13636363636363635
+PLAIN-340,train,Do Walnuts Really Improve Artery Function?,100,21,5,0.23809523809523808
+PLAIN-341,train,Salmon May Be the Greatest Source of Dietary Pollutants,100,49,8,0.16326530612244897
+PLAIN-345,train,Why Would Eating Fish Increase Diabetes Risk?,100,73,21,0.2876712328767123
+PLAIN-346,train,What does the research say about dietary interventions on women with PCOS?,100,55,18,0.32727272727272727
+PLAIN-347,train,Do algae-based omega-3 supplements contain beta-N-methylamino-L-alanine (BMAA) that has been found in blue-green algae?,100,36,17,0.4722222222222222
+PLAIN-348,train,What are some ways to help reduce the risk of food poisoning from pesticides?,100,11,1,0.09090909090909091
+PLAIN-349,train,Should I stay away from soy if I have breast cancer?,100,15,7,0.4666666666666667
+PLAIN-350,train,Should we take iodine supplements?,100,13,8,0.6153846153846154
+PLAIN-351,train,Have you seen the very recent web blitz on heavy metals (particularly thallium) in cruciferous vegetables (particularly kale)...?,100,7,1,0.14285714285714285
+PLAIN-356,train,Boric acid for vaginal yeast infections?,100,4,4,1.0
+PLAIN-360,train,Might too many antioxidants cause cancer?,100,2,0,0.0
+PLAIN-361,train,Which foods have the most potassium?,100,11,1,0.09090909090909091
+PLAIN-364,train,"Nutrition recommendations for acid reflux (GERD), heartburn, and Barrett's Esophagus?",100,3,1,0.3333333333333333
+PLAIN-365,train,"What do you drink, Dr. Greger?",54,4,0,0.0
+PLAIN-366,train,Can you take hydrogen peroxide internally?,40,3,3,1.0
+PLAIN-367,train,What is the best way to get vitamin B12?,100,9,1,0.1111111111111111
+PLAIN-368,train,Are green smoothies better for you?,100,1,0,0.0
+PLAIN-369,train,Might flax seeds (ALA) increase prostate cancer risk?,100,7,3,0.42857142857142855
+PLAIN-372,train,"What are ""normal"" human vitamin D levels?",100,1,1,1.0
+PLAIN-373,train,What do you think of durian fruit?,100,1,1,1.0
+PLAIN-374,train,Are neurotoxins only present in blue-green algae?,100,3,0,0.0
+PLAIN-375,train,Nutrition advice to counter the side-effects of glaucoma medications?,100,3,0,0.0
+PLAIN-376,train,What are the benefits of reishi mushrooms (Ganoderma lucidum)?,100,1,1,1.0
+PLAIN-377,train,"What about gurmar, jamun, bitter melon, and fenugreek?",11,8,3,0.375
+PLAIN-378,train,Is yerba maté tea really bad for you?,100,2,2,1.0
+PLAIN-379,train,How did you do the mercury fillings and canned tuna calculation?,100,3,3,1.0
+PLAIN-385,train,What's the best diet for atrial fibrillation?,100,2,2,1.0
+PLAIN-386,train,My skin is turning orange (carotenoderma)--too many carrots?,100,2,2,1.0
+PLAIN-388,train,Does caffeine impair endothelial function in our arteries?,100,11,9,0.8181818181818182
+PLAIN-389,train,What about the oxalic acid in beets?,100,2,1,0.5
+PLAIN-390,train,Is hempseed oil beneficial to adults with eczema?,100,6,2,0.3333333333333333
+PLAIN-391,train,What is the healthiest potato?,41,6,3,0.5
+PLAIN-392,train,Should we avoid celery to prevent colon cancer?,100,1,1,1.0
+PLAIN-393,train,Should we avoid canned tomatoes and non-organic root vegetables?,100,3,2,0.6666666666666666
+PLAIN-396,train,How much cinnamon is too much?,14,5,5,1.0
+PLAIN-397,train,Sulfite sensitivity from sulphur dioxide in dried fruits?,100,2,2,1.0
+PLAIN-400,train,Can tea with meals hinder iron absorption?,100,4,3,0.75
+PLAIN-401,train,What are the best sources of vitamin K?,100,5,0,0.0
+PLAIN-402,train,"Any resources for vegan pregnancy, infancy, and childhood?",100,1,0,0.0
+PLAIN-403,train,Dairy and ear infections: is there an association?,100,3,1,0.3333333333333333
+PLAIN-404,train,Is moringa (Moringa oleifera) good for you?,84,2,2,1.0
+PLAIN-405,train,Is raw milk healthy?,100,5,3,0.6
+PLAIN-408,train,What about the INTERHEART study on heart attack risk factors?,100,22,1,0.045454545454545456
+PLAIN-409,train,Is the new vitamin D3 spray a waste of money?,100,1,1,1.0
+PLAIN-410,train,Can Indian gooseberries (amla) be cooked without losing the health benefits?,100,4,1,0.25
+PLAIN-411,train,How can I preserve the anti-cancer effects of cooked garlic?,100,3,2,0.6666666666666666
+PLAIN-412,train,Given the “brain-eating amoeba” (Naegleria fowleri) in tap water should I sterilize my neti pot water?,100,2,2,1.0
+PLAIN-413,train,Does adding baking soda to soaking beans reduce gas?,100,8,6,0.75
+PLAIN-414,train,How much fruit is safe to consume?,100,1,0,0.0
+PLAIN-416,train,Are GMOs safe and are the nutrients in our crops declining?,100,1,0,0.0
+PLAIN-419,train,What's the best low calorie sweetener?,100,3,0,0.0
+PLAIN-420,train,Can Vitamin D supplements help prevent respiratory infections?,100,3,3,1.0
+PLAIN-421,train,Second opinion for 8-year-old with anemia?,100,1,0,0.0
+PLAIN-422,train,What about getting gas from beans?,100,2,0,0.0
+PLAIN-423,train,What is a good source of probiotics?,100,8,1,0.125
+PLAIN-425,train,Soy-based (Gardein) vs. mycoprotein-based (Quorn) veggie chicken: which is better?,100,2,0,0.0
+PLAIN-426,train,How can I avoid the top 10 leading causes of death?,100,21,1,0.047619047619047616
+PLAIN-427,train,Where does the fat come from in a skinless chicken breast?,100,1,0,0.0
+PLAIN-431,train,What is the recommended child requirement for vitamin D?,100,8,4,0.5
+PLAIN-432,train,"What is the definition of a ""handful"" serving of nuts?",100,11,5,0.45454545454545453
+PLAIN-433,train,Could a low-salt diet be bad for your heart?,100,2,2,1.0
+PLAIN-434,train,How do you explain never getting Salmonella from eating raw cake batter?,100,1,1,1.0
+PLAIN-435,train,What about Semmelweis and medicine's shameful handwashing history?,100,4,1,0.25
+PLAIN-436,train,How can we reach out to doctors with this life-saving information?,100,2,0,0.0
+PLAIN-437,train,What are the benefits of diet in juvenile rheumatoid arthritis?,100,14,13,0.9285714285714286
+PLAIN-438,train,What is the best diet for kidney stone prevention?,100,5,3,0.6
+PLAIN-443,train,Is the plastic chemical BPA really harmful to your health?,100,6,2,0.3333333333333333
+PLAIN-444,train,Do pine needles from a Douglas Fir or redwood provide a good source of antioxidants?,100,5,2,0.4
+PLAIN-446,train,Is titanium dioxide in Daiya cheese harmful as a food additive?,100,1,0,0.0
+PLAIN-448,train,"What's the best source of those dates you like? (halawi, bahri, khadrawi)",100,1,0,0.0
+PLAIN-450,train,Are there benefits to drinking aloe vera juice?,100,3,2,0.6666666666666666
+PLAIN-453,train,Are homegrown alfalfa sprouts safe?,100,4,4,1.0
+PLAIN-454,train,Is licorice tea also harmful?,100,1,1,1.0
+PLAIN-455,train,Can soy suppress thyroid function?,100,11,3,0.2727272727272727
+PLAIN-459,train,Are the nutrients from blended vegetables absorbed better than raw vegetables?,100,1,0,0.0
+PLAIN-460,train,What about the pollutants like phthalates in plant foods?,100,14,5,0.35714285714285715
+PLAIN-461,train,Can hot peppers (capsaicin) cause cancer?,100,3,1,0.3333333333333333
+PLAIN-462,train,Is cabbage effective against breast cancer?,100,5,0,0.0
+PLAIN-463,train,Is thermography better than mammograms for early breast cancer detection?,100,1,1,1.0
+PLAIN-464,train,Does “organic” chicken contain less arsenic?,100,1,1,1.0
+PLAIN-465,train,Are there any risks of excess vitamin B12 consumption?,100,5,1,0.2
+PLAIN-466,train,How do you achieve a good omega 3 to omega 6 fatty acid ratio?,100,15,3,0.2
+PLAIN-469,train,Are free-range eggs healthier than conventional eggs?,100,5,2,0.4
+PLAIN-470,train,5-alpha pregnanedione,100,1,1,1.0
+PLAIN-471,train,A/V ratio,100,6,1,0.16666666666666666
+PLAIN-472,train,abdominal aortic aneurysm,68,1,1,1.0
+PLAIN-473,train,abdominal fat,100,152,6,0.039473684210526314
+PLAIN-474,train,abdominal pain,100,24,7,0.2916666666666667
+PLAIN-475,train,Academy of Nutrition and Dietetics,100,3,1,0.3333333333333333
+PLAIN-476,train,acaí berries,28,19,3,0.15789473684210525
+PLAIN-479,train,acesulfame K,28,3,0,0.0
+PLAIN-480,train,acetaldehyde,4,7,4,0.5714285714285714
+PLAIN-481,train,acetaminophen,1,7,1,0.14285714285714285
+PLAIN-482,train,acid/base balance,100,24,10,0.4166666666666667
+PLAIN-483,train,acne,20,30,15,0.5
+PLAIN-484,train,acromegaly,0,3,0,0.0
+PLAIN-485,train,acrylamide,16,33,8,0.24242424242424243
+PLAIN-486,train,acute myeloid leukemia,100,8,2,0.25
+PLAIN-489,train,ADHD,5,43,4,0.09302325581395349
+PLAIN-490,train,adipocytes,18,6,1,0.16666666666666666
+PLAIN-491,train,adiponectin,16,8,4,0.5
+PLAIN-492,train,adolescence,25,129,9,0.06976744186046512
+PLAIN-493,train,Advanced Glycation End-products,100,12,5,0.4166666666666667
+PLAIN-495,train,Adventist Health Studies,100,60,10,0.16666666666666666
+PLAIN-496,train,affordability,3,11,1,0.09090909090909091
+PLAIN-497,train,Africa,10,53,1,0.018867924528301886
+PLAIN-500,train,agaritine,1,1,1,1.0
+PLAIN-501,train,agave nectar,2,1,1,1.0
+PLAIN-502,train,Agent Orange,100,19,1,0.05263157894736842
+PLAIN-503,train,aggression,3,5,1,0.2
+PLAIN-504,train,aging,100,387,58,0.14987080103359174
+PLAIN-505,train,Ah receptor,100,9,3,0.3333333333333333
+PLAIN-506,train,AIDS,8,23,2,0.08695652173913043
+PLAIN-507,train,air pollution,36,48,4,0.08333333333333333
+PLAIN-511,train,Albert Einstein,0,3,0,0.0
+PLAIN-512,train,albumin,7,1,0,0.0
+PLAIN-513,train,alcohol,100,237,38,0.16033755274261605
+PLAIN-514,train,alfalfa sprouts,24,3,1,0.3333333333333333
+PLAIN-515,train,algae,5,78,0,0.0
+PLAIN-516,train,alkaline diet,100,10,4,0.4
+PLAIN-517,train,alkaline water,100,1,1,1.0
+PLAIN-518,train,alkylphenols,8,23,8,0.34782608695652173
+PLAIN-521,train,allopurinol,2,7,2,0.2857142857142857
+PLAIN-523,train,almond milk,100,7,7,1.0
+PLAIN-524,train,almond oil,100,1,1,1.0
+PLAIN-525,train,almonds,8,62,2,0.03225806451612903
+PLAIN-526,train,aloe vera,6,7,1,0.14285714285714285
+PLAIN-527,train,alpha waves,99,4,1,0.25
+PLAIN-528,train,alpha-carotene,100,1,0,0.0
+PLAIN-529,train,alpha-gal,97,18,6,0.3333333333333333
+PLAIN-532,train,aluminum,8,32,7,0.21875
+PLAIN-533,train,Alzheimer’s disease,100,193,48,0.24870466321243523
+PLAIN-534,train,AMA,3,16,0,0.0
+PLAIN-535,train,amalgam fillings,3,1,0,0.0
+PLAIN-536,train,amaranth,3,2,0,0.0
+PLAIN-537,train,American Academy of Pediatrics,100,36,5,0.1388888888888889
+PLAIN-538,train,American Cancer Society,100,1,1,1.0
+PLAIN-539,train,American College of Cardiology,100,2,0,0.0
+PLAIN-542,train,American Diabetes Association,100,22,1,0.045454545454545456
+PLAIN-543,train,American Dietetic Association,100,3,0,0.0
+PLAIN-544,train,American Egg Board,100,33,8,0.24242424242424243
+PLAIN-545,train,American Heart Association,100,52,8,0.15384615384615385
+PLAIN-546,train,American Institute for Cancer Research,100,9,6,0.6666666666666666
+PLAIN-547,train,American Meat Institute,100,7,2,0.2857142857142857
+PLAIN-548,train,American Public Health Association,100,13,1,0.07692307692307693
+PLAIN-549,train,amla,3,34,2,0.058823529411764705
+PLAIN-552,train,amphetamines,1,16,1,0.0625
+PLAIN-553,train,amputations,0,40,0,0.0
+PLAIN-554,train,amylase,5,7,1,0.14285714285714285
+PLAIN-555,train,anal fissure,8,17,5,0.29411764705882354
+PLAIN-556,train,anal health,100,17,5,0.29411764705882354
+PLAIN-557,train,Ancel Keys,1,23,0,0.0
+PLAIN-558,train,anchovies,0,44,0,0.0
+PLAIN-559,train,anemia,10,25,0,0.0
+PLAIN-562,train,Angelina Jolie,0,7,0,0.0
+PLAIN-563,train,angina,10,32,2,0.0625
+PLAIN-564,train,angiogenesis,20,30,10,0.3333333333333333
+PLAIN-565,train,angiogram,0,18,0,0.0
+PLAIN-566,train,angiography,12,13,1,0.07692307692307693
+PLAIN-567,train,animal fat,100,553,43,0.07775768535262206
+PLAIN-568,train,animal products,100,846,42,0.04964539007092199
+PLAIN-569,train,animal protein,100,467,47,0.1006423982869379
+PLAIN-572,train,anise,1,4,0,0.0
+PLAIN-573,train,ankylosing spondylitis,1,2,0,0.0
+PLAIN-576,train,antacids,4,29,3,0.10344827586206896
+PLAIN-577,train,Antarctica,1,5,1,0.2
+PLAIN-578,train,anthocyanins,50,72,15,0.20833333333333334
+PLAIN-579,train,antiangiogenesis,1,36,1,0.027777777777777776
+PLAIN-580,train,antibiotics,45,235,22,0.09361702127659574
+PLAIN-581,train,antidepressants,19,27,11,0.4074074074074074
+PLAIN-584,train,antioxidants,100,629,67,0.10651828298887123
+PLAIN-585,train,antiperspirant,0,2,0,0.0
+PLAIN-586,train,antiseptic,1,9,1,0.1111111111111111
+PLAIN-587,train,anxiety,32,62,14,0.22580645161290322
+PLAIN-588,train,aorta,5,1,0,0.0
+PLAIN-589,train,aortic aneurysm,13,3,1,0.3333333333333333
+PLAIN-590,train,apes,5,1,0,0.0
+PLAIN-591,train,aphthous ulcers,8,1,1,1.0
+PLAIN-594,train,appendicitis,4,24,1,0.041666666666666664
+PLAIN-595,train,apple juice,100,30,15,0.5
+PLAIN-596,train,Applebee's,100,2,1,0.5
+PLAIN-597,train,apples,21,164,13,0.07926829268292683
+PLAIN-598,train,apricots,3,7,0,0.0
+PLAIN-599,train,arachidonic acid,100,32,9,0.28125
+PLAIN-600,train,areca nuts,94,1,0,0.0
+PLAIN-601,train,arginine,16,18,5,0.2777777777777778
+PLAIN-604,train,aromatase,9,9,4,0.4444444444444444
+PLAIN-605,train,aromatherapy,14,41,13,0.3170731707317073
+PLAIN-606,train,arsenic,21,46,14,0.30434782608695654
+PLAIN-607,train,arthritis,56,200,42,0.21
+PLAIN-608,train,artichokes,0,5,0,0.0
+PLAIN-609,train,artificial colors,26,27,4,0.14814814814814814
+PLAIN-610,train,artificial flavors,25,9,0,0.0
+PLAIN-611,train,artificial sweeteners,26,30,10,0.3333333333333333
+PLAIN-614,train,Asia,30,103,2,0.019417475728155338
+PLAIN-615,train,Asian markets,49,12,3,0.25
+PLAIN-616,train,asparagus,0,25,0,0.0
+PLAIN-617,train,aspartame,9,38,8,0.21052631578947367
+PLAIN-618,train,aspirin,15,90,4,0.044444444444444446
+PLAIN-619,train,asthma,54,123,18,0.14634146341463414
+PLAIN-620,train,astrocytes,3,2,1,0.5
+PLAIN-621,train,athletes,12,127,6,0.047244094488188976
+PLAIN-624,train,ATP,8,2,1,0.5
+PLAIN-625,train,atrial fibrillation,7,1,1,1.0
+PLAIN-626,train,attention deficit,100,30,10,0.3333333333333333
+PLAIN-628,train,Australia,14,22,2,0.09090909090909091
+PLAIN-629,train,autism,5,3,1,0.3333333333333333
+PLAIN-630,train,autoimmune diseases,100,212,31,0.14622641509433962
+PLAIN-631,train,autophagy,6,9,0,0.0
+PLAIN-632,train,avian leukosis/sarcoma virus,36,11,1,0.09090909090909091
+PLAIN-635,train,Ayurvedic medicine,100,9,8,0.8888888888888888
+PLAIN-636,train,azarcon,0,1,0,0.0
+PLAIN-637,train,b12,23,35,11,0.3142857142857143
+PLAIN-639,train,back pain,93,19,9,0.47368421052631576
+PLAIN-640,train,bacon,11,129,6,0.046511627906976744
+PLAIN-641,train,bacterial vaginosis,85,4,3,0.75
+PLAIN-642,train,bacteriophages,2,2,1,0.5
+PLAIN-643,train,Bacteroidetes,3,3,2,0.6666666666666666
+PLAIN-646,train,baked beans,50,2,1,0.5
+PLAIN-647,train,baking,11,16,2,0.125
+PLAIN-648,train,baking soda,15,1,0,0.0
+PLAIN-649,train,bamboo shoots,1,1,1,1.0
+PLAIN-650,train,bananas,5,59,2,0.03389830508474576
+PLAIN-651,train,barbecuing,0,23,0,0.0
+PLAIN-653,train,bargains,0,7,0,0.0
+PLAIN-655,train,barley,9,16,1,0.0625
+PLAIN-661,train,beef,60,395,26,0.06582278481012659
+PLAIN-662,train,beef brains,74,16,0,0.0
+PLAIN-663,train,beer,7,17,0,0.0
+PLAIN-664,train,beet greens,4,10,0,0.0
+PLAIN-665,train,beet juice,100,14,2,0.14285714285714285
+PLAIN-667,train,beets,2,32,0,0.0
+PLAIN-668,train,beeturia,1,5,1,0.2
+PLAIN-669,train,Belgium,6,1,0,0.0
+PLAIN-672,train,benzodiazepines,1,15,1,0.06666666666666667
+PLAIN-673,train,bergamots,0,2,0,0.0
+PLAIN-674,train,bergamottin,1,1,1,1.0
+PLAIN-675,train,beriberi,1,4,1,0.25
+PLAIN-676,train,berries,28,292,21,0.07191780821917808
+PLAIN-677,train,beta carotene,100,55,10,0.18181818181818182
+PLAIN-678,train,beta glucan,100,15,8,0.5333333333333333
+PLAIN-679,train,beta waves,100,4,0,0.0
+PLAIN-682,train,beverages,75,288,22,0.0763888888888889
+PLAIN-683,train,BHA,1,2,0,0.0
+PLAIN-684,train,bibhitaki fruit,100,5,0,0.0
+PLAIN-685,train,biblical teachings,1,4,0,0.0
+PLAIN-686,train,Big Mac,8,10,0,0.0
+PLAIN-687,train,bile acids,100,210,8,0.0380952380952381
+PLAIN-688,train,Bill Gates,4,10,2,0.2
+PLAIN-689,train,billberries,0,11,0,0.0
+PLAIN-692,train,biogenic amines,37,15,3,0.2
+PLAIN-693,train,biomagnification,4,82,3,0.036585365853658534
+PLAIN-694,train,biomarkers,72,6,3,0.5
+PLAIN-695,train,bipolar disorder,89,2,0,0.0
+PLAIN-696,train,birth control pills,100,20,0,0.0
+PLAIN-697,train,birth defects,71,122,17,0.13934426229508196
+PLAIN-698,train,Biscuit Cake Chocolate and Confectionery Association,100,14,1,0.07142857142857142
+PLAIN-699,train,bison,0,2,0,0.0
+PLAIN-702,train,black tea,100,33,17,0.5151515151515151
+PLAIN-703,train,blackberries,3,16,1,0.0625
+PLAIN-704,train,bladder cancer,100,74,20,0.2702702702702703
+PLAIN-705,train,bladder disease,100,59,8,0.13559322033898305
+PLAIN-706,train,bladder health,100,90,10,0.1111111111111111
+PLAIN-707,train,bladder infections,100,11,8,0.7272727272727273
+PLAIN-708,train,blindness,8,65,4,0.06153846153846154
+PLAIN-709,train,bloating,13,38,2,0.05263157894736842
+PLAIN-712,train,blood donation,100,7,0,0.0
+PLAIN-713,train,blood pressure,100,237,32,0.1350210970464135
+PLAIN-714,train,blood sugar,100,246,12,0.04878048780487805
+PLAIN-715,train,blood thinning,100,1,0,0.0
+PLAIN-716,train,blood type diet,100,2,2,1.0
+PLAIN-717,train,blood-letting,100,1,0,0.0
+PLAIN-718,train,blue-green algae,100,20,4,0.2
+PLAIN-719,train,blueberries,15,153,12,0.0784313725490196
+PLAIN-722,train,body building,100,3,0,0.0
+PLAIN-723,train,body fat,100,293,23,0.07849829351535836
+PLAIN-724,train,body odor,100,18,3,0.16666666666666666
+PLAIN-725,train,boiling,14,27,4,0.14814814814814814
+PLAIN-726,train,bok choy,0,2,0,0.0
+PLAIN-727,train,bokhoor,0,1,0,0.0
+PLAIN-728,train,bolete mushroom,10,4,0,0.0
+PLAIN-729,train,bologna,2,51,0,0.0
+PLAIN-732,train,bone health,100,136,26,0.19117647058823528
+PLAIN-733,train,bone marrow health,100,51,2,0.0392156862745098
+PLAIN-734,train,bone mineral density,100,58,24,0.41379310344827586
+PLAIN-735,train,boron,3,5,0,0.0
+PLAIN-736,train,Boston,10,6,1,0.16666666666666666
+PLAIN-737,train,botulism,0,17,0,0.0
+PLAIN-738,train,bovine leukemia virus,68,2,1,0.5
+PLAIN-739,train,bowel movements,100,61,19,0.3114754098360656
+PLAIN-742,train,Bragg Liquid Aminos,72,1,0,0.0
+PLAIN-743,train,brain disease,100,374,49,0.13101604278074866
+PLAIN-744,train,brain health,100,444,62,0.13963963963963963
+PLAIN-745,train,brain parasites,100,50,13,0.26
+PLAIN-746,train,brain surgery,100,15,5,0.3333333333333333
+PLAIN-747,train,brain tumors,100,77,9,0.11688311688311688
+PLAIN-748,train,brain waves,100,24,10,0.4166666666666667
+PLAIN-749,train,brains,14,45,2,0.044444444444444446
+PLAIN-752,train,bread,34,123,8,0.06504065040650407
+PLAIN-753,train,breakfast,31,20,1,0.05
+PLAIN-754,train,breakfast cereal,66,35,5,0.14285714285714285
+PLAIN-755,train,breast cancer,100,552,91,0.16485507246376813
+PLAIN-756,train,breast cancer survival,100,71,23,0.323943661971831
+PLAIN-757,train,breast development,100,44,4,0.09090909090909091
+PLAIN-758,train,breast disease,100,284,38,0.13380281690140844
+PLAIN-759,train,breast health,100,366,54,0.14754098360655737
+PLAIN-762,train,breastfeeding,9,91,3,0.03296703296703297
+PLAIN-763,train,Brenda Davis,0,1,0,0.0
+PLAIN-764,train,brewer's yeast,100,15,4,0.26666666666666666
+PLAIN-765,train,bristle cone pine,3,3,0,0.0
+PLAIN-766,train,broad beans,92,1,0,0.0
+PLAIN-767,train,broccoli,35,200,30,0.15
+PLAIN-768,train,broccoli raab,35,1,1,1.0
+PLAIN-769,train,broccoli sprouts,40,22,13,0.5909090909090909
+PLAIN-773,train,brown rice syrup,66,4,2,0.5
+PLAIN-774,train,brown sugar,100,1,1,1.0
+PLAIN-775,train,Brussels sprouts,22,39,8,0.20512820512820512
+PLAIN-776,train,BT corn,29,8,1,0.125
+PLAIN-777,train,buckwheat,1,7,0,0.0
+PLAIN-778,train,Buddhists,0,5,0,0.0
+PLAIN-779,train,Burger King,7,3,1,0.3333333333333333
+PLAIN-780,train,burgers,2,102,2,0.0196078431372549
+PLAIN-783,train,butcher's warts,100,4,0,0.0
+PLAIN-784,train,butter,22,116,10,0.08620689655172414
+PLAIN-785,train,butter flavor,36,3,2,0.6666666666666666
+PLAIN-786,train,buttermilk,1,4,1,0.25
+PLAIN-787,train,butternut squash,1,2,0,0.0
+PLAIN-788,train,butyrate,8,26,4,0.15384615384615385
+PLAIN-789,train,C-reactive protein,100,40,9,0.225
+PLAIN-790,train,C. diff,100,18,12,0.6666666666666666
+PLAIN-793,train,cadavers,2,4,0,0.0
+PLAIN-795,train,cadmium,27,48,23,0.4791666666666667
+PLAIN-796,train,caesarean section,13,17,2,0.11764705882352941
+PLAIN-797,train,caffeine,57,73,21,0.2876712328767123
+PLAIN-798,train,cake,4,53,2,0.03773584905660377
+PLAIN-799,train,calcium,97,96,21,0.21875
+PLAIN-801,train,California,36,58,4,0.06896551724137931
+PLAIN-802,train,California Dried Plum Board,97,4,2,0.5
+PLAIN-807,train,calories,41,359,9,0.025069637883008356
+PLAIN-809,train,Camplyobacter,0,12,0,0.0
+PLAIN-810,train,Campylobacter,16,55,10,0.18181818181818182
+PLAIN-811,train,Canada,33,67,1,0.014925373134328358
+PLAIN-812,train,cancer,100,1363,81,0.05942773294203962
+PLAIN-813,train,cancer stem cells,100,9,3,0.3333333333333333
+PLAIN-814,train,cancer survival,100,340,40,0.11764705882352941
+PLAIN-815,train,cancer viruses,100,33,10,0.30303030303030304
+PLAIN-818,train,Cannabis,2,15,1,0.06666666666666667
+PLAIN-819,train,cannibalism,1,2,0,0.0
+PLAIN-820,train,canola,2,8,0,0.0
+PLAIN-821,train,cans,6,16,2,0.125
+PLAIN-822,train,cantaloupe,1,5,0,0.0
+PLAIN-823,train,canthaxanthines,0,2,0,0.0
+PLAIN-824,train,capsaicin,11,9,2,0.2222222222222222
+PLAIN-825,train,caramel color,38,3,1,0.3333333333333333
+PLAIN-828,train,cardamom,2,9,1,0.1111111111111111
+PLAIN-829,train,cardiac disease,100,13,0,0.0
+PLAIN-830,train,cardiac health,100,13,0,0.0
+PLAIN-831,train,cardiovascular disease,100,946,74,0.07822410147991543
+PLAIN-832,train,cardiovascular health,100,715,48,0.06713286713286713
+PLAIN-833,train,carnitine,6,11,2,0.18181818181818182
+PLAIN-834,train,carnitine palmitoyl transferase,20,11,1,0.09090909090909091
+PLAIN-836,train,carob,2,8,1,0.125
+PLAIN-839,train,carrots,10,85,7,0.08235294117647059
+PLAIN-840,train,cartilage health,100,48,5,0.10416666666666667
+PLAIN-841,train,casein,9,10,2,0.2
+PLAIN-842,train,cashews,0,10,0,0.0
+PLAIN-843,train,casomorphin,4,4,4,1.0
+PLAIN-844,train,CAT scan,32,5,1,0.2
+PLAIN-845,train,cataracts,0,9,0,0.0
+PLAIN-847,train,catfish,7,8,5,0.625
+PLAIN-851,train,cavities,3,26,0,0.0
+PLAIN-852,train,Cayenne pepper,10,11,2,0.18181818181818182
+PLAIN-853,train,CDC,8,91,3,0.03296703296703297
+PLAIN-854,train,celery,4,26,2,0.07692307692307693
+PLAIN-855,train,celery root,24,1,0,0.0
+PLAIN-856,train,celiac disease,100,35,23,0.6571428571428571
+PLAIN-857,train,cell death,100,33,6,0.18181818181818182
+PLAIN-858,train,cell phones,100,5,1,0.2
+PLAIN-861,train,Center for Science in the Public Interest,100,19,1,0.05263157894736842
+PLAIN-863,train,ceramide,2,11,0,0.0
+PLAIN-864,train,cervical cancer,100,68,17,0.25
+PLAIN-865,train,cervix health,100,46,2,0.043478260869565216
+PLAIN-866,train,cesium,2,9,1,0.1111111111111111
+PLAIN-867,train,cetuximab,7,7,4,0.5714285714285714
+PLAIN-868,train,chai tea,100,2,2,1.0
+PLAIN-870,train,chamomile tea,100,11,5,0.45454545454545453
+PLAIN-873,train,Cheerios,0,4,0,0.0
+PLAIN-874,train,cheese,24,210,11,0.05238095238095238
+PLAIN-875,train,cheese effect,100,9,1,0.1111111111111111
+PLAIN-876,train,cheese fly,26,1,1,1.0
+PLAIN-877,train,cheese itch,26,1,1,1.0
+PLAIN-878,train,cheese mites,25,1,1,1.0
+PLAIN-879,train,cheese puffs,24,9,0,0.0
+PLAIN-880,train,chemical sensitivities,100,3,0,0.0
+PLAIN-883,train,cherries,16,61,14,0.22950819672131148
+PLAIN-884,train,chervil,1,4,1,0.25
+PLAIN-885,train,chestnuts,0,7,0,0.0
+PLAIN-886,train,chewing,6,2,0,0.0
+PLAIN-887,train,chewing gum,9,14,1,0.07142857142857142
+PLAIN-888,train,chia seeds,45,1,0,0.0
+PLAIN-889,train,Chick-fil-A,2,2,1,0.5
+PLAIN-890,train,chicken,66,767,55,0.07170795306388526
+PLAIN-893,train,children,100,544,75,0.13786764705882354
+PLAIN-894,train,chili peppers,8,3,0,0.0
+PLAIN-895,train,Chili's,100,2,1,0.5
+PLAIN-896,train,China,52,75,16,0.21333333333333335
+PLAIN-897,train,China Study,100,67,9,0.13432835820895522
+PLAIN-898,train,Chinese food,100,7,1,0.14285714285714285
+PLAIN-899,train,chlorella,4,13,4,0.3076923076923077
+PLAIN-900,train,chlorhexidine,6,9,4,0.4444444444444444
+PLAIN-903,train,chocolate,36,56,14,0.25
+PLAIN-905,train,cholera,4,7,2,0.2857142857142857
+PLAIN-906,train,cholesterol,100,648,85,0.13117283950617284
+PLAIN-907,train,choline,13,21,11,0.5238095238095238
+PLAIN-908,train,Chomorro,0,2,0,0.0
+PLAIN-909,train,chronic diseases,100,356,30,0.08426966292134831
+PLAIN-910,train,chronic fatigue syndrome,100,22,2,0.09090909090909091
+PLAIN-911,train,ciguatera,8,13,7,0.5384615384615384
+PLAIN-914,train,cirrhosis,18,10,1,0.1
+PLAIN-915,train,citric acid,100,25,3,0.12
+PLAIN-916,train,citrulline,6,8,4,0.5
+PLAIN-917,train,citrus,25,146,13,0.08904109589041095
+PLAIN-918,train,clams,0,1,0,0.0
+PLAIN-920,train,Cleveland Clinic,36,29,1,0.034482758620689655
+PLAIN-921,train,cloves,2,30,0,0.0
+PLAIN-922,train,cluster headaches,26,3,2,0.6666666666666666
+PLAIN-925,train,Cochrane Collaboration,74,10,3,0.3
+PLAIN-926,train,cocoa,30,29,20,0.6896551724137931
+PLAIN-927,train,cocoa butter,50,10,10,1.0
+PLAIN-928,train,coconut milk,100,19,5,0.2631578947368421
+PLAIN-929,train,coconut oil,100,13,9,0.6923076923076923
+PLAIN-930,train,coconut water,100,2,2,1.0
+PLAIN-931,train,coconuts,1,16,1,0.0625
+PLAIN-932,train,cod,4,6,0,0.0
+PLAIN-935,train,cognition,29,271,20,0.07380073800738007
+PLAIN-936,train,cola,10,52,3,0.057692307692307696
+PLAIN-937,train,colchicine,3,7,0,0.0
+PLAIN-938,train,cold hands,44,13,1,0.07692307692307693
+PLAIN-940,train,colibacillosis,1,5,1,0.2
+PLAIN-941,train,collard greens,2,49,2,0.04081632653061224
+PLAIN-942,train,colon cancer,100,214,31,0.14485981308411214
+PLAIN-943,train,colon disease,100,66,11,0.16666666666666666
+PLAIN-947,train,common cold,100,36,5,0.1388888888888889
+PLAIN-948,train,complementary medicine,100,298,25,0.08389261744966443
+PLAIN-949,train,computer eye strain,63,14,3,0.21428571428571427
+PLAIN-950,train,Concord grapes,18,12,4,0.3333333333333333
+PLAIN-951,train,constipation,40,46,17,0.3695652173913043
+PLAIN-952,train,Consumers Union,100,50,2,0.04
+PLAIN-953,train,contagious pustular dermatitis,18,2,0,0.0
+PLAIN-954,train,convenience,13,8,0,0.0
+PLAIN-957,train,cooking temperature,100,113,13,0.11504424778761062
+PLAIN-958,train,COPD,5,5,3,0.6
+PLAIN-959,train,copper,17,16,2,0.125
+PLAIN-960,train,coriander,4,4,3,0.75
+PLAIN-961,train,corn,25,47,2,0.0425531914893617
+PLAIN-962,train,corn oil,100,4,0,0.0
+PLAIN-963,train,Corn Refiners Association,100,1,1,1.0
+PLAIN-964,train,corn syrup,28,16,3,0.1875
+PLAIN-967,train,cosmic rays,2,6,1,0.16666666666666666
+PLAIN-968,train,cost savings,70,123,10,0.08130081300813008
+PLAIN-969,train,cough,9,2,0,0.0
+PLAIN-970,train,coumarin,5,8,1,0.125
+PLAIN-971,train,cranberries,13,31,10,0.3225806451612903
+PLAIN-972,train,cranberry juice,100,17,14,0.8235294117647058
+PLAIN-973,train,cream,7,17,0,0.0
+PLAIN-975,train,creatine,10,6,2,0.3333333333333333
+PLAIN-978,train,crimini mushrooms,13,1,0,0.0
+PLAIN-979,train,Crisco,0,12,0,0.0
+PLAIN-980,train,Crohn's disease,100,51,19,0.37254901960784315
+PLAIN-981,train,crowberries,0,1,0,0.0
+PLAIN-982,train,cruciferous vegetables,100,130,18,0.13846153846153847
+PLAIN-983,train,cryptoxanthin,8,12,2,0.16666666666666666
+PLAIN-984,train,CSPI,0,9,0,0.0
+PLAIN-985,train,CT scan,31,5,3,0.6
+PLAIN-988,train,cupcakes,0,9,0,0.0
+PLAIN-989,train,curcumin,71,116,61,0.5258620689655172
+PLAIN-990,train,currants,0,28,0,0.0
+PLAIN-991,train,curry powder,43,56,6,0.10714285714285714
+PLAIN-992,train,cyanopsia,0,12,0,0.0
+PLAIN-993,train,cyclamate,1,3,0,0.0
+PLAIN-994,train,cycling,7,6,2,0.3333333333333333
+PLAIN-995,train,cysticercosis,7,1,1,1.0
+PLAIN-998,train,dairy,100,744,67,0.09005376344086022
+PLAIN-999,train,dandelion,1,1,1,1.0
+PLAIN-1000,train,Daniel Fast,56,4,0,0.0
+PLAIN-1002,train,dark chocolate,50,17,10,0.5882352941176471
+PLAIN-1003,train,dark meat,100,1,0,0.0
+PLAIN-1004,train,DASH diet,100,13,2,0.15384615384615385
+PLAIN-1005,train,date sugar,100,6,4,0.6666666666666666
+PLAIN-1006,train,dates,7,30,5,0.16666666666666666
+PLAIN-1009,train,dehydration,9,8,5,0.625
+PLAIN-1010,train,deli meat,100,46,1,0.021739130434782608
+PLAIN-1011,train,deli meats,58,7,0,0.0
+PLAIN-1012,train,delta waves,11,4,0,0.0
+PLAIN-1013,train,dementia,49,197,37,0.18781725888324874
+PLAIN-1014,train,Denmark,5,2,0,0.0
+PLAIN-1015,train,dental health,100,66,18,0.2727272727272727
+PLAIN-1016,train,depression,79,191,45,0.2356020942408377
+PLAIN-1019,train,DHEA,9,3,3,1.0
+PLAIN-1020,train,Diabeta,0,2,0,0.0
+PLAIN-1021,train,diabetes,100,590,72,0.12203389830508475
+PLAIN-1022,train,diacetyl,2,3,2,0.6666666666666666
+PLAIN-1023,train,diacylglycerol,3,11,1,0.09090909090909091
+PLAIN-1024,train,dialysis,8,1,0,0.0
+PLAIN-1025,train,diarrhea,30,81,8,0.09876543209876543
+PLAIN-1026,train,dieldrin,7,12,2,0.16666666666666666
+PLAIN-1029,train,digoxin,0,3,0,0.0
+PLAIN-1030,train,dioxin,29,22,1,0.045454545454545456
+PLAIN-1031,train,dioxins,20,97,15,0.15463917525773196
+PLAIN-1032,train,dishwashing detergent,3,18,1,0.05555555555555555
+PLAIN-1033,train,diverticulitis,4,7,0,0.0
+PLAIN-1034,train,diverticulosis,4,10,0,0.0
+PLAIN-1035,train,dizziness,1,3,0,0.0
+PLAIN-1036,train,DNA damage,100,319,48,0.15047021943573669
+PLAIN-1040,train,dopamine,11,45,6,0.13333333333333333
+PLAIN-1041,train,douching,2,16,2,0.125
+PLAIN-1042,train,doughnuts,2,59,1,0.01694915254237288
+PLAIN-1043,train,Dow Chemical,100,2,0,0.0
+PLAIN-1045,train,Dr. Benjamin Feingold,14,2,0,0.0
+PLAIN-1046,train,Dr. Benjamin Spock,13,8,0,0.0
+PLAIN-1047,train,Dr. Caldwell Esselstyn,13,39,0,0.0
+PLAIN-1048,train,Dr. David Jenkins,14,1,0,0.0
+PLAIN-1051,train,Dr. Denis Burkitt,15,20,0,0.0
+PLAIN-1055,train,Dr. Joel Fuhrman,13,1,0,0.0
+PLAIN-1057,train,Dr. John Harvey Kellogg,50,4,0,0.0
+PLAIN-1058,train,Dr. John McDougall,50,16,0,0.0
+PLAIN-1059,train,Dr. Neal Barnard,13,10,0,0.0
+PLAIN-1061,train,Dr. Richard Fleming,15,6,1,0.16666666666666666
+PLAIN-1062,train,Dr. Roy Swank,13,6,0,0.0
+PLAIN-1064,train,Dr. T. Colin Campbell,100,18,4,0.2222222222222222
+PLAIN-1067,train,Dr. William Clifford Roberts,13,4,0,0.0
+PLAIN-1068,train,Dr. William Roberts,13,1,0,0.0
+PLAIN-1070,train,dragon's blood,100,3,2,0.6666666666666666
+PLAIN-1071,train,dressings,1,9,0,0.0
+PLAIN-1072,train,dried fruit,100,91,13,0.14285714285714285
+PLAIN-1073,train,drug residues,100,22,0,0.0
+PLAIN-1074,train,drug stores,100,3,1,0.3333333333333333
+PLAIN-1075,train,drug testing,100,3,1,0.3333333333333333
+PLAIN-1079,train,Dutched cocoa,30,10,10,1.0
+PLAIN-1080,train,dwarfism,0,1,0,0.0
+PLAIN-1081,train,dyspepsia,6,9,2,0.2222222222222222
+PLAIN-1082,train,E. coli,100,47,19,0.40425531914893614
+PLAIN-1083,train,E. coli o157:H7,100,42,19,0.4523809523809524
+PLAIN-1084,train,ear health,100,19,2,0.10526315789473684
+PLAIN-1085,train,ear infections,100,6,3,0.5
+PLAIN-1086,train,Earl Grey tea,100,1,0,0.0
+PLAIN-1089,train,Eco-Atkins diet,100,2,1,0.5
+PLAIN-1090,train,ecstasy,0,9,0,0.0
+PLAIN-1091,train,eczema,13,46,5,0.10869565217391304
+PLAIN-1092,train,edamame,0,3,0,0.0
+PLAIN-1093,train,Eden Foods,100,2,0,0.0
+PLAIN-1094,train,EEG,6,4,1,0.25
+PLAIN-1095,train,Egg Farmers of Canada,76,2,2,1.0
+PLAIN-1096,train,Egg McMuffin,40,8,0,0.0
+PLAIN-1099,train,eggplant,0,2,0,0.0
+PLAIN-1100,train,eggs,58,591,42,0.07106598984771574
+PLAIN-1101,train,elderly,63,102,4,0.0392156862745098
+PLAIN-1102,train,electroconvulsive therapy,100,6,2,0.3333333333333333
+PLAIN-1103,train,elephant garlic,14,6,1,0.16666666666666666
+PLAIN-1104,train,ellagic acid,100,4,2,0.5
+PLAIN-1105,train,emphysema,2,16,1,0.0625
+PLAIN-1106,train,empty calories,41,11,3,0.2727272727272727
+PLAIN-1110,train,endometrial cancer,100,72,16,0.2222222222222222
+PLAIN-1111,train,endometrial health,100,27,4,0.14814814814814814
+PLAIN-1112,train,endometriosis,3,5,1,0.2
+PLAIN-1113,train,endorphins,0,3,0,0.0
+PLAIN-1114,train,endothelium,37,12,1,0.08333333333333333
+PLAIN-1115,train,endotoxemia,1,7,0,0.0
+PLAIN-1116,train,endurance,10,6,0,0.0
+PLAIN-1117,train,enemas,3,9,1,0.1111111111111111
+PLAIN-1120,train,energy gels,100,3,0,0.0
+PLAIN-1121,train,enoki mushrooms,13,1,0,0.0
+PLAIN-1123,train,enzymes,77,55,8,0.14545454545454545
+PLAIN-1124,train,eosinophilia–myalgia syndrome,100,2,1,0.5
+PLAIN-1125,train,EPA,29,110,5,0.045454545454545456
+PLAIN-1126,train,EPIC Study,100,19,8,0.42105263157894735
+PLAIN-1127,train,epigenetic changes,100,34,3,0.08823529411764706
+PLAIN-1128,train,epilepsy,8,55,6,0.10909090909090909
+PLAIN-1131,train,erythritol,3,21,2,0.09523809523809523
+PLAIN-1132,train,esophageal cancer,100,61,18,0.29508196721311475
+PLAIN-1133,train,esophagus,19,5,3,0.6
+PLAIN-1134,train,esophagus health,100,37,7,0.1891891891891892
+PLAIN-1136,train,essential tremor,100,16,10,0.625
+PLAIN-1137,train,estrogen,69,154,29,0.18831168831168832
+PLAIN-1138,train,ethnicity,33,5,0,0.0
+PLAIN-1139,train,Europe,42,231,5,0.021645021645021644
+PLAIN-1142,train,evolution,28,76,8,0.10526315789473684
+PLAIN-1143,train,exercise,100,457,71,0.15536105032822758
+PLAIN-1144,train,exotic fruit,100,5,2,0.4
+PLAIN-1145,train,ExPEC,3,5,1,0.2
+PLAIN-1146,train,Exponent Inc.,0,5,0,0.0
+PLAIN-1147,train,extracorporeal membranous oxygenation,8,5,2,0.4
+PLAIN-1148,train,eye disease,100,97,10,0.10309278350515463
+PLAIN-1149,train,eye health,100,134,7,0.05223880597014925
+PLAIN-1152,train,fake meat,100,23,4,0.17391304347826086
+PLAIN-1153,train,fall risk,100,3,0,0.0
+PLAIN-1154,train,farm animals,100,227,43,0.1894273127753304
+PLAIN-1156,train,farmers,5,4,0,0.0
+PLAIN-1157,train,fast food,100,68,13,0.19117647058823528
+PLAIN-1158,train,fat,100,750,49,0.06533333333333333
+PLAIN-1159,train,fatigue,24,88,5,0.056818181818181816
+PLAIN-1162,train,FDA,28,213,13,0.06103286384976526
+PLAIN-1163,train,feather meal,100,3,1,0.3333333333333333
+PLAIN-1164,train,fecal bacteria,100,94,26,0.2765957446808511
+PLAIN-1165,train,fecal contamination,100,139,24,0.17266187050359713
+PLAIN-1166,train,fecal continence,37,1,0,0.0
+PLAIN-1167,train,fecal transplant,42,10,1,0.1
+PLAIN-1169,train,feed additives,65,60,7,0.11666666666666667
+PLAIN-1170,train,feline leukemia virus,52,2,1,0.5
+PLAIN-1173,train,fermented foods,100,55,5,0.09090909090909091
+PLAIN-1174,train,fertility,21,76,7,0.09210526315789473
+PLAIN-1175,train,fever,17,12,3,0.25
+PLAIN-1176,train,fiber,100,462,44,0.09523809523809523
+PLAIN-1177,train,fibrocystic breast disease,100,5,2,0.4
+PLAIN-1178,train,fibroids,1,6,0,0.0
+PLAIN-1179,train,fibromyalgia,9,11,8,0.7272727272727273
+PLAIN-1180,train,fiddlehead ferns,0,1,0,0.0
+PLAIN-1184,train,Firmicutes,3,3,2,0.6666666666666666
+PLAIN-1185,train,fish,100,743,82,0.11036339165545088
+PLAIN-1186,train,fish oil,100,68,22,0.3235294117647059
+PLAIN-1187,train,fish sauce,100,6,0,0.0
+PLAIN-1188,train,fisitin,0,8,0,0.0
+PLAIN-1189,train,flame-retardant chemicals,61,15,3,0.2
+PLAIN-1190,train,flatulence,7,31,5,0.16129032258064516
+PLAIN-1191,train,flavonoids,66,62,15,0.24193548387096775
+PLAIN-1194,train,flax seeds,55,146,12,0.0821917808219178
+PLAIN-1195,train,flesh-eating bacteria,100,7,1,0.14285714285714285
+PLAIN-1196,train,flexitarians,0,77,0,0.0
+PLAIN-1197,train,Flomax,0,5,0,0.0
+PLAIN-1198,train,flowers,4,3,0,0.0
+PLAIN-1199,train,fluoride,3,20,1,0.05
+PLAIN-1200,train,flying foxes,5,2,0,0.0
+PLAIN-1201,train,FODMAPs,0,19,0,0.0
+PLAIN-1204,train,food additives,100,136,25,0.18382352941176472
+PLAIN-1205,train,food dyes,100,10,4,0.4
+PLAIN-1206,train,food poisoning,100,241,24,0.0995850622406639
+PLAIN-1207,train,food recalls,100,30,4,0.13333333333333333
+PLAIN-1208,train,food sensitivities,100,25,1,0.04
+PLAIN-1210,train,foodborne illness,74,250,36,0.144
+PLAIN-1211,train,foreign body,100,1,1,1.0
+PLAIN-1212,train,Forks Over Knives,0,9,0,0.0
+PLAIN-1216,train,foxglove,0,4,0,0.0
+PLAIN-1217,train,fragrance,2,10,0,0.0
+PLAIN-1218,train,Framingham Heart Study,100,12,3,0.25
+PLAIN-1219,train,France,14,22,1,0.045454545454545456
+PLAIN-1220,train,Freedom of Information Act,100,30,1,0.03333333333333333
+PLAIN-1221,train,french fries,17,58,6,0.10344827586206896
+PLAIN-1222,train,Froot Loops,0,6,0,0.0
+PLAIN-1223,train,frozen fruit,100,21,5,0.23809523809523808
+PLAIN-1226,train,fruit,100,1076,71,0.06598513011152417
+PLAIN-1227,train,fruit and vegetable wash,100,9,0,0.0
+PLAIN-1228,train,fruit juice,100,192,31,0.16145833333333334
+PLAIN-1229,train,frying,16,83,7,0.08433734939759036
+PLAIN-1230,train,FTC,0,1,0,0.0
+PLAIN-1232,train,Fukushima,4,9,4,0.4444444444444444
+PLAIN-1233,train,fungicides,7,24,1,0.041666666666666664
+PLAIN-1234,train,gala apples,21,2,1,0.5
+PLAIN-1237,train,gallbladder disease,100,24,3,0.125
+PLAIN-1238,train,gallbladder health,100,30,2,0.06666666666666667
+PLAIN-1239,train,gallstones,6,19,2,0.10526315789473684
+PLAIN-1240,train,gangrene,0,4,0,0.0
+PLAIN-1241,train,garbanzo beans,46,15,3,0.2
+PLAIN-1242,train,gargling,4,5,4,0.8
+PLAIN-1243,train,garlic,14,69,8,0.11594202898550725
+PLAIN-1244,train,gastric bypass,41,4,0,0.0
+PLAIN-1250,train,genital health,100,19,3,0.15789473684210525
+PLAIN-1251,train,genital warts,9,9,2,0.2222222222222222
+PLAIN-1254,train,Germany,14,29,0,0.0
+PLAIN-1255,train,Gerson Therapy,100,1,1,1.0
+PLAIN-1256,train,gestational diabetes,100,12,10,0.8333333333333334
+PLAIN-1257,train,giantism,0,3,0,0.0
+PLAIN-1258,train,ginger,12,59,9,0.15254237288135594
+PLAIN-1260,train,gingerols,0,3,0,0.0
+PLAIN-1264,train,gluten,33,46,30,0.6521739130434783
+PLAIN-1265,train,glyburide,1,2,0,0.0
+PLAIN-1266,train,glycemic index,100,28,7,0.25
+PLAIN-1267,train,glycoalkaloids,3,3,3,1.0
+PLAIN-1268,train,glyconutrients,1,1,1,1.0
+PLAIN-1269,train,glycotoxins,2,32,0,0.0
+PLAIN-1270,train,glyphosate,18,20,18,0.9
+PLAIN-1271,train,GMO,1,27,1,0.037037037037037035
+PLAIN-1276,train,gold dust retinopathy,30,2,0,0.0
+PLAIN-1278,train,golden raisins,19,1,1,1.0
+PLAIN-1279,train,gooseberries,0,25,0,0.0
+PLAIN-1281,train,gout,8,72,6,0.08333333333333333
+PLAIN-1282,train,grains,64,453,33,0.0728476821192053
+PLAIN-1284,train,grape juice,100,47,16,0.3404255319148936
+PLAIN-1285,train,grape seed oil,100,1,1,1.0
+PLAIN-1286,train,grapefruit,22,76,14,0.18421052631578946
+PLAIN-1289,train,Grave’s disease,100,16,0,0.0
+PLAIN-1290,train,gravy,0,9,0,0.0
+PLAIN-1291,train,Great Lakes,66,3,1,0.3333333333333333
+PLAIN-1292,train,Greece,8,28,2,0.07142857142857142
+PLAIN-1293,train,green beans,100,21,6,0.2857142857142857
+PLAIN-1295,train,green tea,100,152,40,0.2631578947368421
+PLAIN-1296,train,greens,2,326,1,0.003067484662576687
+PLAIN-1297,train,greta,0,1,0,0.0
+PLAIN-1300,train,guacamole,0,7,0,0.0
+PLAIN-1301,train,guava,2,9,0,0.0
+PLAIN-1302,train,Guillain-Barré syndrome,100,4,2,0.5
+PLAIN-1303,train,gum arabic,4,1,1,1.0
+PLAIN-1304,train,gut flora,87,183,40,0.2185792349726776
+PLAIN-1305,train,gynecomastia,2,6,1,0.16666666666666666
+PLAIN-1306,train,Häagen-Dazs,100,2,1,0.5
+PLAIN-1307,train,hair health,100,14,2,0.14285714285714285
+PLAIN-1310,train,halitosis,1,12,0,0.0
+PLAIN-1312,train,ham,13,88,3,0.03409090909090909
+PLAIN-1313,train,hamburgers,6,106,2,0.018867924528301886
+PLAIN-1314,train,hand washing,66,11,4,0.36363636363636365
+PLAIN-1315,train,happiness,1,1,0,0.0
+PLAIN-1316,train,haritaki fruit,100,5,0,0.0
+PLAIN-1317,train,Harmane,9,15,7,0.4666666666666667
+PLAIN-1318,train,Harvard,2,186,0,0.0
+PLAIN-1322,train,hawthorn,1,1,1,1.0
+PLAIN-1323,train,hay fever,17,2,0,0.0
+PLAIN-1324,train,hazelnut oil,100,1,1,1.0
+PLAIN-1325,train,hazelnuts,0,28,0,0.0
+PLAIN-1326,train,HDL cholesterol,100,40,14,0.35
+PLAIN-1327,train,head lice,25,1,1,1.0
+PLAIN-1328,train,head trauma,32,6,0,0.0
+PLAIN-1329,train,headaches,6,66,4,0.06060606060606061
+PLAIN-1332,train,heart disease,100,971,68,0.07003089598352215
+PLAIN-1333,train,heart diseases,100,4,0,0.0
+PLAIN-1334,train,heart failure,100,34,6,0.17647058823529413
+PLAIN-1335,train,heart health,100,895,60,0.0670391061452514
+PLAIN-1336,train,heart rate variability,100,8,2,0.25
+PLAIN-1337,train,heartbeat,0,3,0,0.0
+PLAIN-1339,train,heavy metals,52,164,14,0.08536585365853659
+PLAIN-1340,train,Hegsted Equation,10,6,0,0.0
+PLAIN-1343,train,hemlock,0,4,0,0.0
+PLAIN-1345,train,hemorrhoids,0,10,0,0.0
+PLAIN-1346,train,hepatitis,29,39,15,0.38461538461538464
+PLAIN-1347,train,hepatitis E,100,12,8,0.6666666666666666
+PLAIN-1348,train,hepatotoxins,0,12,0,0.0
+PLAIN-1349,train,herbal remedies,53,48,7,0.14583333333333334
+PLAIN-1350,train,herbal tea,100,140,29,0.20714285714285716
+PLAIN-1351,train,Herbalife,3,5,3,0.6
+PLAIN-1354,train,herring,2,6,0,0.0
+PLAIN-1355,train,Hershey's,100,10,1,0.1
+PLAIN-1356,train,hesperidin,4,16,4,0.25
+PLAIN-1357,train,heterocyclic amines,39,95,18,0.18947368421052632
+PLAIN-1358,train,hexachlorobenzene,12,14,2,0.14285714285714285
+PLAIN-1359,train,hiatal hernia,2,6,0,0.0
+PLAIN-1360,train,hibiscus tea,100,75,30,0.4
+PLAIN-1361,train,high fructose corn syrup,100,35,12,0.34285714285714286
+PLAIN-1364,train,histones,0,10,0,0.0
+PLAIN-1365,train,hives,0,5,0,0.0
+PLAIN-1366,train,holotranscobalamin,2,3,1,0.3333333333333333
+PLAIN-1367,train,holy basil tea,100,1,0,0.0
+PLAIN-1368,train,homeopathy,2,5,1,0.2
+PLAIN-1369,train,homocysteine,29,11,3,0.2727272727272727
+PLAIN-1370,train,honey,4,1,1,1.0
+PLAIN-1371,train,honeybush tea,100,3,1,0.3333333333333333
+PLAIN-1375,train,hormones,61,283,30,0.10600706713780919
+PLAIN-1376,train,horsemeat,1,7,1,0.14285714285714285
+PLAIN-1377,train,hot dogs,31,82,3,0.036585365853658534
+PLAIN-1378,train,hot flashes,23,1,1,1.0
+PLAIN-1381,train,human papilloma virus,100,13,3,0.23076923076923078
+PLAIN-1382,train,Huntington’s disease,100,14,3,0.21428571428571427
+PLAIN-1383,train,hydrogen sulfide,39,16,5,0.3125
+PLAIN-1384,train,hydrogenated fats,65,24,2,0.08333333333333333
+PLAIN-1388,train,hyperpigmentation,0,8,0,0.0
+PLAIN-1389,train,hypertension,100,216,27,0.125
+PLAIN-1390,train,hypospadias,5,9,1,0.1111111111111111
+PLAIN-1392,train,iatrogenic,1,17,0,0.0
+PLAIN-1393,train,Ibuprofen,5,71,5,0.07042253521126761
+PLAIN-1394,train,ice cream,9,36,1,0.027777777777777776
+PLAIN-1395,train,ice diet,100,3,0,0.0
+PLAIN-1399,train,immune function,100,340,45,0.1323529411764706
+PLAIN-1400,train,immunosuppressive drugs,100,24,2,0.08333333333333333
+PLAIN-1401,train,impotence,0,84,0,0.0
+PLAIN-1402,train,in vitro studies,100,44,6,0.13636363636363635
+PLAIN-1403,train,incontinence,6,1,0,0.0
+PLAIN-1404,train,India,20,101,9,0.0891089108910891
+PLAIN-1405,train,indigestion,2,9,0,0.0
+PLAIN-1407,train,Indonesia,1,1,0,0.0
+PLAIN-1410,train,industry influence,100,439,20,0.04555808656036447
+PLAIN-1411,train,infant formula,50,26,4,0.15384615384615385
+PLAIN-1412,train,infants,57,242,28,0.11570247933884298
+PLAIN-1413,train,infertility,17,91,13,0.14285714285714285
+PLAIN-1414,train,inflammation,100,607,53,0.08731466227347612
+PLAIN-1415,train,inflammatory bowel disease,100,70,16,0.22857142857142856
+PLAIN-1416,train,informed consent,21,7,0,0.0
+PLAIN-1417,train,inner ear cancer,100,3,1,0.3333333333333333
+PLAIN-1420,train,insomnia,8,64,4,0.0625
+PLAIN-1421,train,Institute of Medicine,100,15,3,0.2
+PLAIN-1422,train,insulin,100,121,39,0.32231404958677684
+PLAIN-1423,train,intelligence,7,13,4,0.3076923076923077
+PLAIN-1424,train,INTERHEART study,100,5,1,0.2
+PLAIN-1425,train,interleukin-1,100,10,0,0.0
+PLAIN-1426,train,internal bleeding,46,16,4,0.25
+PLAIN-1427,train,intestinal health,100,17,3,0.17647058823529413
+PLAIN-1430,train,ipecac,0,3,0,0.0
+PLAIN-1431,train,IQ4 5b,0,4,0,0.0
+PLAIN-1432,train,Ireland,34,10,2,0.2
+PLAIN-1434,train,iron,54,117,20,0.17094017094017094
+PLAIN-1435,train,irritable bowel syndrome,100,26,17,0.6538461538461539
+PLAIN-1436,train,isoflavones,33,49,11,0.22448979591836735
+PLAIN-1437,train,Israel,5,19,0,0.0
+PLAIN-1438,train,Jack Norris,0,4,0,0.0
+PLAIN-1442,train,jasmine tea,100,1,1,1.0
+PLAIN-1443,train,jaundice,2,1,0,0.0
+PLAIN-1445,train,jelly beans,47,12,1,0.08333333333333333
+PLAIN-1446,train,Jerusalem artichokes,1,1,0,0.0
+PLAIN-1447,train,Johns Hopkins University,51,4,0,0.0
+PLAIN-1448,train,joint disease,100,63,15,0.23809523809523808
+PLAIN-1449,train,joint health,100,89,14,0.15730337078651685
+PLAIN-1450,train,Judaism,0,2,0,0.0
+PLAIN-1454,train,Kaiser Permanente,0,11,0,0.0
+PLAIN-1455,train,kale,8,131,6,0.04580152671755725
+PLAIN-1456,train,kangaroo meat,100,3,1,0.3333333333333333
+PLAIN-1457,train,Kaposi’s sarcoma,100,17,3,0.17647058823529413
+PLAIN-1458,train,kelp,1,18,1,0.05555555555555555
+PLAIN-1459,train,keriorrhea,1,1,1,1.0
+PLAIN-1460,train,ketogenic agent AC-1202,100,8,1,0.125
+PLAIN-1461,train,KFC,1,7,1,0.14285714285714285
+PLAIN-1464,train,kidney cancer,100,79,6,0.0759493670886076
+PLAIN-1465,train,kidney disease,100,188,27,0.14361702127659576
+PLAIN-1466,train,kidney failure,100,83,12,0.14457831325301204
+PLAIN-1467,train,kidney function,100,86,10,0.11627906976744186
+PLAIN-1468,train,kidney health,100,244,27,0.11065573770491803
+PLAIN-1469,train,kidney stones,77,71,15,0.2112676056338028
+PLAIN-1470,train,kimchi,0,3,0,0.0
+PLAIN-1471,train,kingdom,18,6,0,0.0
+PLAIN-1474,train,kombu,1,5,1,0.2
+PLAIN-1475,train,kombucha tea,100,1,1,1.0
+PLAIN-1476,train,Korea,16,1,0,0.0
+PLAIN-1477,train,Kraft,0,11,0,0.0
+PLAIN-1478,train,Kuna Indians,10,2,2,1.0
+PLAIN-1479,train,lactation,3,13,0,0.0
+PLAIN-1481,train,lactic acid,100,27,1,0.037037037037037035
+PLAIN-1482,train,lactose,9,34,2,0.058823529411764705
+PLAIN-1486,train,Laron syndrome,100,1,0,0.0
+PLAIN-1487,train,lasers,0,4,0,0.0
+PLAIN-1489,train,lauric acid,100,8,1,0.125
+PLAIN-1490,train,lavender,12,14,9,0.6428571428571429
+PLAIN-1491,train,laxatives,6,12,1,0.08333333333333333
+PLAIN-1492,train,LDL cholesterol,100,351,52,0.14814814814814814
+PLAIN-1493,train,lead,100,94,19,0.20212765957446807
+PLAIN-1494,train,leaky gut theory,93,27,2,0.07407407407407407
+PLAIN-1497,train,legumes,46,157,19,0.12101910828025478
+PLAIN-1498,train,lemon verbena,12,14,1,0.07142857142857142
+PLAIN-1499,train,lemonbalm,0,11,0,0.0
+PLAIN-1500,train,lemongrass,0,1,0,0.0
+PLAIN-1501,train,lemons,0,57,0,0.0
+PLAIN-1502,train,lentil effect,100,5,3,0.6
+PLAIN-1503,train,lentils,10,118,8,0.06779661016949153
+PLAIN-1504,train,leptin,15,4,0,0.0
+PLAIN-1507,train,leukemia,26,140,18,0.12857142857142856
+PLAIN-1508,train,lichen planus,2,1,1,1.0
+PLAIN-1509,train,licorice,2,1,1,1.0
+PLAIN-1510,train,lifespan,25,444,16,0.036036036036036036
+PLAIN-1511,train,Lifestyle medicine,100,142,25,0.176056338028169
+PLAIN-1512,train,lignans,40,76,27,0.35526315789473684
+PLAIN-1513,train,lima beans,47,2,1,0.5
+PLAIN-1514,train,limes,0,41,0,0.0
+PLAIN-1517,train,Linguatula serrate,0,2,0,0.0
+PLAIN-1518,train,Lipitor,0,25,0,0.0
+PLAIN-1519,train,liposuction,0,21,0,0.0
+PLAIN-1520,train,lipotoxicity,4,11,2,0.18181818181818182
+PLAIN-1521,train,lipotoxicty,0,5,0,0.0
+PLAIN-1523,train,liquid smoke,100,14,5,0.35714285714285715
+PLAIN-1524,train,Listeria,10,17,3,0.17647058823529413
+PLAIN-1525,train,liver,100,39,7,0.1794871794871795
+PLAIN-1528,train,liver failure,100,18,1,0.05555555555555555
+PLAIN-1529,train,liver health,100,278,37,0.13309352517985612
+PLAIN-1530,train,liver inflammation,100,18,7,0.3888888888888889
+PLAIN-1531,train,Loma Linda University,51,14,0,0.0
+PLAIN-1532,train,Long Island,100,22,3,0.13636363636363635
+PLAIN-1533,train,longevity,40,271,24,0.08856088560885608
+PLAIN-1534,train,Lou Gehrig's disease,100,27,3,0.1111111111111111
+PLAIN-1535,train,Louis Pasteur,0,5,0,0.0
+PLAIN-1538,train,low-fat diets,100,150,17,0.11333333333333333
+PLAIN-1539,train,lower back pain,100,20,9,0.45
+PLAIN-1540,train,lox,6,6,0,0.0
+PLAIN-1541,train,lung cancer,100,160,26,0.1625
+PLAIN-1542,train,lung disease,100,135,17,0.1259259259259259
+PLAIN-1543,train,lung health,100,195,24,0.12307692307692308
+PLAIN-1544,train,lutein,23,57,12,0.21052631578947367
+PLAIN-1545,train,luteolin,7,8,2,0.25
+PLAIN-1548,train,lymphoma,22,65,10,0.15384615384615385
+PLAIN-1549,train,Lyon Diet Heart Study,100,8,4,0.5
+PLAIN-1550,train,M&M's,100,1,0,0.0
+PLAIN-1551,train,macadamia nuts,95,10,9,0.9
+PLAIN-1552,train,macadamia oil,100,1,1,1.0
+PLAIN-1553,train,mackerel,5,49,4,0.08163265306122448
+PLAIN-1554,train,macular degeneration,36,29,9,0.3103448275862069
+PLAIN-1555,train,mad cow disease,100,17,2,0.11764705882352941
+PLAIN-1558,train,Maimonides,1,1,0,0.0
+PLAIN-1560,train,malaria,1,11,0,0.0
+PLAIN-1561,train,Malaysia,2,3,0,0.0
+PLAIN-1562,train,maltodextrin,4,9,2,0.2222222222222222
+PLAIN-1563,train,manganese,11,11,4,0.36363636363636365
+PLAIN-1564,train,mango,3,14,0,0.0
+PLAIN-1565,train,mangosteen,2,8,2,0.25
+PLAIN-1566,train,manure,5,1,0,0.0
+PLAIN-1569,train,maraschino cherry,19,4,0,0.0
+PLAIN-1570,train,Marek's disease virus,100,2,0,0.0
+PLAIN-1571,train,margarine,3,9,0,0.0
+PLAIN-1572,train,Marion Nestle,0,3,0,0.0
+PLAIN-1574,train,marketing,14,35,0,0.0
+PLAIN-1575,train,marshmallows,0,20,0,0.0
+PLAIN-1576,train,massage,4,15,2,0.13333333333333333
+PLAIN-1577,train,mastalgia,6,3,0,0.0
+PLAIN-1580,train,matcha,0,9,0,0.0
+PLAIN-1581,train,maté,2,1,0,0.0
+PLAIN-1582,train,Mayo Clinic,36,14,1,0.07142857142857142
+PLAIN-1583,train,McDonald’s,100,29,5,0.1724137931034483
+PLAIN-1585,train,meat,100,1155,73,0.0632034632034632
+PLAIN-1586,train,meat analogs,100,21,4,0.19047619047619047
+PLAIN-1587,train,meat glue,100,3,2,0.6666666666666666
+PLAIN-1588,train,Meatless Mondays,0,4,0,0.0
+PLAIN-1591,train,medical profession,100,82,13,0.15853658536585366
+PLAIN-1592,train,Medicare,1,2,0,0.0
+PLAIN-1594,train,medications,52,567,14,0.024691358024691357
+PLAIN-1595,train,meditation,4,34,3,0.08823529411764706
+PLAIN-1596,train,Mediterranean diet,100,129,41,0.3178294573643411
+PLAIN-1597,train,medium-chain fatty acids,100,12,1,0.08333333333333333
+PLAIN-1598,train,melanoma,14,24,1,0.041666666666666664
+PLAIN-1599,train,melatonin,20,24,18,0.75
+PLAIN-1602,train,men's health,100,327,26,0.07951070336391437
+PLAIN-1603,train,menarche,17,1,1,1.0
+PLAIN-1604,train,Meningioma,2,6,1,0.16666666666666666
+PLAIN-1605,train,menopause,11,40,1,0.025
+PLAIN-1606,train,menstruation,4,28,2,0.07142857142857142
+PLAIN-1607,train,mental health,100,286,19,0.06643356643356643
+PLAIN-1608,train,mercury,46,170,40,0.23529411764705882
+PLAIN-1609,train,mesclun mix,7,3,0,0.0
+PLAIN-1612,train,meta-analysis,100,1,0,0.0
+PLAIN-1613,train,metabolic syndrome,100,53,8,0.1509433962264151
+PLAIN-1614,train,Metabolife,1,7,1,0.14285714285714285
+PLAIN-1615,train,metabolism,100,48,3,0.0625
+PLAIN-1616,train,Metamucil,0,9,0,0.0
+PLAIN-1617,train,metastases,11,123,7,0.056910569105691054
+PLAIN-1618,train,metastatic calcification,25,1,1,1.0
+PLAIN-1619,train,methionine,16,14,10,0.7142857142857143
+PLAIN-1623,train,Mexico,8,18,2,0.1111111111111111
+PLAIN-1624,train,MGUS,5,13,5,0.38461538461538464
+PLAIN-1628,train,microbiome,6,10,0,0.0
+PLAIN-1630,train,microcystins,2,1,1,1.0
+PLAIN-1631,train,Micronase,0,2,0,0.0
+PLAIN-1632,train,microwaving,2,13,0,0.0
+PLAIN-1633,train,migraine headaches,10,32,6,0.1875
+PLAIN-1636,train,milk chocolate,100,14,8,0.5714285714285714
+PLAIN-1637,train,millet,2,4,0,0.0
+PLAIN-1638,train,mineral clay,57,8,2,0.25
+PLAIN-1639,train,mint,2,29,1,0.034482758620689655
+PLAIN-1640,train,Mioscene,0,4,0,0.0
+PLAIN-1641,train,miscarriage,4,12,0,0.0
+PLAIN-1642,train,miso,0,2,0,0.0
+PLAIN-1643,train,MIT,1,11,0,0.0
+PLAIN-1646,train,mold,1,32,0,0.0
+PLAIN-1647,train,monkfish,1,4,1,0.25
+PLAIN-1648,train,monounsaturated fats,94,17,3,0.17647058823529413
+PLAIN-1649,train,Monsanto,0,27,0,0.0
+PLAIN-1650,train,mood,35,158,17,0.10759493670886076
+PLAIN-1651,train,moose meat,100,2,0,0.0
+PLAIN-1652,train,morbidity,68,16,0,0.0
+PLAIN-1654,train,morphine,3,6,3,0.5
+PLAIN-1657,train,mouthwash,4,25,4,0.16
+PLAIN-1659,train,MPTP,3,15,3,0.2
+PLAIN-1660,train,MRSA,15,30,15,0.5
+PLAIN-1661,train,MSG,1,2,1,0.5
+PLAIN-1662,train,mucus,5,1,1,1.0
+PLAIN-1663,train,multiple myeloma,100,32,17,0.53125
+PLAIN-1664,train,multiple sclerosis,100,36,16,0.4444444444444444
+PLAIN-1665,train,multivitamins,11,40,7,0.175
+PLAIN-1668,train,muscle inflammation,100,30,14,0.4666666666666667
+PLAIN-1669,train,muscle soreness,94,32,8,0.25
+PLAIN-1670,train,muscle strength,100,52,17,0.3269230769230769
+PLAIN-1671,train,mushrooms,13,114,12,0.10526315789473684
+PLAIN-1673,train,mustard greens,9,18,2,0.1111111111111111
+PLAIN-1675,train,mustard powder,47,12,1,0.08333333333333333
+PLAIN-1676,train,mustard seeds,52,30,3,0.1
+PLAIN-1677,train,mutation,16,6,1,0.16666666666666666
+PLAIN-1681,train,myristic acid,100,8,1,0.125
+PLAIN-1682,train,Nagasaki,1,11,1,0.09090909090909091
+PLAIN-1683,train,nail health,100,8,0,0.0
+PLAIN-1684,train,nanoparticles,5,11,2,0.18181818181818182
+PLAIN-1685,train,naphthalene,2,5,0,0.0
+PLAIN-1686,train,naproxen,3,7,0,0.0
+PLAIN-1687,train,NASA,1,17,1,0.058823529411764705
+PLAIN-1688,train,nasal cavity cancer,100,14,2,0.14285714285714285
+PLAIN-1691,train,National Beef Cattleman’s Association,100,6,1,0.16666666666666666
+PLAIN-1692,train,National Cancer Institute,100,52,1,0.019230769230769232
+PLAIN-1693,train,National Cattlemen's Beef Association,100,14,0,0.0
+PLAIN-1694,train,National Confectioners Association,100,5,1,0.2
+PLAIN-1695,train,National Dairy Board,100,8,0,0.0
+PLAIN-1696,train,National Dairy Council,100,6,1,0.16666666666666666
+PLAIN-1697,train,National Dairy Promotion Board,100,2,0,0.0
+PLAIN-1698,train,National Pork Board,100,9,0,0.0
+PLAIN-1701,train,natural toxins,100,40,0,0.0
+PLAIN-1702,train,nausea,29,77,15,0.19480519480519481
+PLAIN-1703,train,navy beans,46,5,3,0.6
+PLAIN-1704,train,necrotizing fasciitis,2,7,1,0.14285714285714285
+PLAIN-1705,train,Nepal,2,2,1,0.5
+PLAIN-1706,train,nerve health,100,49,1,0.02040816326530612
+PLAIN-1707,train,Netherlands,19,1,1,1.0
+PLAIN-1708,train,neti pot,1,3,0,0.0
+PLAIN-1711,train,neuropathy,13,17,0,0.0
+PLAIN-1712,train,neurotoxins,9,89,7,0.07865168539325842
+PLAIN-1715,train,New York City,100,47,3,0.06382978723404255
+PLAIN-1716,train,New York Coalition for Healthy School Food,100,9,4,0.4444444444444444
+PLAIN-1717,train,New Zealand,100,18,1,0.05555555555555555
+PLAIN-1718,train,nicotine,6,9,1,0.1111111111111111
+PLAIN-1719,train,Nigeria,4,9,2,0.2222222222222222
+PLAIN-1722,train,nitrate,20,23,8,0.34782608695652173
+PLAIN-1723,train,nitric oxide,57,45,6,0.13333333333333333
+PLAIN-1724,train,nitrite,21,43,12,0.27906976744186046
+PLAIN-1725,train,nitroglycerin,4,4,0,0.0
+PLAIN-1726,train,nitrosamines,15,66,10,0.15151515151515152
+PLAIN-1727,train,non-Hodgkin lymphoma,100,37,8,0.21621621621621623
+PLAIN-1728,train,nonalcoholic fatty liver disease,100,13,6,0.46153846153846156
+PLAIN-1729,train,noni fruit,100,9,4,0.4444444444444444
+PLAIN-1732,train,Norway,8,23,2,0.08695652173913043
+PLAIN-1733,train,Nuremburg Code,4,11,1,0.09090909090909091
+PLAIN-1734,train,nutmeg,4,17,2,0.11764705882352941
+PLAIN-1735,train,Nutrasweet,0,15,0,0.0
+PLAIN-1736,train,nutrient absorption,100,37,11,0.2972972972972973
+PLAIN-1737,train,nutrient density,100,2,0,0.0
+PLAIN-1738,train,nutrient synergy,100,25,0,0.0
+PLAIN-1739,train,nutrition myths,100,173,9,0.05202312138728324
+PLAIN-1742,train,oatmeal,8,54,5,0.09259259259259259
+PLAIN-1743,train,oats,7,20,2,0.1
+PLAIN-1744,train,Obama,1,2,0,0.0
+PLAIN-1745,train,obesity,100,519,68,0.13102119460500963
+PLAIN-1746,train,obesogens,1,2,1,0.5
+PLAIN-1747,train,occupational health,100,12,1,0.08333333333333333
+PLAIN-1748,train,octopus,0,1,0,0.0
+PLAIN-1749,train,offal,4,15,1,0.06666666666666667
+PLAIN-1753,train,olive oil,100,68,16,0.23529411764705882
+PLAIN-1754,train,olives,0,22,0,0.0
+PLAIN-1755,train,omega-3 fatty acids,100,120,25,0.20833333333333334
+PLAIN-1756,train,omnivores,44,222,16,0.07207207207207207
+PLAIN-1757,train,onions,1,51,1,0.0196078431372549
+PLAIN-1758,train,oolong tea,100,18,8,0.4444444444444444
+PLAIN-1759,train,optimal diet,100,6,0,0.0
+PLAIN-1760,train,oral cancer,100,81,18,0.2222222222222222
+PLAIN-1763,train,orange juice,100,68,17,0.25
+PLAIN-1764,train,oranges,9,95,3,0.031578947368421054
+PLAIN-1765,train,oregano,1,24,1,0.041666666666666664
+PLAIN-1766,train,Oregon,3,8,0,0.0
+PLAIN-1767,train,organ meats,90,77,1,0.012987012987012988
+PLAIN-1768,train,organic,96,7,0,0.0
+PLAIN-1769,train,organic foods,100,170,28,0.16470588235294117
+PLAIN-1770,train,organic milk,100,8,7,0.875
+PLAIN-1773,train,orgasm,4,4,1,0.25
+PLAIN-1774,train,Orville Redenbacher,0,3,0,0.0
+PLAIN-1776,train,osteoarthritis,18,41,13,0.3170731707317073
+PLAIN-1777,train,osteoporosis,16,78,9,0.11538461538461539
+PLAIN-1778,train,Outback Steakhouse,1,2,1,0.5
+PLAIN-1779,train,ovarian cancer,100,80,14,0.175
+PLAIN-1780,train,ovary health,100,83,2,0.024096385542168676
+PLAIN-1781,train,overeating,2,5,0,0.0
+PLAIN-1785,train,Oxford,12,1,0,0.0
+PLAIN-1786,train,oxidative stress,100,501,51,0.10179640718562874
+PLAIN-1787,train,oyster mushrooms,13,1,0,0.0
+PLAIN-1788,train,oysters,6,30,5,0.16666666666666666
+PLAIN-1789,train,paclitaxel,1,3,0,0.0
+PLAIN-1790,train,paella,0,2,0,0.0
+PLAIN-1791,train,pain,93,188,44,0.23404255319148937
+PLAIN-1792,train,paleolithic diets,100,31,9,0.2903225806451613
+PLAIN-1795,train,pancakes,1,8,0,0.0
+PLAIN-1796,train,pancreas health,100,115,5,0.043478260869565216
+PLAIN-1797,train,pancreatic cancer,100,109,25,0.22935779816513763
+PLAIN-1798,train,pancreatic enzymes,100,1,1,1.0
+PLAIN-1799,train,pancreatitis,7,6,1,0.16666666666666666
+PLAIN-1801,train,papaya,2,9,0,0.0
+PLAIN-1802,train,paralysis,4,39,0,0.0
+PLAIN-1803,train,Paramide Plus,73,1,0,0.0
+PLAIN-1806,train,parkinsonism-dementia complex,100,2,0,0.0
+PLAIN-1808,train,pasta,6,69,1,0.014492753623188406
+PLAIN-1809,train,pasteurization,3,3,1,0.3333333333333333
+PLAIN-1810,train,patent,5,10,0,0.0
+PLAIN-1812,train,PBCs,0,20,0,0.0
+PLAIN-1813,train,PBDEs,18,8,6,0.75
+PLAIN-1814,train,PCBs,41,82,20,0.24390243902439024
+PLAIN-1815,train,PCOS,18,8,1,0.125
+PLAIN-1818,train,peanuts,13,36,3,0.08333333333333333
+PLAIN-1819,train,pears,4,26,1,0.038461538461538464
+PLAIN-1820,train,peas,12,90,5,0.05555555555555555
+PLAIN-1821,train,pecans,0,14,0,0.0
+PLAIN-1822,train,penicillin,0,30,0,0.0
+PLAIN-1823,train,penile bone,78,1,0,0.0
+PLAIN-1824,train,penis cancer,100,27,2,0.07407407407407407
+PLAIN-1825,train,penis health,100,109,6,0.05504587155963303
+PLAIN-1828,train,pepper,10,18,2,0.1111111111111111
+PLAIN-1829,train,peppermint,21,35,10,0.2857142857142857
+PLAIN-1830,train,peppermint oil,100,8,7,0.875
+PLAIN-1831,train,peppers,6,21,0,0.0
+PLAIN-1832,train,Pepsi,1,34,1,0.029411764705882353
+PLAIN-1833,train,perfluorochemicals,2,6,2,0.3333333333333333
+PLAIN-1834,train,periodontal disease,100,31,7,0.22580645161290322
+PLAIN-1835,train,persin,0,4,0,0.0
+PLAIN-1838,train,petroleum jelly,4,1,1,1.0
+PLAIN-1839,train,pets,5,24,3,0.125
+PLAIN-1840,train,petunidin,1,3,0,0.0
+PLAIN-1841,train,Pew Commission,4,16,0,0.0
+PLAIN-1842,train,Pfizer,1,7,0,0.0
+PLAIN-1843,train,pH,66,26,11,0.4230769230769231
+PLAIN-1844,train,pharmacists,0,2,0,0.0
+PLAIN-1845,train,pheasants,1,3,1,0.3333333333333333
+PLAIN-1848,train,Phillip Morris,1,5,0,0.0
+PLAIN-1849,train,PhIP,23,20,11,0.55
+PLAIN-1850,train,phosgene,0,3,0,0.0
+PLAIN-1851,train,phosphate additives,70,6,4,0.6666666666666666
+PLAIN-1852,train,phosphorus,17,17,6,0.35294117647058826
+PLAIN-1853,train,phthalates,10,6,3,0.5
+PLAIN-1854,train,physical attraction,100,16,0,0.0
+PLAIN-1855,train,Physicians Committee for Responsible Medicine,100,17,4,0.23529411764705882
+PLAIN-1858,train,phytoestrogens,25,72,10,0.1388888888888889
+PLAIN-1859,train,phytonutrients,9,684,6,0.008771929824561403
+PLAIN-1860,train,phytosterols,6,36,3,0.08333333333333333
+PLAIN-1861,train,pickled vegetables,100,13,1,0.07692307692307693
+PLAIN-1862,train,pie,1,2,0,0.0
+PLAIN-1863,train,pine needles,2,4,1,0.25
+PLAIN-1864,train,pine nuts,96,11,9,0.8181818181818182
+PLAIN-1865,train,pineal gland,10,24,2,0.08333333333333333
+PLAIN-1868,train,pinto beans,46,11,6,0.5454545454545454
+PLAIN-1869,train,piperine,4,8,3,0.375
+PLAIN-1870,train,pistachio principle,30,3,0,0.0
+PLAIN-1871,train,pistachios,2,34,1,0.029411764705882353
+PLAIN-1872,train,pizza,9,14,1,0.07142857142857142
+PLAIN-1873,train,Pizza Hut,9,2,1,0.5
+PLAIN-1874,train,placebo,100,32,7,0.21875
+PLAIN-1875,train,placebo effect,100,40,15,0.375
+PLAIN-1878,train,plant-based diets,100,1166,64,0.0548885077186964
+PLAIN-1879,train,plantains,0,12,0,0.0
+PLAIN-1880,train,plasma membrane,100,2,0,0.0
+PLAIN-1881,train,plastic,5,34,2,0.058823529411764705
+PLAIN-1882,train,platelets,11,28,7,0.25
+PLAIN-1883,train,plums,3,9,1,0.1111111111111111
+PLAIN-1884,train,plutonium,0,24,0,0.0
+PLAIN-1885,train,pneumonia,7,16,2,0.125
+PLAIN-1888,train,Poland,4,5,1,0.2
+PLAIN-1889,train,polonium,4,9,4,0.4444444444444444
+PLAIN-1890,train,polycarbonate plastic,5,4,1,0.25
+PLAIN-1891,train,polychlorinated naphthalenes,44,2,0,0.0
+PLAIN-1892,train,polycyclic aromatic hydrocarbons,38,40,9,0.225
+PLAIN-1893,train,polycyclic hydrocarbons,25,12,1,0.08333333333333333
+PLAIN-1894,train,polyethylene plastic,8,2,0,0.0
+PLAIN-1895,train,polymyositis,1,6,1,0.16666666666666666
+PLAIN-1898,train,polyps,4,23,1,0.043478260869565216
+PLAIN-1899,train,polyradiculoneuropathy,5,21,4,0.19047619047619047
+PLAIN-1900,train,Polysorbate 80,100,9,1,0.1111111111111111
+PLAIN-1901,train,pomegranate juice,100,19,7,0.3684210526315789
+PLAIN-1902,train,pomegranates,1,31,1,0.03225806451612903
+PLAIN-1904,train,popcorn,2,3,2,0.6666666666666666
+PLAIN-1905,train,popcorn lung,79,3,3,1.0
+PLAIN-1906,train,poppy seeds,46,3,3,1.0
+PLAIN-1910,train,pork brains,68,37,3,0.08108108108108109
+PLAIN-1911,train,pork rinds,56,15,4,0.26666666666666666
+PLAIN-1912,train,portobello mushrooms,13,1,0,0.0
+PLAIN-1913,train,potassium,41,32,8,0.25
+PLAIN-1914,train,potassium sorbate,41,4,3,0.75
+PLAIN-1915,train,potato chips,42,70,11,0.15714285714285714
+PLAIN-1916,train,potatoes,29,100,9,0.09
+PLAIN-1917,train,poultry,76,646,60,0.09287925696594428
+PLAIN-1920,train,prebiotics,7,20,0,0.0
+PLAIN-1921,train,Precose,0,7,0,0.0
+PLAIN-1922,train,prediabetes,14,345,14,0.04057971014492753
+PLAIN-1923,train,PREDIMED,15,29,8,0.27586206896551724
+PLAIN-1924,train,pregnancy,73,243,40,0.1646090534979424
+PLAIN-1925,train,prehistoric diets,100,19,7,0.3684210526315789
+PLAIN-1926,train,Premarin,0,9,0,0.0
+PLAIN-1927,train,premature puberty,36,59,8,0.13559322033898305
+PLAIN-1930,train,preservatives,6,65,2,0.03076923076923077
+PLAIN-1931,train,pressure cooking,100,1,0,0.0
+PLAIN-1932,train,pretzels,1,1,0,0.0
+PLAIN-1933,train,prion disease,100,11,2,0.18181818181818182
+PLAIN-1934,train,Pritikin,1,20,0,0.0
+PLAIN-1935,train,probiotics,19,82,14,0.17073170731707318
+PLAIN-1937,train,processed foods,100,325,21,0.06461538461538462
+PLAIN-1938,train,processed meat,100,198,32,0.16161616161616163
+PLAIN-1941,train,propionate,2,16,1,0.0625
+PLAIN-1942,train,Propulcid,0,9,0,0.0
+PLAIN-1943,train,prostate cancer,100,266,55,0.20676691729323307
+PLAIN-1944,train,prostate health,100,158,42,0.26582278481012656
+PLAIN-1945,train,prostatectomy,5,15,3,0.2
+PLAIN-1946,train,protein,100,352,44,0.125
+PLAIN-1947,train,protein powder,100,17,2,0.11764705882352941
+PLAIN-1948,train,Proteus mirabilis,7,17,7,0.4117647058823529
+PLAIN-1951,train,PSA,11,10,4,0.4
+PLAIN-1952,train,pseudomembranous colitis,28,11,0,0.0
+PLAIN-1954,train,psoriasis,7,5,1,0.2
+PLAIN-1955,train,psychosis,0,26,0,0.0
+PLAIN-1956,train,psyllium,6,2,1,0.5
+PLAIN-1957,train,PTH,3,1,0,0.0
+PLAIN-1958,train,puberty,14,80,10,0.125
+PLAIN-1960,train,puffer fish,100,4,3,0.75
+PLAIN-1963,train,pumpkin seeds,45,29,1,0.034482758620689655
+PLAIN-1964,train,Purevia,0,6,0,0.0
+PLAIN-1965,train,purines,0,17,0,0.0
+PLAIN-1966,train,purple potatoes,38,18,1,0.05555555555555555
+PLAIN-1967,train,purslane,1,1,1,1.0
+PLAIN-1968,train,pus,0,6,0,0.0
+PLAIN-1969,train,putrescine,6,10,4,0.4
+PLAIN-1970,train,QALY,4,1,1,1.0
+PLAIN-1973,train,quinoa,0,4,0,0.0
+PLAIN-1974,train,Quorn,0,15,0,0.0
+PLAIN-1975,train,rabbit meat,100,5,0,0.0
+PLAIN-1976,train,rabies,3,8,2,0.25
+PLAIN-1977,train,ractopamine,5,16,0,0.0
+PLAIN-1978,train,radiation,43,60,23,0.38333333333333336
+PLAIN-1980,train,radishes,0,12,0,0.0
+PLAIN-1981,train,raisins,11,52,9,0.17307692307692307
+PLAIN-1984,train,rash,8,21,1,0.047619047619047616
+PLAIN-1985,train,raspberries,7,32,2,0.0625
+PLAIN-1986,train,raw food,100,47,6,0.1276595744680851
+PLAIN-1987,train,Ray Cronice,16,3,0,0.0
+PLAIN-1988,train,recipes,6,14,0,0.0
+PLAIN-1989,train,rectal cancer,100,211,12,0.05687203791469194
+PLAIN-1992,train,red dye #3,100,4,4,1.0
+PLAIN-1993,train,red meat,100,196,17,0.08673469387755102
+PLAIN-1996,train,red wine,100,66,8,0.12121212121212122
+PLAIN-1997,train,red yeast rice,100,7,1,0.14285714285714285
+PLAIN-2000,train,reindeer meat,100,17,2,0.11764705882352941
+PLAIN-2002,train,reproductive health,100,155,27,0.17419354838709677
+PLAIN-2003,train,respiratory infections,100,66,16,0.24242424242424243
+PLAIN-2004,train,restaurants,10,16,4,0.25
+PLAIN-2005,train,resveratrol,11,8,0,0.0
+PLAIN-2006,train,reticuloendotheliosis virus,28,22,4,0.18181818181818182
+PLAIN-2010,train,rheumatoid arthritis,56,95,36,0.37894736842105264
+PLAIN-2011,train,rhubarb,1,3,0,0.0
+PLAIN-2012,train,riboflavin,4,3,1,0.3333333333333333
+PLAIN-2013,train,rice,36,121,18,0.1487603305785124
+PLAIN-2014,train,rice bran,53,5,2,0.4
+PLAIN-2015,train,rice bran oil,100,1,1,1.0
+PLAIN-2016,train,Rice Diet,100,5,0,0.0
+PLAIN-2017,train,rice milk,100,11,7,0.6363636363636364
+PLAIN-2020,train,Ritalin,0,2,0,0.0
+PLAIN-2021,train,roasting,5,22,3,0.13636363636363635
+PLAIN-2022,train,rooibos,1,1,0,0.0
+PLAIN-2023,train,rooibos tea,100,10,3,0.3
+PLAIN-2024,train,rose hips,26,3,2,0.6666666666666666
+PLAIN-2025,train,rosemary,2,14,2,0.14285714285714285
+PLAIN-2026,train,rosmarinic acid,100,3,0,0.0
+PLAIN-2027,train,Roundup,7,20,7,0.35
+PLAIN-2031,train,rye,13,15,0,0.0
+PLAIN-2032,train,saccharin,2,18,0,0.0
+PLAIN-2033,train,safety limits,100,252,22,0.0873015873015873
+PLAIN-2034,train,safflower oil,100,3,1,0.3333333333333333
+PLAIN-2035,train,saffron,12,27,8,0.2962962962962963
+PLAIN-2036,train,salads,3,17,1,0.058823529411764705
+PLAIN-2037,train,salami,3,51,1,0.0196078431372549
+PLAIN-2038,train,salami brusher's disease,100,17,1,0.058823529411764705
+PLAIN-2041,train,Salmonella,38,75,17,0.22666666666666666
+PLAIN-2042,train,salsa,1,4,1,0.25
+PLAIN-2043,train,salt,47,107,9,0.08411214953271028
+PLAIN-2044,train,Salt Institute,95,1,1,1.0
+PLAIN-2045,train,sandwiches,0,4,0,0.0
+PLAIN-2046,train,saoot,0,1,0,0.0
+PLAIN-2048,train,sarcocystis,2,1,1,1.0
+PLAIN-2049,train,sardines,0,14,0,0.0
+PLAIN-2052,train,sauerkraut,0,8,0,0.0
+PLAIN-2053,train,sausage,5,53,1,0.018867924528301886
+PLAIN-2054,train,scallions,0,9,0,0.0
+PLAIN-2055,train,schizophrenia,5,13,3,0.23076923076923078
+PLAIN-2056,train,School Lunch Program,100,10,6,0.6
+PLAIN-2057,train,sciatica,1,13,1,0.07692307692307693
+PLAIN-2058,train,scombroid poisoning,25,6,3,0.5
+PLAIN-2059,train,scurvy,0,5,0,0.0
+PLAIN-2062,train,seafood workers,89,21,15,0.7142857142857143
+PLAIN-2063,train,seal oil,100,4,2,0.5
+PLAIN-2064,train,second meal effect,100,5,4,0.8
+PLAIN-2065,train,seeds,45,231,17,0.0735930735930736
+PLAIN-2066,train,seitan,0,6,0,0.0
+PLAIN-2067,train,seizures,9,47,2,0.0425531914893617
+PLAIN-2068,train,selenium,14,2,0,0.0
+PLAIN-2069,train,semen,30,42,24,0.5714285714285714
+PLAIN-2072,train,sesame oil,100,1,1,1.0
+PLAIN-2073,train,sesame seeds,48,27,4,0.14814814814814814
+PLAIN-2074,train,sexual dysfunction,100,120,35,0.2916666666666667
+PLAIN-2075,train,sexual health,100,206,29,0.1407766990291262
+PLAIN-2076,train,sexual selection,100,18,3,0.16666666666666666
+PLAIN-2077,train,sexual transmission,85,32,5,0.15625
+PLAIN-2078,train,shark cartilage,14,3,2,0.6666666666666666
+PLAIN-2079,train,shark oil,100,1,1,1.0
+PLAIN-2082,train,shiitake mushrooms,13,11,2,0.18181818181818182
+PLAIN-2084,train,shopping carts,2,1,1,1.0
+PLAIN-2085,train,shortening,9,1,0,0.0
+PLAIN-2086,train,shrimp,3,37,0,0.0
+PLAIN-2087,train,side effects,100,494,21,0.04251012145748988
+PLAIN-2088,train,SIDS,1,3,1,0.3333333333333333
+PLAIN-2089,train,Singapore,2,1,0,0.0
+PLAIN-2090,train,sinus health,100,6,3,0.5
+PLAIN-2093,train,skim milk,100,24,14,0.5833333333333334
+PLAIN-2094,train,skin cancer,100,56,2,0.03571428571428571
+PLAIN-2095,train,skin health,100,142,25,0.176056338028169
+PLAIN-2096,train,sleep,27,65,14,0.2153846153846154
+PLAIN-2097,train,sleeping pills,15,5,0,0.0
+PLAIN-2098,train,Slovakia,0,19,0,0.0
+PLAIN-2099,train,Slovenia,0,7,0,0.0
+PLAIN-2100,train,Smithfield,0,1,0,0.0
+PLAIN-2103,train,smoothies,0,11,0,0.0
+PLAIN-2105,train,snail meat,100,1,0,0.0
+PLAIN-2106,train,snake oil,100,19,1,0.05263157894736842
+PLAIN-2107,train,snake venom,1,2,0,0.0
+PLAIN-2108,train,social anxiety disorder,100,2,0,0.0
+PLAIN-2109,train,soda,7,278,2,0.007194244604316547
+PLAIN-2110,train,sodium,95,65,9,0.13846153846153847
+PLAIN-2111,train,sodium benzoate,96,1,0,0.0
+PLAIN-2114,train,sorbitol,1,15,0,0.0
+PLAIN-2115,train,sore throat,7,10,1,0.1
+PLAIN-2116,train,soup,11,16,1,0.0625
+PLAIN-2117,train,South Africa,41,2,0,0.0
+PLAIN-2119,train,soy,76,269,34,0.12639405204460966
+PLAIN-2120,train,soy milk,100,66,17,0.25757575757575757
+PLAIN-2121,train,soy sauce,86,7,2,0.2857142857142857
+PLAIN-2122,train,soybeans,9,82,4,0.04878048780487805
+PLAIN-2125,train,speech impairment,54,2,0,0.0
+PLAIN-2126,train,sperm counts,56,63,25,0.3968253968253968
+PLAIN-2127,train,spermine,5,14,5,0.35714285714285715
+PLAIN-2128,train,spices,18,276,11,0.03985507246376811
+PLAIN-2129,train,spicy food,100,12,0,0.0
+PLAIN-2130,train,spillover effect,100,7,0,0.0
+PLAIN-2131,train,spinach,11,60,3,0.05
+PLAIN-2132,train,spinal cord health,100,4,2,0.5
+PLAIN-2135,train,split peas,17,62,5,0.08064516129032258
+PLAIN-2136,train,spoilage,3,9,1,0.1111111111111111
+PLAIN-2137,train,sports drinks,50,42,4,0.09523809523809523
+PLAIN-2138,train,sports medicine,100,15,1,0.06666666666666667
+PLAIN-2139,train,sprouting,0,25,0,0.0
+PLAIN-2140,train,sprouts,22,51,11,0.21568627450980393
+PLAIN-2141,train,squash,1,15,0,0.0
+PLAIN-2142,train,squash seeds,46,3,0,0.0
+PLAIN-2146,train,standard American diet,100,329,14,0.0425531914893617
+PLAIN-2147,train,staph infection,100,16,5,0.3125
+PLAIN-2148,train,STARI,2,6,0,0.0
+PLAIN-2149,train,statins,22,85,11,0.12941176470588237
+PLAIN-2151,train,steak,5,43,0,0.0
+PLAIN-2152,train,steaming,4,19,1,0.05263157894736842
+PLAIN-2153,train,stearic acid,100,8,1,0.125
+PLAIN-2154,train,stem cells,100,2,2,1.0
+PLAIN-2158,train,stomach cancer,100,40,11,0.275
+PLAIN-2159,train,stomach health,100,105,10,0.09523809523809523
+PLAIN-2160,train,stomach inflammation,100,27,4,0.14814814814814814
+PLAIN-2161,train,stomach ulcers,35,36,3,0.08333333333333333
+PLAIN-2162,train,stool size,100,39,5,0.1282051282051282
+PLAIN-2163,train,strawberries,14,175,11,0.06285714285714286
+PLAIN-2164,train,stress,100,85,17,0.2
+PLAIN-2165,train,stress test,100,24,0,0.0
+PLAIN-2168,train,substance P,100,9,0,0.0
+PLAIN-2169,train,sucralose,2,3,0,0.0
+PLAIN-2170,train,sudden cardiac death,100,19,6,0.3157894736842105
+PLAIN-2171,train,sugar,76,340,29,0.08529411764705883
+PLAIN-2172,train,Sugar Association,100,14,2,0.14285714285714285
+PLAIN-2173,train,Sugar Twin,90,3,1,0.3333333333333333
+PLAIN-2174,train,suicide,8,41,3,0.07317073170731707
+PLAIN-2175,train,sulfites,2,7,1,0.14285714285714285
+PLAIN-2178,train,sulfur dioxide,18,7,1,0.14285714285714285
+PLAIN-2179,train,sunburn,1,12,1,0.08333333333333333
+PLAIN-2180,train,sunchokes,0,1,0,0.0
+PLAIN-2181,train,sunflower seeds,50,10,1,0.1
+PLAIN-2182,train,sunlight,6,28,1,0.03571428571428571
+PLAIN-2183,train,superbugs,0,61,0,0.0
+PLAIN-2184,train,supermarkets,15,45,2,0.044444444444444446
+PLAIN-2185,train,superoxide dismutase,26,4,1,0.25
+PLAIN-2188,train,Supreme Court,2,1,0,0.0
+PLAIN-2189,train,Surgeon General,100,2,0,0.0
+PLAIN-2190,train,surgery,40,140,16,0.11428571428571428
+PLAIN-2191,train,sushi,2,37,2,0.05405405405405406
+PLAIN-2192,train,sustainability,4,22,1,0.045454545454545456
+PLAIN-2193,train,Sweden,11,40,1,0.025
+PLAIN-2194,train,Sweet and Low,100,18,1,0.05555555555555555
+PLAIN-2195,train,Sweet One,33,3,1,0.3333333333333333
+PLAIN-2198,train,Swiss chard,2,6,0,0.0
+PLAIN-2199,train,swordfish,1,20,1,0.05
+PLAIN-2202,train,tahini,0,7,0,0.0
+PLAIN-2203,train,Taiwan,14,20,4,0.2
+PLAIN-2204,train,tamoxifen,10,30,5,0.16666666666666666
+PLAIN-2205,train,tamsulosin,0,5,0,0.0
+PLAIN-2206,train,tangeretin,1,7,0,0.0
+PLAIN-2207,train,tanning beds,3,1,0,0.0
+PLAIN-2210,train,tarragon,4,4,4,1.0
+PLAIN-2211,train,tart cherries,18,31,15,0.4838709677419355
+PLAIN-2212,train,taste buds,24,16,6,0.375
+PLAIN-2214,train,Taxol,2,7,0,0.0
+PLAIN-2215,train,tea,100,241,58,0.24066390041493776
+PLAIN-2216,train,teff,0,1,0,0.0
+PLAIN-2217,train,television,8,3,1,0.3333333333333333
+PLAIN-2218,train,telomerase,8,3,1,0.3333333333333333
+PLAIN-2221,train,testicular cancer,100,47,3,0.06382978723404255
+PLAIN-2222,train,testicular health,100,56,4,0.07142857142857142
+PLAIN-2223,train,testosterone,42,53,9,0.16981132075471697
+PLAIN-2224,train,tetrodotoxin,1,4,1,0.25
+PLAIN-2225,train,Texas,7,9,0,0.0
+PLAIN-2226,train,TGI Friday's,100,11,2,0.18181818181818182
+PLAIN-2227,train,thalidomide,0,12,0,0.0
+PLAIN-2228,train,theanine,3,10,3,0.3
+PLAIN-2231,train,thimerosal,2,5,1,0.2
+PLAIN-2232,train,throat cancer,100,47,5,0.10638297872340426
+PLAIN-2233,train,throat health,100,39,2,0.05128205128205128
+PLAIN-2234,train,thyme,1,2,0,0.0
+PLAIN-2235,train,thymus,5,4,0,0.0
+PLAIN-2236,train,thyroid cancer,100,6,0,0.0
+PLAIN-2237,train,thyroid disease,100,88,10,0.11363636363636363
+PLAIN-2238,train,thyroid health,100,94,9,0.09574468085106383
+PLAIN-2241,train,TMAO,4,11,2,0.18181818181818182
+PLAIN-2242,train,tobacco,61,249,21,0.08433734939759036
+PLAIN-2243,train,tofu,6,47,5,0.10638297872340426
+PLAIN-2244,train,Tomato Effect,100,4,0,0.0
+PLAIN-2245,train,tomato juice,100,40,8,0.2
+PLAIN-2246,train,tomato sauce,33,18,6,0.3333333333333333
+PLAIN-2247,train,tomatoes,20,161,13,0.08074534161490683
+PLAIN-2248,train,Tonga,2,2,1,0.5
+PLAIN-2251,train,tonsil cancer,100,6,1,0.16666666666666666
+PLAIN-2252,train,TOR,7,44,6,0.13636363636363635
+PLAIN-2253,train,torcetrapib,0,7,0,0.0
+PLAIN-2254,train,Toxaphene,1,2,0,0.0
+PLAIN-2255,train,toxic megacolon,100,13,0,0.0
+PLAIN-2256,train,toxoplasma,5,21,5,0.23809523809523808
+PLAIN-2258,train,traffic,4,1,0,0.0
+PLAIN-2259,train,trail mix,11,2,0,0.0
+PLAIN-2262,train,transglutaminase,7,3,1,0.3333333333333333
+PLAIN-2263,train,treadmill,9,12,1,0.08333333333333333
+PLAIN-2264,train,tremors,0,27,0,0.0
+PLAIN-2265,train,triglycerides,82,71,8,0.11267605633802817
+PLAIN-2266,train,trigylcerides,0,7,0,0.0
+PLAIN-2267,train,trimethylamine,5,12,3,0.25
+PLAIN-2268,train,triphala,3,9,3,0.3333333333333333
+PLAIN-2269,train,Truvia,0,6,0,0.0
+PLAIN-2272,train,tulsi tea,100,1,0,0.0
+PLAIN-2273,train,Tumor necrosis factor,100,2,1,0.5
+PLAIN-2274,train,tumor suppressor genes,100,8,2,0.25
+PLAIN-2275,train,Tums,0,12,0,0.0
+PLAIN-2276,train,tuna,9,135,5,0.037037037037037035
+PLAIN-2277,train,Tuna Council,19,1,0,0.0
+PLAIN-2278,train,turbinado sugar,76,1,1,1.0
+PLAIN-2279,train,turkey,15,465,6,0.012903225806451613
+PLAIN-2282,train,TVP,1,4,1,0.25
+PLAIN-2283,train,twin studies,100,3,1,0.3333333333333333
+PLAIN-2284,train,Twinkies,0,18,0,0.0
+PLAIN-2285,train,twins,9,12,3,0.25
+PLAIN-2286,train,Tylenol,0,7,0,0.0
+PLAIN-2287,train,U.S. Department of Defense,100,13,0,0.0
+PLAIN-2288,train,U.S. Dry Bean Council,100,2,0,0.0
+PLAIN-2289,train,Uganda,2,9,0,0.0
+PLAIN-2292,train,underweight,2,1,0,0.0
+PLAIN-2293,train,Union of Concerned Scientists,57,10,0,0.0
+PLAIN-2294,train,United Kingdom,100,51,5,0.09803921568627451
+PLAIN-2295,train,uric acid,100,47,13,0.2765957446808511
+PLAIN-2296,train,urinary tract infections,100,61,20,0.32786885245901637
+PLAIN-2297,train,urticaria,9,5,3,0.6
+PLAIN-2298,train,Uruguay,2,2,0,0.0
+PLAIN-2299,train,USDA,11,122,4,0.03278688524590164
+PLAIN-2302,train,vaccinations,3,5,1,0.2
+PLAIN-2303,train,vaccines,6,34,2,0.058823529411764705
+PLAIN-2304,train,vaginal cancer,100,14,3,0.21428571428571427
+PLAIN-2305,train,vaginal discharge,26,12,4,0.3333333333333333
+PLAIN-2306,train,vaginal health,100,45,6,0.13333333333333333
+PLAIN-2307,train,vaginosis,3,4,3,0.75
+PLAIN-2308,train,Valium,0,20,0,0.0
+PLAIN-2309,train,varicose veins,4,6,0,0.0
+PLAIN-2312,train,veal brains,17,37,2,0.05405405405405406
+PLAIN-2313,train,vegans,35,949,23,0.02423603793466807
+PLAIN-2314,train,vegetable oil,100,20,0,0.0
+PLAIN-2315,train,vegetable protein,100,60,14,0.23333333333333334
+PLAIN-2316,train,vegetables,100,1122,76,0.0677361853832442
+PLAIN-2317,train,vegetarians,95,993,63,0.0634441087613293
+PLAIN-2318,train,VEGF,13,8,3,0.375
+PLAIN-2319,train,veggie bacon,12,14,3,0.21428571428571427
+PLAIN-2322,train,veggie dogs,12,28,0,0.0
+PLAIN-2323,train,Veggiecation,0,9,0,0.0
+PLAIN-2324,train,venison,0,3,0,0.0
+PLAIN-2326,train,Vesanto Melina,0,1,0,0.0
+PLAIN-2327,train,Viagra,2,10,0,0.0
+PLAIN-2328,train,Vietnam,3,12,2,0.16666666666666666
+PLAIN-2329,train,vincristine,1,3,0,0.0
+PLAIN-2330,train,vinegar,9,35,3,0.08571428571428572
+PLAIN-2333,train,Virginia Messina,4,4,0,0.0
+PLAIN-2334,train,vision,16,77,4,0.05194805194805195
+PLAIN-2335,train,visual disturbance,56,4,1,0.25
+PLAIN-2336,train,vitamin A,100,29,9,0.3103448275862069
+PLAIN-2337,train,vitamin B1,100,14,0,0.0
+PLAIN-2338,train,vitamin B12,100,36,16,0.4444444444444444
+PLAIN-2340,train,vitamin C,100,205,24,0.11707317073170732
+PLAIN-2341,train,vitamin D,100,28,20,0.7142857142857143
+PLAIN-2344,train,vitamins,73,42,0,0.0
+PLAIN-2345,train,VLDL,4,5,0,0.0
+PLAIN-2346,train,voice box cancer,100,26,0,0.0
+PLAIN-2347,train,voice box health,100,20,0,0.0
+PLAIN-2349,train,vomiting,22,22,6,0.2727272727272727
+PLAIN-2350,train,vulva cancer,100,16,2,0.125
+PLAIN-2351,train,waist-to-height ratio,100,2,2,1.0
+PLAIN-2352,train,wakame,1,2,0,0.0
+PLAIN-2355,train,walnuts,11,79,11,0.13924050632911392
+PLAIN-2356,train,wart viruses,25,32,8,0.25
+PLAIN-2357,train,warts,3,22,2,0.09090909090909091
+PLAIN-2358,train,water,100,191,25,0.13089005235602094
+PLAIN-2359,train,watercress,4,11,2,0.18181818181818182
+PLAIN-2360,train,watermelon,4,32,4,0.125
+PLAIN-2361,train,watermelon seeds,49,1,0,0.0
+PLAIN-2362,train,weakness,9,10,2,0.2
+PLAIN-2365,train,weight loss,100,380,43,0.11315789473684211
+PLAIN-2366,train,whale meat,100,1,0,0.0
+PLAIN-2367,train,wheat,37,51,12,0.23529411764705882
+PLAIN-2368,train,whiff test,100,4,0,0.0
+PLAIN-2369,train,whipped cream,7,4,0,0.0
+PLAIN-2370,train,white meat,100,125,9,0.072
+PLAIN-2372,train,white tea,100,26,13,0.5
+PLAIN-2373,train,white wine,100,10,2,0.2
+PLAIN-2377,train,wild game,25,3,2,0.6666666666666666
+PLAIN-2378,train,wine,25,83,8,0.0963855421686747
+PLAIN-2379,train,wine supplements,100,4,1,0.25
+PLAIN-2380,train,women's health,100,733,39,0.05320600272851296
+PLAIN-2381,train,Women’s Healthy Eating and Living Study,100,4,2,0.5
+PLAIN-2382,train,woodear mushrooms,13,1,0,0.0
+PLAIN-2383,train,Workplace intervention,100,11,6,0.5454545454545454
+PLAIN-2384,train,World Cancer Research Fund,100,2,0,0.0
+PLAIN-2387,train,wound healing,25,25,2,0.08
+PLAIN-2388,train,wrinkles,1,16,1,0.0625
+PLAIN-2389,train,X-rays,62,21,1,0.047619047619047616
+PLAIN-2390,train,xanthan gum,3,9,0,0.0
+PLAIN-2391,train,xanthones,0,1,0,0.0
+PLAIN-2392,train,xeno-autoantibodies,4,3,0,0.0
+PLAIN-2393,train,xenoestrogens,2,55,2,0.03636363636363636
+PLAIN-2394,train,xenohormesis,4,8,3,0.375
+PLAIN-2397,train,yams,0,17,0,0.0
+PLAIN-2398,train,yeast,18,24,4,0.16666666666666666
+PLAIN-2400,train,yerba mate,6,4,2,0.5
+PLAIN-2401,train,Yersinia,14,16,14,0.875
+PLAIN-2402,train,yogurt,7,75,1,0.013333333333333334
+PLAIN-2403,train,Z-Sweet,48,3,1,0.3333333333333333
+PLAIN-2404,train,zeaxanthin,19,34,13,0.38235294117647056
+PLAIN-2406,train,zinc,26,32,7,0.21875
+PLAIN-2409,train,zoonotic disease,100,79,10,0.12658227848101267
+PLAIN-2410,train,zucchini,1,10,0,0.0
+PLAIN-2411,train,GMO,1,27,1,0.037037037037037035
+PLAIN-2423,train,McDonalds,0,27,0,0.0
+PLAIN-2425,train,preservation,8,14,0,0.0
+PLAIN-2426,train,Yanomamo,2,14,2,0.14285714285714285
+PLAIN-2427,train,Heart of Gold: Turmeric vs. Exercise,100,101,18,0.1782178217821782
+PLAIN-2428,train,Does Fiber Really Prevent Diverticulosis?,100,15,7,0.4666666666666667
+PLAIN-2431,train,Flame Retardant Pollutants and Child Development,100,47,14,0.2978723404255319
+PLAIN-2432,train,Peppermint Oil for Irritable Bowel Syndrome,100,67,34,0.5074626865671642
+PLAIN-2433,train,Can Diabetic Retinopathy Be Reversed?,79,36,8,0.2222222222222222
+PLAIN-2434,train,"Should You Sit, Squat, or Lean During a Bowel Movement?",100,16,4,0.25
+PLAIN-2435,train,How Many Bowel Movements Should You Have Every Day?,100,31,17,0.5483870967741935
+PLAIN-2436,train,The Best Kept Secret in Medicine,100,15,1,0.06666666666666667
+PLAIN-2437,train,Big Sugar Takes on the World Health Organization,100,27,11,0.4074074074074074
+PLAIN-2438,train,What Causes Diabetes?,100,42,13,0.30952380952380953
+PLAIN-2441,train,Uprooting the Leading Causes of Death,100,21,0,0.0
+PLAIN-2442,train,Drugs and the Demise of the Rice Diet,100,13,3,0.23076923076923078
+PLAIN-2443,train,Dietary Pollutants May Affect Testosterone Levels,100,73,7,0.0958904109589041
+PLAIN-2444,train,"Turmeric Curcumin, MGUS, and Multiple Myeloma",100,72,34,0.4722222222222222
+PLAIN-2445,train,Why Do Plant-Based Diets Help Rheumatoid Arthritis?,100,65,14,0.2153846153846154
+PLAIN-2446,train,How to Prevent Kidney Stones With Diet,100,29,9,0.3103448275862069
+PLAIN-2447,train,Are the Benefits of Organic Food Underrated or Overrated?,100,45,8,0.17777777777777778
+PLAIN-2448,train,Are Organic Foods Healthier?,100,47,7,0.14893617021276595
+PLAIN-2451,train,Are Organic Foods More Nutritious?,100,61,7,0.11475409836065574
+PLAIN-2452,train,Bowel Wars: Hydrogen Sulfide vs. Butyrate,100,70,10,0.14285714285714285
+PLAIN-2453,train,How to Prevent High Blood Pressure with Diet,100,36,8,0.2222222222222222
+PLAIN-2454,train,Antioxidants and Depression,100,89,27,0.30337078651685395
+PLAIN-2455,train,Cholesterol Crystals May Tear Through Our Artery Lining,100,8,5,0.625
+PLAIN-2456,train,What Percent of Americans Lead Healthy Lifestyles?,100,42,5,0.11904761904761904
+PLAIN-2457,train,C. difficile Superbugs in Meat,100,59,16,0.2711864406779661
+PLAIN-2458,train,Formula for Childhood Obesity,100,50,5,0.1
+PLAIN-2461,train,Peppermint Aromatherapy for Nausea,57,70,32,0.45714285714285713
+PLAIN-2462,train,Switching from Beef to Chicken & Fish May Not Lower Cholesterol,100,32,8,0.25
+PLAIN-2463,train,How Much Fruit is Too Much?,100,31,3,0.0967741935483871
+PLAIN-2464,train,Diet and Amyotrophic Lateral Sclerosis (ALS),100,39,18,0.46153846153846156
+PLAIN-2465,train,ALS (Lou Gehrig's Disease): Fishing for Answers,100,35,15,0.42857142857142855
+PLAIN-2466,train,Nutritional Yeast to Prevent the Common Cold,100,43,7,0.16279069767441862
+PLAIN-2467,train,Can Oatmeal Help Fatty Liver Disease?,100,63,13,0.20634920634920634
+PLAIN-2468,train,Oatmeal Lotion for Chemotherapy-Induced Rash,100,37,8,0.21621621621621623
+PLAIN-2471,train,Do Antidepressant Drugs Really Work?,100,34,11,0.3235294117647059
+PLAIN-2472,train,Exercise vs. Drugs for Depression,100,49,23,0.46938775510204084
+PLAIN-2473,train,Improving on the Mediterranean Diet,100,61,11,0.18032786885245902
+PLAIN-2474,train,Do Flexitarians Live Longer?,100,34,2,0.058823529411764705
+PLAIN-2475,train,Which Parts of the Mediterranean Diet Extended Life?,100,36,8,0.2222222222222222
+PLAIN-2476,train,PREDIMED: Does Eating Nuts Prevent Strokes?,100,41,15,0.36585365853658536
+PLAIN-2477,train,The Mediterranean Diet or a Whole Food Plant-Based Diet?,100,46,8,0.17391304347826086
+PLAIN-2478,train,Why Was Heart Disease Rare in the Mediterranean?,100,74,18,0.24324324324324326
+PLAIN-2481,train,Optimal Cholesterol Level,100,19,9,0.47368421052631576
+PLAIN-2482,train,Reducing Glycotoxin Intake to Prevent Alzheimer's,100,31,5,0.16129032258064516
+PLAIN-2483,train,The Cilantro Gene,100,13,2,0.15384615384615385
+PLAIN-2484,train,Plant-Based Workplace Intervention,100,28,5,0.17857142857142858
+PLAIN-2485,train,Lipotoxicity: How Saturated Fat Raises Blood Sugar,100,21,9,0.42857142857142855
+PLAIN-2486,train,The Spillover Effect Links Obesity to Diabetes,100,13,3,0.23076923076923078
+PLAIN-2487,train,What Causes Insulin Resistance?,100,17,7,0.4117647058823529
+PLAIN-2488,train,The Problem With the Paleo Diet Argument,100,25,0,0.0
+PLAIN-2491,train,Flax Seeds for Hypertension,100,43,10,0.23255813953488372
+PLAIN-2492,train,Preventing Alzheimer’s Disease With Plants,100,24,6,0.25
+PLAIN-2493,train,Turmeric Curcumin vs. Exercise for Artery Function,100,40,12,0.3
+PLAIN-2494,train,Enhancing Athletic Performance With Peppermint,100,80,11,0.1375
+PLAIN-2495,train,Never Too Late to Start Eating Healthier,100,20,0,0.0
+PLAIN-2496,train,Are Raisins Good Snacks for Kids?,100,38,9,0.23684210526315788
+PLAIN-2497,train,Plant-Based Diets and Diabetes,100,37,5,0.13513513513513514
+PLAIN-2498,train,How Many Meet the Simple Seven?,100,22,1,0.045454545454545456
+PLAIN-2501,train,Which Dietary Factors Affect Breast Cancer Most?,100,109,27,0.24770642201834864
+PLAIN-2502,train,Ciguatera Poisoning & Chronic Fatigue Syndrome,100,24,8,0.3333333333333333
+PLAIN-2503,train,Preventing Crohn’s Disease With Diet,100,36,17,0.4722222222222222
+PLAIN-2504,train,Why Do Vegan Women Have 5x Fewer Twins?,100,66,5,0.07575757575757576
+PLAIN-2505,train,"Estrogen in Meat, Dairy, and Eggs",100,61,9,0.14754098360655737
+PLAIN-2506,train,Can Diet Protect Against Kidney Cancer?,100,43,2,0.046511627906976744
+PLAIN-2507,train,Paleo Diets May Negate Benefits of Exercise,100,31,2,0.06451612903225806
+PLAIN-2508,train,Aspartame and the Brain,100,50,14,0.28
+PLAIN-2511,train,Food Industry Funded Research Bias,100,14,4,0.2857142857142857
+PLAIN-2512,train,Kempner Rice Diet: Whipping Us Into Shape,100,20,1,0.05
+PLAIN-2513,train,Back in Circulation: Sciatica and Cholesterol,100,51,9,0.17647058823529413
+PLAIN-2514,train,"If Fructose is Bad, What About Fruit?",100,75,17,0.22666666666666666
+PLAIN-2515,train,Eliminating 90% of Heart Disease Risk,100,19,5,0.2631578947368421
+PLAIN-2516,train,Inhibiting Platelet Activation with Tomato Seeds,100,43,17,0.3953488372093023
+PLAIN-2517,train,Preventing Alzheimer’s Disease with Diet,100,70,6,0.08571428571428572
+PLAIN-2518,train,Preventing Alzheimer’s with Lifestyle Changes,100,31,12,0.3870967741935484
+PLAIN-2521,train,GMO Soy and Breast Cancer,100,57,9,0.15789473684210525
+PLAIN-2522,train,Is Monsanto’s Roundup Pesticide Glyphosate Safe?,100,24,15,0.625
+PLAIN-2523,train,Are GMOs Safe? The Case of Roundup Ready Soy,100,28,6,0.21428571428571427
+PLAIN-2524,train,Are GMOs Safe? The Case of Bt Corn,100,18,1,0.05555555555555555
+PLAIN-2525,train,Antibiotics: Agribusinesses’ Pound of Flesh,55,32,9,0.28125
+PLAIN-2526,train,Hospitals Selling Sickness,41,3,1,0.3333333333333333
+PLAIN-2527,train,Dairy Estrogen and Male Fertility,100,35,8,0.22857142857142856
+PLAIN-2528,train,The Role of Diet in Declining Sperm Counts,100,68,22,0.3235294117647059
+PLAIN-2531,train,Turmeric Curcumin and Pancreatic Cancer,100,105,64,0.6095238095238096
+PLAIN-2532,train,Can Flax Seeds Help Prevent Breast Cancer?,100,57,22,0.38596491228070173
+PLAIN-2533,train,PCBs in Children’s Fish Oil Supplements,100,81,12,0.14814814814814814
+PLAIN-2534,train,How Much Hibiscus Tea is Too Much?,100,16,7,0.4375
+PLAIN-2535,train,Is There Too Much Aluminum in Tea?,100,47,14,0.2978723404255319
+PLAIN-2536,train,Protecting Teeth From Hibiscus Tea,100,91,12,0.13186813186813187
+PLAIN-2537,train,Hibiscus Tea vs. Plant-Based Diets for Hypertension,100,51,14,0.27450980392156865
+PLAIN-2538,train,Lifestyle Medicine Is the Standard of Care for Prediabetes,100,17,8,0.47058823529411764
+PLAIN-2541,train,Telomeres: Cap It All Off with Diet,100,64,13,0.203125
+PLAIN-2542,train,Does Meditation Affect Cellular Aging?,100,93,22,0.23655913978494625
+PLAIN-2543,train,Treating Alzheimer's with Turmeric,100,81,26,0.32098765432098764
+PLAIN-2544,train,Preventing Alzheimer's with Turmeric,100,35,13,0.37142857142857144
+PLAIN-2545,train,Garlic and Raisins to Prevent Premature Birth,100,41,8,0.1951219512195122
+PLAIN-2546,train,Dioxins in U.S. Farm-Raised Catfish,100,51,13,0.2549019607843137
+PLAIN-2547,train,Collaboration with the New Vectors of Disease,100,17,0,0.0
+PLAIN-2548,train,Four Nuts Once a Month,100,23,13,0.5652173913043478
+PLAIN-2551,train,Treating Gout with Cherry Juice,100,41,10,0.24390243902439024
+PLAIN-2552,train,MRSA Superbugs in Meat,100,44,14,0.3181818181818182
+PLAIN-2553,train,How to Prevent Prediabetes in Children,100,28,12,0.42857142857142855
+PLAIN-2554,train,How to Prevent Prediabetes from Turning into Diabetes,100,28,13,0.4642857142857143
+PLAIN-2555,train,"Beans, Beans, They're Good For Your Heart",100,58,9,0.15517241379310345
+PLAIN-2556,train,How to Diagnose Gluten Intolerance,55,7,6,0.8571428571428571
+PLAIN-2557,train,Gluten-Free Diets: Separating the Wheat from the Chat,100,35,12,0.34285714285714286
+PLAIN-2558,train,Is Gluten Sensitivity Real?,100,65,11,0.16923076923076924
+PLAIN-2561,train,Second Strategy to Cooking Broccoli,100,27,16,0.5925925925925926
+PLAIN-2562,train,Inhibiting Platelet Aggregation with Berries,100,49,14,0.2857142857142857
+PLAIN-2563,train,Illegal Drugs in Chicken Feathers,100,47,14,0.2978723404255319
+PLAIN-2564,train,What’s the Best Mouthwash?,100,43,3,0.06976744186046512
+PLAIN-2565,train,Which Vegetable Binds Bile Best?,100,21,3,0.14285714285714285
+PLAIN-2566,train,Breast Cancer and Constipation,100,89,27,0.30337078651685395
+PLAIN-2567,train,Evidence-Based Medicine or Evidence-Biased?,100,24,2,0.08333333333333333
+PLAIN-2568,train,Saving Lives By Treating Acne With Diet,100,55,15,0.2727272727272727
+PLAIN-2571,train,Preventing Prediabetes By Eating More,100,58,4,0.06896551724137931
+PLAIN-2572,train,Which Nut Fights Cancer Better?,100,38,17,0.4473684210526316
+PLAIN-2573,train,What Diet Should Physicians Recommend?,100,12,3,0.25
+PLAIN-2574,train,Preventing Liver Cancer with Coffee,100,38,7,0.18421052631578946
+PLAIN-2575,train,Essential Tremor and Diet,100,54,10,0.18518518518518517
+PLAIN-2576,train,Cooking to Live Longer,100,33,4,0.12121212121212122
+PLAIN-2577,train,The Best Way to Cook Sweet Potatoes,100,19,13,0.6842105263157895
+PLAIN-2578,train,Anti-Cancer Potential of Sweet Potato Proteins,100,20,16,0.8
+PLAIN-2581,train,Dark Chocolate and Artery Function,100,43,18,0.4186046511627907
+PLAIN-2582,train,Broccoli: Sprouts vs. Supplements,100,28,9,0.32142857142857145
+PLAIN-2583,train,When Low Risk Means High Risk,100,9,0,0.0
+PLAIN-2584,train,Topical Application of Turmeric Curcumin for Cancer,100,50,39,0.78
+PLAIN-2585,train,Turmeric Curcumin and Colon Cancer,100,38,20,0.5263157894736842
+PLAIN-2586,train,Cadmium and Cancer: Plant vs. Animal Foods,100,104,14,0.1346153846153846
+PLAIN-2587,train,Watermelon for Sore Muscle Relief,100,42,15,0.35714285714285715
+PLAIN-2588,train,Gout Treatment with a Cherry on Top,100,56,8,0.14285714285714285
+PLAIN-2591,train,Longer Life Within Walking Distance,100,85,4,0.047058823529411764
+PLAIN-2592,train,Turning the Clock Back 14 Years,100,53,3,0.05660377358490566
+PLAIN-2593,train,"Fruits, Veggies, and Longevity: How Many Minutes Per Mouthful?",100,33,6,0.18181818181818182
+PLAIN-2594,train,Magic Bullets vs. Promiscuous Plants,100,39,2,0.05128205128205128
+PLAIN-2595,train,Plants as Intellectual Property – Patently Wrong?,96,71,4,0.056338028169014086
+PLAIN-2596,train,Xenohormesis: What Doesn't Kill Plants May Make Us Stronger,100,44,4,0.09090909090909091
+PLAIN-2597,train,Appropriating Plant Defenses,100,52,7,0.1346153846153846
+PLAIN-2598,train,"Tick Bites, Meat Allergies, and Chronic Urticaria",100,52,14,0.2692307692307692
+PLAIN-2601,train,Debunking Egg Industry Myths,100,28,11,0.39285714285714285
+PLAIN-2602,train,Walnuts and Artery Function,100,65,7,0.1076923076923077
+PLAIN-2603,train,Pollutants in Salmon and Our Own Fat,100,37,7,0.1891891891891892
+PLAIN-2604,train,Diabetes and Dioxins,100,63,8,0.12698412698412698
+PLAIN-2605,train,Fish and Diabetes,100,83,22,0.26506024096385544
+PLAIN-2606,train,Cancer Risk From French Fries,100,47,11,0.23404255319148937
+PLAIN-2607,train,Statin Cholesterol Drugs and Invasive Breast Cancer,100,26,10,0.38461538461538464
+PLAIN-2608,train,Cholesterol Feeds Breast Cancer Cells,100,65,21,0.3230769230769231
+PLAIN-2611,train,Treating Asthma With Fruits and Vegetables,100,20,6,0.3
+PLAIN-2612,train,Preventing Asthma With Fruits and Vegetables,100,60,17,0.2833333333333333
+PLAIN-2613,train,Taxpayer Subsidies for Unhealthy Foods,100,26,2,0.07692307692307693
+PLAIN-2614,train,How Many Cancers Have Been Caused by Arsenic-Laced Chicken?,100,37,10,0.2702702702702703
+PLAIN-2615,train,California Children Are Contaminated,100,83,5,0.060240963855421686
+PLAIN-2616,train,Caloric Restriction vs. Animal Protein Restriction,100,44,11,0.25
+PLAIN-2617,train,Why Do We Age?,100,41,7,0.17073170731707318
+PLAIN-2618,train,Blood Type Diet Debunked,100,10,2,0.2
+PLAIN-2621,train,Phytates for Rehabilitating Cancer Cells,100,45,8,0.17777777777777778
+PLAIN-2622,train,Phytates for the Prevention of Cancer,100,67,6,0.08955223880597014
+PLAIN-2623,train,Low Carb Diets and Coronary Blood Flow,100,15,6,0.4
+PLAIN-2624,train,Nuts May Help Prevent Death,100,32,13,0.40625
+PLAIN-2625,train,Turmeric Curcumin Reprogramming Cancer Cell Death,100,84,42,0.5
+PLAIN-2626,train,Carcinogen Blocking Effects of Turmeric,100,49,11,0.22448979591836735
+PLAIN-2627,train,Back to Our Roots: Curry and Cancer,100,64,4,0.0625
+PLAIN-2628,train,Seeing Red No. 3: Coloring to Dye For,100,49,6,0.12244897959183673
+PLAIN-2631,train,How to Slow Brain Aging by Two Years,100,59,7,0.11864406779661017
+PLAIN-2632,train,Is Meat Glue Safe?,100,20,4,0.2
+PLAIN-2633,train,Is Liquid Smoke Flavoring Carcinogenic?,100,40,12,0.3
+PLAIN-2634,train,"Food Antioxidants, Stroke, and Heart Disease",100,28,6,0.21428571428571427
+PLAIN-2635,train,Food Antioxidants and Cancer,100,52,12,0.23076923076923078
+PLAIN-2636,train,Orange Aromatherapy for Anxiety,76,91,26,0.2857142857142857
+PLAIN-2637,train,Who Says Eggs Aren't Healthy or Safe?,100,11,2,0.18181818181818182
+PLAIN-2638,train,How Much Exercise to Sustain Weight Loss?,100,15,4,0.26666666666666666
+PLAIN-2641,train,Foster Farms Responds to Chicken Salmonella Outbreaks,100,62,28,0.45161290322580644
+PLAIN-2642,train,Norovirus Food Poisoning from Pesticides,100,20,5,0.25
+PLAIN-2643,train,Is Fish Oil Just Snake Oil?,100,47,16,0.3404255319148936
+PLAIN-2644,train,Should We Take a Multivitamin?,17,21,11,0.5238095238095238
+PLAIN-2645,train,Convincing Doctors to Embrace Lifestyle Medicine,100,4,1,0.25
+PLAIN-2646,train,Dr. Burkitt’s F-Word Diet,100,44,2,0.045454545454545456
+PLAIN-2647,train,Prostate Cancer and Organic Milk vs. Almond Milk,100,20,9,0.45
+PLAIN-2648,train,Who Shouldn’t Consume Curcumin or Turmeric?,100,46,12,0.2608695652173913
+PLAIN-2651,train,Turmeric Curcumin and Rheumatoid Arthritis,100,34,31,0.9117647058823529
+PLAIN-2652,train,Spicing Up DNA Protection,100,30,1,0.03333333333333333
+PLAIN-2653,train,Which Spices Fight Inflammation?,100,39,7,0.1794871794871795
+PLAIN-2654,train,Superbugs in Conventional vs. Organic Chicken,100,25,3,0.12
+PLAIN-2655,train,"Bacon, Eggs, and Gestational Diabetes During Pregnancy",100,42,10,0.23809523809523808
+PLAIN-2656,train,Dietary Treatments for Computer Eye Strain,100,17,5,0.29411764705882354
+PLAIN-2657,train,Dietary Treatment of Glaucoma,100,34,2,0.058823529411764705
+PLAIN-2658,train,Dietary Prevention of Age-Related Macular Degeneration,100,20,9,0.45
+PLAIN-2661,train,Boosting Natural Killer Cell Activity,100,76,13,0.17105263157894737
+PLAIN-2662,train,Vitamin B12 Necessary for Arterial Health,100,9,3,0.3333333333333333
+PLAIN-2663,train,Arteries of Vegans vs. Runners,100,34,5,0.14705882352941177
+PLAIN-2664,train,Antioxidant Rich Foods With Every Meal,100,44,10,0.22727272727272727
+PLAIN-2665,train,"How to Reach the Antioxidant ""RDA""",100,23,8,0.34782608695652173
+PLAIN-2666,train,"Minimum ""Recommended Daily Allowance"" of Antioxidants",100,46,4,0.08695652173913043
+PLAIN-2667,train,Eggs and Diabetes,100,23,8,0.34782608695652173
+PLAIN-2668,train,Phytates for the Prevention of Osteoporosis,100,37,6,0.16216216216216217
+PLAIN-2671,train,One in a Thousand: Ending the Heart Disease Epidemic,100,10,3,0.3
+PLAIN-2672,train,Cavities and Coronaries: Our Choice,38,12,1,0.08333333333333333
+PLAIN-2673,train,Mercury vs. Omega-3s for Brain Development,100,23,8,0.34782608695652173
+PLAIN-2674,train,Fish Intake Associated With Brain Shrinkage,100,27,11,0.4074074074074074
+PLAIN-2675,train,Are Fatty Foods Addictive?,100,24,4,0.16666666666666666
+PLAIN-2676,train,Are Sugary Foods Addictive?,100,11,3,0.2727272727272727
+PLAIN-2677,train,How to Avoid Phosphate Additives,100,12,10,0.8333333333333334
+PLAIN-2678,train,Phosphate Additives in Chicken,100,43,17,0.3953488372093023
+PLAIN-2681,train,The Broccoli Receptor: Our First Line of Defense,100,21,5,0.23809523809523808
+PLAIN-2682,train,Lifestyle Medicine: Treating the Causes of Disease,100,7,3,0.42857142857142855
+PLAIN-2683,train,Canned Beans or Cooked Beans?,100,25,10,0.4
+PLAIN-2684,train,BRCA Breast Cancer Genes and Soy,100,44,12,0.2727272727272727
+PLAIN-2685,train,Increased Lifespan From Beans,100,22,8,0.36363636363636365
+PLAIN-2686,train,How Many Poppy Seeds Are Too Many?,46,21,3,0.14285714285714285
+PLAIN-2687,train,Nutrient-Dense Approach to Weight Management,100,23,6,0.2608695652173913
+PLAIN-2688,train,Preserving Immune Function in Athletes With Nutritional Yeast,100,37,9,0.24324324324324326
+PLAIN-2691,train,"Eggs, Choline, and Cancer",100,48,15,0.3125
+PLAIN-2692,train,Eggs and Choline: Something Fishy,70,17,13,0.7647058823529411
+PLAIN-2693,train,BOLD Indeed: Beef Lowers Cholesterol?,100,20,3,0.15
+PLAIN-2694,train,Tell Your Doctor If You Eat Grapefruit,78,63,14,0.2222222222222222
+PLAIN-2695,train,Testing Your Diet with Pee & Purple Cabbage,100,25,1,0.04
+PLAIN-2696,train,"Alkaline Diets, Animal Protein, & Calcium Loss",100,27,11,0.4074074074074074
+PLAIN-2697,train,Breast Cancer Survival Vegetable,100,79,23,0.2911392405063291
+PLAIN-2698,train,Prostate Cancer Survival: The A/V Ratio,100,83,22,0.26506024096385544
+PLAIN-2701,train,Methionine Restriction as a Life Extension Strategy,100,55,11,0.2
+PLAIN-2702,train,Starving Cancer with Methionine Restriction,100,49,10,0.20408163265306123
+PLAIN-2703,train,Eating Outside Our Kingdom,100,82,0,0.0
+PLAIN-2704,train,Poultry Exposure Tied to Liver and Pancreatic Cancer,100,43,9,0.20930232558139536
+PLAIN-2705,train,Eating Better to Look Better,100,64,1,0.015625
+PLAIN-2706,train,Changing Our Taste Buds,59,12,5,0.4166666666666667
+PLAIN-2707,train,Tricks to Get Adults to Eat Healthier,100,42,4,0.09523809523809523
+PLAIN-2708,train,Tricks to Get Kids to Eat Healthier at Home,100,28,5,0.17857142857142858
+PLAIN-2711,train,Treating ADHD Without Stimulants,51,19,1,0.05263157894736842
+PLAIN-2712,train,Butter-Flavored Microwave Popcorn or Breathing,30,27,2,0.07407407407407407
+PLAIN-2713,train,Pistachio Nuts for Erectile Dysfunction,100,70,35,0.5
+PLAIN-2714,train,50 Shades of Greens,100,60,3,0.05
+PLAIN-2715,train,Survival of the Firmest: Erectile Dysfunction and Death,100,42,28,0.6666666666666666
+PLAIN-2716,train,Which Seaweed is Most Protective Against Breast Cancer?,100,83,32,0.3855421686746988
+PLAIN-2717,train,Preventing Exercise-Induced Oxidative Stress With Watercress,100,41,12,0.2926829268292683
+PLAIN-2718,train,Reducing Muscle Soreness With Berries,100,49,9,0.1836734693877551
+PLAIN-2721,train,Infant Seizures Linked to Mother's Spirulina Use,100,23,9,0.391304347826087
+PLAIN-2722,train,Safety of Noni and Mangosteen Juice,100,55,4,0.07272727272727272
+PLAIN-2723,train,Is Carrageenan Safe?,100,40,9,0.225
+PLAIN-2724,train,Dietary Treatment for Painful Menstrual Periods,100,23,12,0.5217391304347826
+PLAIN-2725,train,Cayenne Pepper for Irritable Bowel Syndrome and Chronic Indigestion,100,27,9,0.3333333333333333
+PLAIN-2726,train,Hot Sauce in the Nose for Cluster Headaches?,63,51,5,0.09803921568627451
+PLAIN-2727,train,Tart Cherries for Insomnia,25,40,10,0.25
+PLAIN-2728,train,Kiwifruit for Insomnia,14,59,5,0.0847457627118644
+PLAIN-2731,train,Why Might Vegetarians Have Less HPV?,100,44,11,0.25
+PLAIN-2732,train,Past the Age of Miracles: Facing a Post-Antibiotic Age,100,41,5,0.12195121951219512
+PLAIN-2733,train,Beans and the Second Meal Effect,100,39,11,0.28205128205128205
+PLAIN-2734,train,Eggs and Cholesterol: Patently False and Misleading Claims,100,15,3,0.2
+PLAIN-2735,train,Male Fertility and Diet,100,32,9,0.28125
+PLAIN-2736,train,Trans Fat In Meat And Dairy,100,22,8,0.36363636363636365
+PLAIN-2737,train,Reducing Radiation Damage With Ginger & Lemon Balm,100,79,23,0.2911392405063291
+PLAIN-2738,train,Mediating Radiation Exposure From Airline Travel,100,43,20,0.46511627906976744
+PLAIN-2741,train,Fukushima and Radioactivity in Seafood,47,40,9,0.225
+PLAIN-2742,train,Childhood Tea Drinking May Increase Fluorosis Risk,100,46,1,0.021739130434782608
+PLAIN-2743,train,Can Cranberry Juice Treat Bladder Infections?,100,48,23,0.4791666666666667
+PLAIN-2744,train,Avoiding Chicken To Avoid Bladder Infections,100,51,12,0.23529411764705882
+PLAIN-2745,train,Bacterial Vaginosis and Diet,100,33,9,0.2727272727272727
+PLAIN-2746,train,Lavender for Migraine Headaches,21,32,14,0.4375
+PLAIN-2747,train,Lavender for Generalized Anxiety Disorder,100,57,12,0.21052631578947367
+PLAIN-2748,train,Gut Feelings: Probiotics and Mental Health,100,58,23,0.39655172413793105
+PLAIN-2751,train,Preventing and Treating Diarrhea with Probiotics,100,60,15,0.25
+PLAIN-2752,train,Breast Cancer Risk: Red Wine vs. White Wine,100,32,12,0.375
+PLAIN-2753,train,Boosting Immunity While Reducing Inflammation,100,43,9,0.20930232558139536
+PLAIN-2754,train,Black Raspberries versus Oral Cancer,100,54,7,0.12962962962962962
+PLAIN-2755,train,Strawberries versus Esophageal Cancer,100,55,12,0.21818181818181817
+PLAIN-2756,train,Cranberries versus Cancer,100,23,8,0.34782608695652173
+PLAIN-2757,train,Which Fruit Fights Cancer Better?,100,24,3,0.125
+PLAIN-2758,train,The Lie That Heals: Should Doctors Give Placebos?,29,15,10,0.6666666666666666
+PLAIN-2761,train,Does a Drink Of Water Make Children Smarter?,100,41,10,0.24390243902439024
+PLAIN-2762,train,Flax Seeds For Breast Pain,100,42,7,0.16666666666666666
+PLAIN-2763,train,"Carnitine, Choline, Cancer and Cholesterol: The TMAO Connection",100,39,11,0.28205128205128205
+PLAIN-2764,train,Plant-Based Diets For Breast Pain,100,28,6,0.21428571428571427
+PLAIN-2765,train,The Safety of Tarragon,100,26,6,0.23076923076923078
+PLAIN-2766,train,Don't Eat Too Much Nutmeg,100,19,2,0.10526315789473684
+PLAIN-2767,train,Update on Cinnamon for Blood Sugar Control,100,31,10,0.3225806451612903
+PLAIN-2768,train,Can Cellulite Be Treated With Diet?,100,34,4,0.11764705882352941
+PLAIN-2771,train,Flaxseeds & Breast Cancer Survival: Epidemiological Evidence,100,33,14,0.42424242424242425
+PLAIN-2772,train,Flaxseeds & Breast Cancer Prevention,100,47,16,0.3404255319148936
+PLAIN-2773,train,Fiber vs. Breast Cancer,100,19,9,0.47368421052631576
+PLAIN-2774,train,Flaxseeds For Sensitive Skin,100,33,7,0.21212121212121213
+PLAIN-2775,train,Flaxseed vs. Diabetes,100,24,8,0.3333333333333333
+PLAIN-2776,train,"Was It the Flaxseed, Fat Restriction, or Both?",100,12,7,0.5833333333333334
+PLAIN-2777,train,Flaxseed vs. Prostate Cancer,100,42,19,0.4523809523809524
+PLAIN-2778,train,Salmonella in Chicken & Turkey: Deadly But Not Illegal,100,17,12,0.7058823529411765
+PLAIN-2781,train,Prunes vs. Metamucil vs. Vegan Diet,100,32,3,0.09375
+PLAIN-2782,train,"Dried Apples, Dates, Figs or Prunes for Cholesterol?",100,21,10,0.47619047619047616
+PLAIN-2783,train,Eggs vs. Cigarettes in Atherosclerosis,100,8,3,0.375
+PLAIN-2784,train,Herbal Tea Update: Rooibos & Nettle,100,9,3,0.3333333333333333
+PLAIN-2785,train,Herbal Tea Update: Hibiscus,100,25,4,0.16
+PLAIN-2786,train,Treating Parkinson's Disease With Diet,100,32,12,0.375
+PLAIN-2787,train,Preventing Parkinson's Disease With Diet,100,43,14,0.32558139534883723
+PLAIN-2788,train,Clinical Studies on Acai Berries,100,47,6,0.1276595744680851
+PLAIN-2791,train,Can Gargling Prevent The Common Cold?,100,29,7,0.2413793103448276
+PLAIN-2792,train,Are Cats or Dogs More Protective For Children's Health?,100,18,10,0.5555555555555556
+PLAIN-2793,train,Foodborne Rabies,30,16,2,0.125
+PLAIN-2794,train,Is Vitamin D3 Better Than D2?,100,12,11,0.9166666666666666
+PLAIN-2795,train,Does Coconut Oil Clog Arteries?,100,27,7,0.25925925925925924
+PLAIN-2796,train,Does Coconut Oil Cure Alzheimer's?,100,15,7,0.4666666666666667
+PLAIN-2797,train,Plant-Based Diets: Dental Health,100,23,7,0.30434782608695654
+PLAIN-2798,train,Plant-Based Diets: Oral Health,100,36,4,0.1111111111111111
+PLAIN-2801,train,"Cancer, Interrupted: Garlic & Flavonoids",100,28,7,0.25
+PLAIN-2802,train,"Cancer, Interrupted: Green Tea",100,24,6,0.25
+PLAIN-2803,train,"Heterocyclic Amines in Eggs, Cheese, and Creatine?",100,30,14,0.4666666666666667
+PLAIN-2804,train,Reducing Cancer Risk In Meateaters,100,38,1,0.02631578947368421
+PLAIN-2805,train,PhIP: The Three Strikes Breast Carcinogen,100,21,7,0.3333333333333333
+PLAIN-2806,train,Estrogenic Cooked Meat Carcinogens,100,12,9,0.75
+PLAIN-2807,train,Fibromyalgia vs. Mostly Raw & Mostly Vegetarian Diets,100,40,14,0.35
+PLAIN-2808,train,Fibromyalgia vs. Vegetarian & Raw Vegan Diets,100,30,15,0.5
+PLAIN-2811,train,Flesh and Fructose,33,3,0,0.0
+PLAIN-2812,train,Miocene Meteorites and Uric Acid,100,10,2,0.2
+PLAIN-2813,train,Tree Nuts or Peanuts for Breast Cancer Prevention?,100,17,5,0.29411764705882354
+PLAIN-2814,train,Preventing Breast Cancer By Any Greens Necessary,100,21,6,0.2857142857142857
+PLAIN-2815,train,Why Do Asian Women Have Less Breast Cancer?,100,17,5,0.29411764705882354
+PLAIN-2816,train,Breast Cancer vs. Mushrooms,100,11,5,0.45454545454545453
+PLAIN-2817,train,Whole Grains May Work As Well As Drugs,100,6,2,0.3333333333333333
+PLAIN-2818,train,Metabolic Syndrome and Plant-Based Diets,100,5,2,0.4
+PLAIN-2821,train,98% of American Diets Potassium Deficient,100,10,2,0.2
+PLAIN-2822,train,Meat May Exceed Daily Allowance of Irony,100,17,0,0.0
+PLAIN-2823,train,Nonhuman Molecules Lining Our Arteries,80,14,0,0.0
+PLAIN-2824,train,How Tumors Use Meat to Grow: Xeno-Autoantibodies,100,42,5,0.11904761904761904
+PLAIN-2825,train,The Inflammatory Meat Molecule Neu5Gc,100,35,4,0.11428571428571428
+PLAIN-2826,train,Clonal Deletion Theory of Immunity,78,23,2,0.08695652173913043
+PLAIN-2827,train,Clonal Selection Theory of Immunity,100,8,2,0.25
+PLAIN-2828,train,Cancer as an Autoimmune Disease,100,23,3,0.13043478260869565
+PLAIN-2831,train,How Diet Soda Could Make Us Gain Weight,100,5,0,0.0
+PLAIN-2832,train,Erythritol May Be a Sweet Antioxidant,100,11,3,0.2727272727272727
+PLAIN-2833,train,Diet Soda and Preterm Birth,100,3,0,0.0
+PLAIN-2834,train,Aspartame-Induced Fibromyalgia,100,4,1,0.25
+PLAIN-2835,train,Yersinia in Pork,65,30,16,0.5333333333333333
+PLAIN-2836,train,Ractopamine in Pork,61,8,5,0.625
+PLAIN-2837,train,Meat Mythcrushers,100,3,1,0.3333333333333333
+PLAIN-2838,train,Antioxidants Sprouting Up,100,6,1,0.16666666666666666
+PLAIN-2841,train,Standing Up for Your Health,100,5,2,0.4
+PLAIN-2842,train,Preventing Wrinkles with Diet,100,14,1,0.07142857142857142
+PLAIN-2843,train,Beauty Is More Than Skin Deep,100,13,2,0.15384615384615385
+PLAIN-2844,train,Gerson-style Therapy vs. Chemotherapy,100,15,1,0.06666666666666667
+PLAIN-2845,train,Gerson Therapy for Cancer,100,2,1,0.5
+PLAIN-2846,train,Plant-Based Bioidentical Hormones,100,25,3,0.12
+PLAIN-2847,train,Changing Protein Recommendations?,100,6,2,0.3333333333333333
+PLAIN-2848,train,Ergothioneine: A New Vitamin?,100,13,1,0.07692307692307693
+PLAIN-2851,train,Lowering Dietary Antibiotic Intake,100,16,3,0.1875
+PLAIN-2852,train,The Wrong Way to Detox,63,16,0,0.0
+PLAIN-2853,train,The Best Baby Formula,100,8,0,0.0
+PLAIN-2854,train,Plants vs. Pesticides,100,18,3,0.16666666666666666
+PLAIN-2855,train,Food Sources of Perfluorochemicals,100,20,3,0.15
+PLAIN-2856,train,How Fast Can Children Detoxify from PCBs?,100,1,0,0.0
+PLAIN-2857,train,DDT in Umbilical Cord Blood,100,1,1,1.0
+PLAIN-2858,train,Food Sources of Flame Retardant Chemicals,100,6,1,0.16666666666666666
+PLAIN-2861,train,Pesticides in Chinese Bamboo Shoots,100,1,1,1.0
+PLAIN-2862,train,President's Cancer Panel Report on Environmental Risk,100,25,1,0.04
+PLAIN-2863,train,﻿CDC Report on Environmental Chemical Exposure,100,6,1,0.16666666666666666
+PLAIN-2864,train,Saffron vs. Prozac,100,8,3,0.375
+PLAIN-2865,train,Wake Up and Smell the Saffron,23,22,3,0.13636363636363635
+PLAIN-2866,train,Saffron for the Treatment of PMS,100,18,9,0.5
+PLAIN-2867,train,Eating Green to Prevent Cancer,100,20,0,0.0
+PLAIN-2868,train,Bug Appétit: Barriers to Entomophagy,12,23,0,0.0
+PLAIN-2871,train,Modern Meat Not Ahead of the Game,100,38,6,0.15789473684210525
+PLAIN-2872,train,Paleolithic Lessons,13,6,1,0.16666666666666666
+PLAIN-2873,train,Plant-Based Bodybuilding,100,13,1,0.07692307692307693
+PLAIN-2874,train,How Much Soy Is Too Much?,76,13,4,0.3076923076923077
+PLAIN-2875,train,Too Much Soy May Neutralize Benefits,100,17,5,0.29411764705882354
+PLAIN-2876,train,Animalistic Plant Proteins,100,9,1,0.1111111111111111
+PLAIN-2877,train,Higher Quality May Mean Higher Risk,100,11,0,0.0
+PLAIN-2878,train,Protein Intake & IGF-1 Production,100,9,5,0.5555555555555556
+PLAIN-2881,train,Cancer-Proofing Mutation,100,1,0,0.0
+PLAIN-2882,train,IGF-1 as One-Stop Cancer Shop,100,6,3,0.5
+PLAIN-2883,train,Prostate vs. Plants,100,11,6,0.5454545454545454
+PLAIN-2884,train,Some Prostates Are Larger than Others,76,8,0,0.0
+PLAIN-2885,train,"Is It the Diet, the Exercise, or Both?",100,6,2,0.3333333333333333
+PLAIN-2886,train,Ex Vivo Cancer Proliferation Bioassay,100,11,3,0.2727272727272727
+PLAIN-2887,train,Engineering a Cure,16,9,0,0.0
+PLAIN-2888,train,Slimming the Gecko,1,9,0,0.0
+PLAIN-2891,train,Diet Pills Do Fat a Lot of Good,100,10,1,0.1
+PLAIN-2892,train,Biblical Daniel Fast Put to the Test,100,24,1,0.041666666666666664
+PLAIN-2893,train,Tightening the Bible Belt,1,15,0,0.0
+PLAIN-2894,train,Waist Circumference Less Than Half Your Height,100,7,2,0.2857142857142857
+PLAIN-2895,train,Cattlemen’s Association Has Beef With Study,100,15,0,0.0
+PLAIN-2896,train,Meat and Weight Gain in the PANACEA Study,100,15,1,0.06666666666666667
+PLAIN-2897,train,Diet vs. Exercise for Weight Loss,100,2,1,0.5
+PLAIN-2898,train,The Ice Diet,100,11,0,0.0
+PLAIN-2901,train,Fawning Over Flora,30,29,1,0.034482758620689655
+PLAIN-2902,train,Fat Burning Via Flavonoids,100,11,3,0.2727272727272727
+PLAIN-2903,train,Fat Burning Via Arginine,100,24,4,0.16666666666666666
+PLAIN-2904,train,Testing the Fat Burning Theory,100,2,0,0.0
+PLAIN-2905,train,Testing the Dietary Compensation Theory,100,1,0,0.0
+PLAIN-2906,train,Testing the Pistachio Principle,98,8,1,0.125
+PLAIN-2907,train,Solving the Mystery of the Missing Calories,65,2,0,0.0
+PLAIN-2908,train,Nuts and Obesity: The Weight of Evidence,100,15,5,0.3333333333333333
+PLAIN-2911,train,How Phytosterols Lower Cholesterol,100,7,2,0.2857142857142857
+PLAIN-2912,train,How Fiber Lowers Cholesterol,100,15,2,0.13333333333333333
+PLAIN-2913,train,Nuts and Bolts of Cholesterol Lowering,100,9,3,0.3333333333333333
+PLAIN-2914,train,Diet Versus Drugs for High Cholesterol,100,7,2,0.2857142857142857
+PLAIN-2915,train,Black Versus English Walnuts,100,9,1,0.1111111111111111
+PLAIN-2916,train,The True Shelf-Life of Cooking Oils,100,2,1,0.5
+PLAIN-2917,train,The Best Way to Boost Serotonin,100,10,3,0.3
+PLAIN-2918,train,A Better Way to Boost Serotonin,100,8,1,0.125
+PLAIN-2921,train,Mineral of the Year—Magnesium,100,5,2,0.4
+PLAIN-2922,train,How Do Nuts Prevent Sudden Cardiac Death?,100,10,4,0.4
+PLAIN-2923,train,Risk Associated With Iron Supplements,100,19,6,0.3157894736842105
+PLAIN-2924,train,New Mineral Absorption Enhancers Found,100,16,3,0.1875
+PLAIN-2925,train,The Benefits of Caloric Restriction Without the Actual Restricting,100,21,1,0.047619047619047616
+PLAIN-2926,train,Americans Are Living Longer but Sicker Lives,100,17,0,0.0
+PLAIN-2927,train,What Women Should Eat to Live Longer,100,16,0,0.0
+PLAIN-2928,train,Plant-Based Diets and Cellular Stress Defenses,100,11,2,0.18181818181818182
+PLAIN-2931,train,Treating Kidney Failure Through Diet,100,37,2,0.05405405405405406
+PLAIN-2932,train,Preventing Kidney Failure Through Diet,100,4,1,0.25
+PLAIN-2933,train,Treating Genital Warts With Green Tea,100,17,4,0.23529411764705882
+PLAIN-2934,train,Treating Gorlin Syndrome With Green Tea,100,25,0,0.0
+PLAIN-2935,train,Is Caffeinated Tea Dehydrating?,100,6,2,0.3333333333333333
+PLAIN-2936,train,Antimutagenic Activity of Green Versus White Tea,100,21,7,0.3333333333333333
+PLAIN-2937,train,Dead Meat Bacteria Endotoxemia,100,25,0,0.0
+PLAIN-2938,train,The Exogenous Endotoxin Theory,60,10,0,0.0
+PLAIN-2941,train,Fighting Inflammation in a Nut Shell,100,25,3,0.12
+PLAIN-2942,train,Anti-Inflammatory Effects of Purple Potatoes,100,13,4,0.3076923076923077
+PLAIN-2943,train,Boosting Immunity Through Diet,100,10,2,0.2
+PLAIN-2944,train,Is Hydroponic Basil as Healthy?,100,7,0,0.0
+PLAIN-2945,train,Chamomile Tea May Not Be Safe During Pregnancy,100,22,2,0.09090909090909091
+PLAIN-2946,train,Making Our Arteries Less Sticky,61,19,0,0.0
+PLAIN-2947,train,Blocking the First Step of Heart Disease,100,20,1,0.05
+PLAIN-2948,train,Arterial Acne,65,7,1,0.14285714285714285
+PLAIN-2951,train,Not So Delusional Parasitosis,2,13,1,0.07692307692307693
+PLAIN-2952,train,Maggot Meat Spray,100,7,1,0.14285714285714285
+PLAIN-2953,train,Viral Meat Spray,100,19,2,0.10526315789473684
+PLAIN-2954,train,Tongue Worm in Human Eye,100,25,0,0.0
+PLAIN-2955,train,Don’t Put Your Money Where Your Mouth Is,100,4,1,0.25
+PLAIN-2956,train,Handwashing Compliance of Retail Deli Workers,100,11,2,0.18181818181818182
+PLAIN-2957,train,Some Dietary Supplements May Be More Than a Waste of Money,100,14,0,0.0
+PLAIN-2958,train,Heavy Metals in Protein Powder Supplements,100,3,0,0.0
+PLAIN-2961,train,Dangerous Advice From Health Food Store Employees,100,14,4,0.2857142857142857
+PLAIN-2962,train,Bad Advice From Health Food Store Employees,100,8,5,0.625
+PLAIN-2963,train,Health Food Store Supplement Advice,100,12,2,0.16666666666666666
+PLAIN-2964,train,Which Brand of Tuna Has the Most Mercury?,59,11,6,0.5454545454545454
+PLAIN-2965,train,Hair Testing for Mercury Before Considering Pregnancy,100,19,7,0.3684210526315789
+PLAIN-2966,train,"Red Fish, White Fish; Dark Fish, Atrial Fibrillation",100,8,3,0.375
+PLAIN-2967,train,A Fine Kettle of Fluoxetine,22,10,1,0.1
+PLAIN-2968,train,Amnesic Seafood Poisoning,62,21,12,0.5714285714285714
+PLAIN-2971,train,Prevent Glaucoma and See 27 Miles Farther,100,3,1,0.3333333333333333
+PLAIN-2972,train,Preventing Macular Degeneration with Diet,100,10,1,0.1
+PLAIN-2973,train,Garden Variety Anti-Inflammation,100,11,1,0.09090909090909091
+PLAIN-2974,train,Apples and Oranges: Dietary Diversity,100,9,0,0.0
+PLAIN-2975,train,The Acne-Promoting Effects of Milk,100,2,2,1.0
+PLAIN-2976,train,Skim Milk and Acne,100,4,4,1.0
+PLAIN-2977,train,National Dairy Council on Acne and Milk,100,7,7,1.0
+PLAIN-2978,train,Cow’s Milk Casomorphin and Autism,100,10,5,0.5
+PLAIN-2982,train,Creatine Brain Fuel Supplementation,100,10,2,0.2
+PLAIN-2983,train,When Meat Can Be a Lifesaver,100,1,0,0.0
+PLAIN-2984,train,Eating Healthy on the Cheap,100,3,0,0.0
+PLAIN-2985,train,Treating COPD With Diet,100,6,1,0.16666666666666666
+PLAIN-2986,train,Preventing COPD With Diet,100,3,3,1.0
+PLAIN-2987,train,The Fruit Whose Juice Is Healthier,100,1,0,0.0
+PLAIN-2988,train,Raw Veggies Versus Cooked for Heart Disease,100,1,0,0.0
+PLAIN-2989,train,The Safer Cinnamon,25,8,7,0.875
+PLAIN-2992,train,Cholesterol and Female Sexual Dysfunction,100,1,1,1.0
+PLAIN-2993,train,A Treatment for Chronic Fatigue Syndrome,100,5,0,0.0
+PLAIN-2994,train,Meat-Borne Infection Risk from Shopping Carts,100,1,1,1.0
+PLAIN-2995,train,Food Poisoning Bacteria Cross-Contamination,100,4,1,0.25
+PLAIN-2996,train,Poultry and Paralysis,80,1,0,0.0
+PLAIN-2997,train,Poultry Exposure and Neurological Disease,100,1,1,1.0
+PLAIN-2998,train,Carcinogenic Retrovirus Found in Eggs,100,1,1,1.0
+PLAIN-2999,train,Poultry and Penis Cancer,100,2,2,1.0
+PLAIN-3003,train,What About the Caffeine?,57,2,2,1.0
+PLAIN-3005,train,Breast Cancer Survival and Soy,100,5,5,1.0
+PLAIN-3006,train,Flax and Fecal Flora,70,9,1,0.1111111111111111
+PLAIN-3007,train,Breast Cancer Survival and Lignan Intake,100,12,6,0.5
+PLAIN-3008,train,Breast Cancer Survival and Trans Fat,100,4,4,1.0
+PLAIN-3009,train,"Breast Cancer Survival, Butterfat, and Chicken",100,2,1,0.5
+PLAIN-3010,train,Raw Broccoli and Bladder Cancer Survival,100,1,1,1.0
+PLAIN-3012,train,Biggest Nutrition Bang for Your Buck,100,3,0,0.0
+PLAIN-3015,train,The Best Detox,72,2,0,0.0
+PLAIN-3016,train,How Much Broccoli Is Too Much?,35,2,1,0.5
+PLAIN-3017,train,Liver Toxicity Due to Broccoli Juice?,100,6,0,0.0
+PLAIN-3019,train,Sulforaphane: From Broccoli to Breast,100,2,0,0.0
+PLAIN-3020,train,Broccoli Versus Breast Cancer Stem Cells,100,3,2,0.6666666666666666
+PLAIN-3022,train,Smoking Versus Kale Juice,100,1,1,1.0
+PLAIN-3023,train,Kale and the Immune System,100,1,0,0.0
+PLAIN-3024,train,Meat Additives to Diminish Toxicity,100,1,1,1.0
+PLAIN-3027,train,Carcinogens in the Smell of Frying Bacon,57,3,3,1.0
+PLAIN-3028,train,Prevention Is Better Than Cured Meat,100,4,1,0.25
+PLAIN-3029,train,Are Nitrates Pollutants or Nutrients?,100,1,1,1.0
+PLAIN-3030,train,Bacon and Botulism,11,9,0,0.0
+PLAIN-3031,train,When Nitrites Go Bad,17,5,2,0.4
+PLAIN-3032,train,Is Bacon Good or Is Spinach Bad?,100,2,0,0.0
+PLAIN-3034,train,Hearts Shouldn't Skip a Beet,100,2,0,0.0
+PLAIN-3035,train,Pretty in Pee-nk,11,4,0,0.0
+PLAIN-3038,train,Don't Use Antiseptic Mouthwash,100,4,2,0.5
+PLAIN-3039,train,Priming the Proton Pump,13,1,1,1.0
+PLAIN-3041,train,Soy Worth a Hill of Beans?,100,2,2,1.0
+PLAIN-3042,train,New Vitamin B12 Test,100,3,2,0.6666666666666666
+PLAIN-3047,train,Plant-Based Atkins Diet,100,2,1,0.5
+PLAIN-3049,train,Bulking Up on Antioxidants,100,4,2,0.5
+PLAIN-3050,train,The Power of NO,40,2,0,0.0
+PLAIN-3051,train,Anti-Inflammatory Antioxidants,100,2,0,0.0
+PLAIN-3054,train,Amla and Triphala Tested for Metals,100,3,3,1.0
+PLAIN-3055,train,Get the Lead Out,100,1,1,1.0
+PLAIN-3056,train,Some Ayurvedic Medicine Worse Than Lead Paint Exposure,100,5,4,0.8
+PLAIN-3057,train,A Better Breakfast,100,7,0,0.0
+PLAIN-3058,train,Antioxidants in a Pinch,100,1,0,0.0
+PLAIN-3059,train,Amla Versus Diabetes,100,6,2,0.3333333333333333
+PLAIN-3060,train,Power Plants,100,4,1,0.25
+PLAIN-3061,train,Amla Versus Cancer Cell Invasion,100,2,2,1.0
+PLAIN-3064,train,Dried Apples Versus Cholesterol,100,5,1,0.2
+PLAIN-3065,train,Best Berries,97,2,0,0.0
+PLAIN-3066,train,Better Than Green Tea?,100,14,3,0.21428571428571427
+PLAIN-3067,train,Carcinogenic Putrescine,63,7,4,0.5714285714285714
+PLAIN-3068,train,Throw Household Products Off the Scent,100,1,1,1.0
+PLAIN-3070,train,Preventing Allergies in Adulthood,100,2,1,0.5
+PLAIN-3071,train,Preventing Childhood Allergies,100,5,0,0.0
+PLAIN-3072,train,Avoiding a Sugary Grave,24,1,0,0.0
+PLAIN-3076,train,"Trans Fat, Saturated Fat, and Cholesterol: Tolerable Upper Intake of Zero",100,2,2,1.0
+PLAIN-3077,train,Fast Food: Do You Want Fries With That Lipitor?,100,2,1,0.5
+PLAIN-3078,train,Heart Attacks and Cholesterol: Purely a Question of Diet,100,1,0,0.0
+PLAIN-3079,train,Heart Attacks and Cholesterol: Agribusiness Sees It Differently,100,1,0,0.0
+PLAIN-3080,train,Heart Attacks and Cholesterol: Dying Under Normal Circumstances,100,1,0,0.0
+PLAIN-3081,train,The Risks and Benefits of Neti Pot Nasal Irrigation,100,3,3,1.0
+PLAIN-3082,train,Take Vitamin D Supplements With Meals,100,5,5,1.0
+PLAIN-3083,train,Resolving the Vitamin D-Bate,100,3,3,1.0
+PLAIN-3087,train,Vitamin D and Mortality May Be a U-shaped Curve,100,1,1,1.0
+PLAIN-3088,train,Is Vitamin D the New Vitamin E?,100,1,1,1.0
+PLAIN-3090,train,Vitamin D Recommendations Changed,100,3,3,1.0
+PLAIN-3091,train,Pink Juice with Green Foam,100,14,3,0.21428571428571427
+PLAIN-3092,train,Is Pomegranate Juice That Wonderful?,100,3,1,0.3333333333333333
+PLAIN-3093,train,Alzheimer's and Apple Juice,100,2,2,1.0
+PLAIN-3094,train,Constructing a Cognitive Portfolio,100,5,3,0.6
+PLAIN-3095,train,Best Fruit Juice,100,3,1,0.3333333333333333
+PLAIN-3098,train,MRSA in U.S. Retail Meat,100,2,2,1.0
+PLAIN-3099,train,Airborne MRSA,21,1,1,1.0
+PLAIN-3101,train,Infant Nearly Killed by Homeopathy,75,4,1,0.25
+PLAIN-3102,train,Total Recall,100,2,0,0.0
+PLAIN-3105,train,Medical Associations Oppose Bill to Mandate Nutrition Training,100,1,0,0.0
+PLAIN-3106,train,Nutrition Education Mandate Introduced for Doctors,100,3,2,0.6666666666666666
+PLAIN-3107,train,Doctors Know Less Than They Think About Nutrition,100,1,1,1.0
+PLAIN-3108,train,Medical School Nutrition Education,100,3,3,1.0
+PLAIN-3120,train,"Food Industry ""Funding Effect""",100,1,1,1.0
+PLAIN-3121,train,Dietary Guidelines: With a Grain of Big Salt,100,1,1,1.0
+PLAIN-3124,train,Is Potassium Sorbate Bad for You?,50,4,3,0.75
+PLAIN-3125,train,Alkaline Water: a Scam?,100,1,1,1.0
+PLAIN-3126,train,The Tomato Effect,100,28,2,0.07142857142857142
+PLAIN-3127,train,China Study on Sudden Cardiac Death,100,22,4,0.18181818181818182
+PLAIN-3128,train,Our Number One Killer Can Be Stopped,100,26,2,0.07692307692307693
+PLAIN-3129,train,Resuscitating Medicare,1,22,0,0.0
+PLAIN-3132,train,The Effect of Canned Tuna on Future Wages,100,31,4,0.12903225806451613
+PLAIN-3133,train,Fish Oil in Troubled Waters,100,24,10,0.4166666666666667
+PLAIN-3134,train,Chicken's Fate Is Sealed,100,10,1,0.1
+PLAIN-3135,train,"Chicken, Eggs, and Inflammation",100,20,1,0.05
+PLAIN-3136,train,Inflammatory Remarks About Arachidonic Acid,100,23,5,0.21739130434782608
+PLAIN-3137,train,Improving Mood Through Diet,100,25,2,0.08
+PLAIN-3138,train,Bowels of the Earth,5,31,0,0.0
+PLAIN-3139,train,Food Mass Transit,100,29,2,0.06896551724137931
+PLAIN-3142,train,Multivitamin Supplements and Breast Cancer,100,19,3,0.15789473684210525
+PLAIN-3143,train,Breast Cancer Prevention: Which Mushroom Is Best?,100,18,6,0.3333333333333333
+PLAIN-3144,train,Vegetables Versus Breast Cancer,100,63,16,0.25396825396825395
+PLAIN-3145,train,Cancer Prevention and Treatment May Be the Same Thing,100,43,6,0.13953488372093023
+PLAIN-3146,train,Food Sources of PCB Chemical Pollutants,100,33,9,0.2727272727272727
+PLAIN-3147,train,Chicken Consumption and the Feminization of Male Genitalia,100,64,6,0.09375
+PLAIN-3148,train,Rosy Glow,0,38,0,0.0
+PLAIN-3149,train,"Produce, Not Pills to Increase Physical Attractiveness",100,51,3,0.058823529411764705
+PLAIN-3152,train,Pregnant Vegans at Risk for Iodine Deficiency,100,18,10,0.5555555555555556
+PLAIN-3153,train,Saffron Versus Aricept,100,30,7,0.23333333333333334
+PLAIN-3154,train,Saffron for the Treatment of Alzheimer's,100,30,17,0.5666666666666667
+PLAIN-3155,train,Avoiding Epilepsy Through Diet,100,36,1,0.027777777777777776
+PLAIN-3156,train,Pork Tapeworms on the Brain,100,35,5,0.14285714285714285
+PLAIN-3157,train,Do Doctors Make the Grade?,100,4,2,0.5
+PLAIN-3158,train,Egg Industry Blind Spot,100,16,3,0.1875
+PLAIN-3159,train,Avoiding Cholesterol Is a No Brainer,100,19,10,0.5263157894736842
+PLAIN-3162,train,The Effect of Soy on Precocious Puberty,100,31,7,0.22580645161290322
+PLAIN-3163,train,Calcium Absorption: Soy Milk Versus Cow Milk,100,21,10,0.47619047619047616
+PLAIN-3164,train,Vegan Epidemic,100,13,3,0.23076923076923078
+PLAIN-3165,train,American Vegans Placing Babies At Risk,100,13,1,0.07692307692307693
+PLAIN-3166,train,Did a Vegan Diet Kill This Baby?,100,13,3,0.23076923076923078
+PLAIN-3167,train,Calculate Your Healthy Eating Score,100,42,5,0.11904761904761904
+PLAIN-3168,train,Antioxidant Power of Plant Foods Versus Animal Foods,100,42,7,0.16666666666666666
+PLAIN-3169,train,"Antioxidant Content of 3,139 Foods",100,41,11,0.2682926829268293
+PLAIN-3172,train,Mitochondrial Theory of Aging,100,44,16,0.36363636363636365
+PLAIN-3173,train,Vitamin D Pills vs. Tanning Beds,100,10,10,1.0
+PLAIN-3174,train,Is Vinegar Good For You?,91,6,3,0.5
+PLAIN-3175,train,Is Petroleum Jelly Good For You?,85,4,1,0.25
+PLAIN-3176,train,Is Peanut Butter Good for You?,100,16,3,0.1875
+PLAIN-3177,train,Is Licorice Good For You?,84,35,1,0.02857142857142857
+PLAIN-3178,train,Are Goji Berries Good for You?,100,55,6,0.10909090909090909
+PLAIN-3179,train,Is Kombucha Tea Good For You?,100,18,8,0.4444444444444444
+PLAIN-3182,train,Are Dates Good For You?,89,18,5,0.2777777777777778
+PLAIN-3183,train,Are Chili Peppers Good For You?,90,13,0,0.0
+PLAIN-3184,train,Plant-Based Diet & Mood,100,31,6,0.1935483870967742
+PLAIN-3185,train,Cannabis Receptors & Food,100,6,2,0.3333333333333333
+PLAIN-3186,train,Is Protein Bad to the Bone?,100,20,11,0.55
+PLAIN-3187,train,Vegan Protein Status,100,32,4,0.125
+PLAIN-3188,train,Inverted Rabbit Sign,11,14,0,0.0
+PLAIN-3189,train,Industrial Pollutants in Vegans,97,24,10,0.4166666666666667
+PLAIN-3192,train,Hair Testing for Mercury,100,21,13,0.6190476190476191
+PLAIN-3193,train,Fish Intake Biomarker,100,54,13,0.24074074074074073
+PLAIN-3194,train,Dioxins in the Food Supply,100,41,11,0.2682926829268293
+PLAIN-3195,train,Prozac Residues in Fish,100,8,0,0.0
+PLAIN-3196,train,Allergenic Fish Worms,100,24,1,0.041666666666666664
+PLAIN-3197,train,Mothers Overestimate Dietary Quality,100,8,2,0.25
+PLAIN-3198,train,Protein & Puberty,100,27,5,0.18518518518518517
+PLAIN-3199,train,What's in a Burger?,100,5,0,0.0
+PLAIN-3202,train,Dairy & Sexual Precocity,100,35,9,0.2571428571428571
+PLAIN-3203,train,Boosting Sex-Hormone Binding,100,26,2,0.07692307692307693
+PLAIN-3204,train,Gut Flora & Obesity,100,41,14,0.34146341463414637
+PLAIN-3205,train,Does Eating Obesity Cause Obesity?,100,5,0,0.0
+PLAIN-3206,train,Obesity-Causing Chicken Virus,100,26,6,0.23076923076923078
+PLAIN-3207,train,Crop Nutrient Decline,100,1,1,1.0
+PLAIN-3208,train,Can Folic Acid Be Harmful?,100,6,1,0.16666666666666666
+PLAIN-3209,train,Iron During Pregnancy,100,7,5,0.7142857142857143
+PLAIN-3212,train,Overdosing on Tea,100,16,2,0.125
+PLAIN-3213,train,Is Matcha Good for You?,82,15,0,0.0
+PLAIN-3214,train,Cold Steeping Green Tea,100,17,7,0.4117647058823529
+PLAIN-3215,train,Asian Paradox,40,13,0,0.0
+PLAIN-3216,train,Soymilk Suppression?,47,32,0,0.0
+PLAIN-3217,train,Healthiest Chocolate Fix,38,16,9,0.5625
+PLAIN-3218,train,Soy & Breast Cancer Survival,100,51,22,0.43137254901960786
+PLAIN-3219,train,Exercise & Breast Cancer,100,41,14,0.34146341463414637
+PLAIN-3222,train,Mad Fish Disease,100,11,2,0.18181818181818182
+PLAIN-3223,train,Drug Residues in Meat,100,46,1,0.021739130434782608
+PLAIN-3224,train,Toxic Megacolon Superbug,100,36,0,0.0
+PLAIN-3225,train,Chicken Out of UTIs,69,16,7,0.4375
+PLAIN-3226,train,Fecal Bacteria Survey,100,61,5,0.08196721311475409
+PLAIN-3227,train,Bristol Stool Scale,100,20,4,0.2
+PLAIN-3228,train,Greasy Orange Rectal Leakage,70,46,1,0.021739130434782608
+PLAIN-3229,train,Hepatitis E Virus in Pork,100,50,12,0.24
+PLAIN-3232,train,Largest Study Ever,100,31,1,0.03225806451612903
+PLAIN-3233,train,Can Cholesterol Be Too Low?,100,19,9,0.47368421052631576
+PLAIN-3234,train,Statin Muscle Toxicity,100,17,7,0.4117647058823529
+PLAIN-3235,train,Low-Fat or Whole Food?,100,26,0,0.0
+PLAIN-3236,train,New Cholesterol Fighters,100,31,12,0.3870967741935484
+PLAIN-3237,train,New Target Cholesterol,100,19,4,0.21052631578947367
+PLAIN-3238,train,Cholesterol Gallstones,100,15,2,0.13333333333333333
+PLAIN-3239,train,Migrating Fish Bones,100,9,1,0.1111111111111111
+PLAIN-3242,train,Diet & Lichen Planus,100,35,2,0.05714285714285714
+PLAIN-3243,train,Diet & Rheumatoid Arthritis,100,32,17,0.53125
+PLAIN-3244,train,Rose Hips for Osteoarthritis,44,36,11,0.3055555555555556
+PLAIN-3245,train,Zinc Gel for Colds?,64,10,0,0.0
+PLAIN-3246,train,Benzene in Carrot Juice,100,3,1,0.3333333333333333
+PLAIN-3247,train,Deep Frying Toxins,45,22,3,0.13636363636363635
+PLAIN-3248,train,Raw Food Nutrient Absorption,100,39,6,0.15384615384615385
+PLAIN-3249,train,Best Cooking Method,100,14,1,0.07142857142857142
+PLAIN-3252,train,The Healthiest Apple,35,10,4,0.4
+PLAIN-3253,train,The Healthiest Lentil,5,37,1,0.02702702702702703
+PLAIN-3254,train,The Healthiest Herbal Tea,100,41,16,0.3902439024390244
+PLAIN-3255,train,Update on Yerba Maté,34,33,1,0.030303030303030304
+PLAIN-3256,train,Update on Vitamin E,100,9,8,0.8888888888888888
+PLAIN-3257,train,Is Stevia Good For You?,85,20,2,0.1
+PLAIN-3258,train,Another Update on Spirulina,35,2,2,1.0
+PLAIN-3259,train,Update on MSG,30,19,1,0.05263157894736842
+PLAIN-3262,train,Update on Gum Arabic,33,23,0,0.0
+PLAIN-3263,train,Update on Gluten,62,26,24,0.9230769230769231
+PLAIN-3264,train,Update on Coffee,100,28,17,0.6071428571428571
+PLAIN-3265,train,Is blue-green algae good for you?,100,14,1,0.07142857142857142
+PLAIN-3266,train,Update on Aspartame,38,17,7,0.4117647058823529
+PLAIN-3267,train,Update on Alfalfa Sprouts,53,8,6,0.75
+PLAIN-3268,train,Research Into Reversing Aging,100,55,20,0.36363636363636365
+PLAIN-3269,train,Flatophonia: The Art of the Musical Anus,13,5,1,0.2
+PLAIN-3272,train,Cancer Reversal Through Diet?,100,28,5,0.17857142857142858
+PLAIN-3273,train,Eliminating the #1 Cause of Death,100,7,1,0.14285714285714285
+PLAIN-3274,train,Whose Health Unaffected by Eggs,100,31,14,0.45161290322580644
+PLAIN-3275,train,Long-Term Vegan Bone Health,100,18,4,0.2222222222222222
+PLAIN-3276,train,Dairy Hormonal Interference,100,60,16,0.26666666666666666
+PLAIN-3277,train,Hormones in Skim vs. Whole Milk,100,62,22,0.3548387096774194
+PLAIN-3278,train,Nutrient Blocking Effects of Dairy,100,6,0,0.0
+PLAIN-3279,train,Maxing Out on Antioxidants,100,2,1,0.5
+PLAIN-3282,train,Arsenic in Chicken,86,6,6,1.0
+PLAIN-3283,train,Arsenic in Rice,52,5,3,0.6
+PLAIN-3284,train,Toxins in Sweet Potatoes?,73,17,16,0.9411764705882353
+PLAIN-3285,train,Toxins in Cooked Potatoes?,100,3,2,0.6666666666666666
+PLAIN-3286,train,Toxins in Raw Mushrooms?,100,5,2,0.4
+PLAIN-3287,train,Soy Foods & Menopause,100,33,9,0.2727272727272727
+PLAIN-3288,train,Is Gluten Bad For You?,42,29,26,0.896551724137931
+PLAIN-3289,train,Glyconutrient Supplements,100,2,1,0.5
+PLAIN-3293,train,Are Iron Pills Good For You?,100,1,1,1.0
+PLAIN-3294,train,Are Vitamin C Pills Good For You?,100,32,7,0.21875
+PLAIN-3295,train,Is Cod Liver Oil Good For You?,100,8,2,0.25
+PLAIN-3296,train,Artificial Coloring in Fish,100,31,0,0.0
+PLAIN-3297,train,The Problem with Organic Salmon,100,35,5,0.14285714285714285
+PLAIN-3298,train,Avoiding Other Banned Pesticides,80,40,8,0.2
+PLAIN-3299,train,DDT in Fish Oil Supplements,100,8,5,0.625
+PLAIN-3300,train,Cannibalistic Feed Biomagnification,32,14,1,0.07142857142857142
+PLAIN-3303,train,Maternal Mercury Levels,100,39,23,0.5897435897435898
+PLAIN-3304,train,Xenoestrogens & Early Puberty,100,56,4,0.07142857142857142
+PLAIN-3305,train,Xenoestrogens & Sperm Counts,58,53,17,0.32075471698113206
+PLAIN-3306,train,Vegetarian Zinc Requirements,100,10,2,0.2
+PLAIN-3307,train,Soy Hormones & Male Infertility,100,6,0,0.0
+PLAIN-3308,train,Meat Hormones & Female Infertility,100,14,4,0.2857142857142857
+PLAIN-3309,train,Brain Parasites in Meat,100,19,5,0.2631578947368421
+PLAIN-3310,train,USDA Parasite Game,24,18,4,0.2222222222222222
+PLAIN-3313,train,Restaurant Worker Hand Washing,76,8,2,0.25
+PLAIN-3314,train,Fast Food Tested for Carcinogens,100,23,5,0.21739130434782608
+PLAIN-3315,train,Carcinogens in Roasted Coffee?,100,25,6,0.24
+PLAIN-3316,train,Muscle Tremors & Diet,100,8,0,0.0
+PLAIN-3317,train,Carcinogens in Roasted Chicken?,98,23,8,0.34782608695652173
+PLAIN-3318,train,Fecal Residues on Chicken,100,41,11,0.2682926829268293
+PLAIN-3319,train,Antioxidant Level Dynamics,100,28,11,0.39285714285714285
+PLAIN-3320,train,Forego Fat-Free Dressings?,100,4,0,0.0
+PLAIN-3323,train,Vegetarian's Myelopathy,100,7,1,0.14285714285714285
+PLAIN-3324,train,Low Meat or No Meat?,100,15,1,0.06666666666666667
+PLAIN-3325,train,Meat & Mortality,100,8,4,0.5
+PLAIN-3326,train,How to Treat Diabetes,100,62,24,0.3870967741935484
+PLAIN-3327,train,How to Prevent Diabetes,100,58,22,0.3793103448275862
+PLAIN-3328,train,Thousands of Vegans Studied,100,15,1,0.06666666666666667
+PLAIN-3329,train,Which Plastics are Harmful?,38,43,2,0.046511627906976744
+PLAIN-3330,train,Fill in the Blank,1,33,0,0.0
+PLAIN-3333,train,Aspirin Levels in Plant Foods,100,16,2,0.125
+PLAIN-3334,train,Is Caloric Restriction Good For You?,100,18,4,0.2222222222222222
+PLAIN-3335,train,How to Upregulate Metabolism,100,9,1,0.1111111111111111
+PLAIN-3336,train,Oxalates in Cinnamon,14,23,3,0.13043478260869565
+PLAIN-3337,train,Does Tofu Cause Dementia?,100,4,2,0.5
+PLAIN-3338,train,Waistline Slimming Food,100,76,1,0.013157894736842105
+PLAIN-3339,train,Waistline Expanding Food,100,41,2,0.04878048780487805
+PLAIN-3340,train,Diverticulosis & Nuts,98,21,0,0.0
+PLAIN-3343,train,Is Coconut Oil Good For You?,100,9,8,0.8888888888888888
+PLAIN-3344,train,Are Betel Nuts Good For You?,100,11,9,0.8181818181818182
+PLAIN-3345,train,Peanuts in Pregnancy,86,7,2,0.2857142857142857
+PLAIN-3346,train,Fungal Toxins in Apples,39,19,1,0.05263157894736842
+PLAIN-3347,train,Apples & Breast Cancer,100,58,17,0.29310344827586204
+PLAIN-3348,train,Are Star Fruit Good For You?,100,1,1,1.0
+PLAIN-3349,train,Is Mangosteen Juice Good For You?,100,8,3,0.375
+PLAIN-3350,train,Is chlorella good for you?,86,13,4,0.3076923076923077
+PLAIN-3353,train,Is White Bread Good for You?,100,18,4,0.2222222222222222
+PLAIN-3354,train,Nontoxic Head Lice Treatment,100,1,1,1.0
+PLAIN-3355,train,Optimal Sleep Duration,100,22,11,0.5
+PLAIN-3356,train,Sleep & Immunity,63,14,4,0.2857142857142857
+PLAIN-3357,train,Airborne Supplements,100,11,4,0.36363636363636365
+PLAIN-3358,train,Hot Dogs & Leukemia,55,50,5,0.1
+PLAIN-3359,train,Do Cell Phones Cause Cancer?,100,35,6,0.17142857142857143
+PLAIN-3360,train,Is Carob Good For You?,84,8,1,0.125
+PLAIN-3363,train,Is Hibiscus Tea Good For You?,100,32,16,0.5
+PLAIN-3364,train,Is Osmanthus Tea Good For You?,100,32,9,0.28125
+PLAIN-3365,train,Is Tulsi Tea Good For You?,100,33,9,0.2727272727272727
+PLAIN-3366,train,Black Tea vs. Earl Grey,100,8,4,0.5
+PLAIN-3367,train,Green Tea vs. White,100,18,9,0.5
+PLAIN-3368,train,Dietary Brain Wave Alteration,100,12,2,0.16666666666666666
+PLAIN-3369,train,The Healthiest Beverage,43,5,0,0.0
+PLAIN-3370,train,Nutrition Without Calories,100,34,0,0.0
+PLAIN-3373,train,Mercury in Corn Syrup?,74,34,16,0.47058823529411764
+PLAIN-3374,train,Sugar vs. Corn Syrup,100,14,6,0.42857142857142855
+PLAIN-3375,train,Diet & Hyperactivity,100,12,5,0.4166666666666667
+PLAIN-3376,train,Is Sodium Benzoate Harmful?,100,2,0,0.0
+PLAIN-3377,train,Is Gum Arabic Harmful?,39,1,1,1.0
+PLAIN-3378,train,Is Citric Acid Harmful?,100,25,1,0.04
+PLAIN-3379,train,Is Artificial Butter Flavor Harmful?,90,3,2,0.6666666666666666
+PLAIN-3380,train,Pets & Human Lymphoma,100,38,6,0.15789473684210525
+PLAIN-3383,train,Chicken vs. Veggie Chicken,100,33,7,0.21212121212121213
+PLAIN-3384,train,Repairing DNA Damage,100,22,11,0.5
+PLAIN-3385,train,Flawed Study Interpretation,100,63,0,0.0
+PLAIN-3386,train,Cancer Fighting Berries,100,32,6,0.1875
+PLAIN-3387,train,Raw Food Nutrient Absorption,100,29,2,0.06896551724137931
+PLAIN-3388,train,Raw vs. Cooked Broccoli,100,26,11,0.4230769230769231
+PLAIN-3389,train,The Best Nut,100,22,7,0.3181818181818182
+PLAIN-3390,train,The Best Apple,100,47,3,0.06382978723404255
+PLAIN-3393,train,The Best Mushroom,82,15,2,0.13333333333333333
+PLAIN-3394,train,Tofu vs. Tempeh,100,18,2,0.1111111111111111
+PLAIN-3395,train,The Best Bean,92,19,5,0.2631578947368421
+PLAIN-3396,train,Pinto Beans vs. Black Beans,100,21,10,0.47619047619047616
+PLAIN-3397,train,Carrots vs. Baby Carrots,100,30,0,0.0
+PLAIN-3398,train,The Healthiest Raisin,6,25,2,0.08
+PLAIN-3399,train,Fruit Juice Fail,100,26,7,0.2692307692307692
+PLAIN-3400,train,Healthy Pumpkin Pie,100,12,1,0.08333333333333333
+PLAIN-3403,train,New Antioxidant Superstars,100,19,6,0.3157894736842105
+PLAIN-3404,train,Acrylamide in French Fries,29,18,14,0.7777777777777778
+PLAIN-3405,train,Preventing Arthritis,100,22,1,0.045454545454545456
+PLAIN-3406,train,Algae-Based DHA vs. Flax,100,3,3,1.0
+PLAIN-3407,train,Plant-Based Omega-3 Supplements,100,16,2,0.125
+PLAIN-3408,train,Mercury in Vaccinations vs. Tuna,100,32,17,0.53125
+PLAIN-3409,train,Farmed Fish vs. Wild-Caught,100,57,7,0.12280701754385964
+PLAIN-3410,train,Flame Retardant Chemical Contamination,100,53,4,0.07547169811320754
+PLAIN-3413,train,What Is Really in Hot Dogs?,33,33,0,0.0
+PLAIN-3414,train,Food Is a Package Deal,100,62,0,0.0
+PLAIN-3415,train,Soy & Breast Cancer,100,33,13,0.3939393939393939
+PLAIN-3416,train,"Red Tea, Honeybush, & Chamomile",100,19,5,0.2631578947368421
+PLAIN-3417,train,Is Yerba Maté Tea Bad For You?,100,2,2,1.0
+PLAIN-3418,train,Coffee vs. Tea,100,8,4,0.5
+PLAIN-3419,train,Is Coffee Bad For You?,85,12,8,0.6666666666666666
+PLAIN-3420,train,Is One Egg a Day Too Much?,100,28,11,0.39285714285714285
+PLAIN-3423,train,Antioxidant Vitamin Supplements,100,9,4,0.4444444444444444
+PLAIN-3424,train,Is Black Pepper Bad For You?,96,17,5,0.29411764705882354
+PLAIN-3425,train,Is MSG Bad For You?,10,2,1,0.5
+PLAIN-3426,train,Is Nutrasweet® Bad For You?,9,2,0,0.0
+PLAIN-3427,train,Body Odor & Diet,100,9,1,0.1111111111111111
+PLAIN-3428,train,IQ of Vegetarian Children,100,87,13,0.14942528735632185
+PLAIN-3429,train,Vegan Paralysis,73,13,4,0.3076923076923077
+PLAIN-3430,train,Avoiding Iodine Deficiency,90,19,11,0.5789473684210527
+PLAIN-3433,train,Cocoa Good; Chocolate Bad,100,34,14,0.4117647058823529
+PLAIN-3434,train,Extra Virgin Olive Oil,100,12,4,0.3333333333333333
+PLAIN-3435,train,"Good, Great, Bad, & Killer Fats",100,46,5,0.10869565217391304
+PLAIN-3436,train,Great Grain Robbery,100,7,3,0.42857142857142855
+PLAIN-3437,train,Milk Protein vs. Soy Protein,100,38,1,0.02631578947368421
+PLAIN-3438,train,Halving Heart Attack Risk,100,18,4,0.2222222222222222
+PLAIN-3439,train,The Healthiest Beverage,43,18,2,0.1111111111111111
+PLAIN-3440,train,Herbalife® Supplement Liver Toxicity,100,17,8,0.47058823529411764
+PLAIN-3443,train,"Beans, Beans, Good for Your Heart",100,39,12,0.3076923076923077
+PLAIN-3444,train,Is Noni Juice Good For You?,100,8,3,0.375
+PLAIN-3445,train,The Healthiest Fruits,100,26,3,0.11538461538461539
+PLAIN-3446,train,Raw Food Diet Myths,100,14,3,0.21428571428571427
+PLAIN-3447,train,Nine Servings a Day Minimum,100,30,2,0.06666666666666667
+PLAIN-3448,train,Can Pesticides Be Rinsed Off?,58,7,3,0.42857142857142855
+PLAIN-3449,train,Fecal Contamination of Sushi,100,26,8,0.3076923076923077
+PLAIN-3450,train,Don't Eat Raw Alfalfa Sprouts,100,28,4,0.14285714285714285
+PLAIN-3453,train,"Just the Flax, Ma'am",57,43,0,0.0
+PLAIN-3454,train,Plant-Based Prevention,100,89,8,0.0898876404494382
+PLAIN-3455,train,Slowing the Growth of Cancer,100,57,8,0.14035087719298245
+PLAIN-3456,train,Industrial Carcinogens in Animal Fat,100,80,2,0.025
+PLAIN-3457,train,Putrefying Protein and “Toxifying” Enzymes,100,38,10,0.2631578947368421
+PLAIN-3458,train,Treating Dry Eye Disease with Diet: Just Add Water?,100,52,18,0.34615384615384615
+PLAIN-3459,train,How May Plants Protect Against Diabetes?,100,22,0,0.0
+PLAIN-3460,train,Why is Meat a Risk Factor for Diabetes?,100,119,10,0.08403361344537816
+PLAIN-3463,train,Fatty Meals May Impair Artery Function,100,33,12,0.36363636363636365
+PLAIN-3464,train,Does Chocolate Cause Weight Gain?,100,17,9,0.5294117647058824
+PLAIN-3465,train,High Blood Pressure May Be a Choice,100,81,19,0.2345679012345679
+PLAIN-3466,train,Boosting Brown Fat Through Diet,100,31,6,0.1935483870967742
+PLAIN-3467,train,Brown Fat: Losing Weight Through Thermogenesis,100,28,13,0.4642857142857143
+PLAIN-3468,train,Food as Medicine: Preventing and Treating the Most Dreaded Diseases with Diet,100,21,0,0.0
+PLAIN-3469,train,From Table to Able: Combating Disabling Diseases with Food,100,21,0,0.0
+PLAIN-3470,train,More Than an Apple a Day: Combating Common Diseases,100,21,0,0.0
+PLAIN-3473,train,Does Rye Bread Protect Against Cancer?,100,59,12,0.2033898305084746
+PLAIN-3474,train,Fish Consumption and Suicide,100,83,21,0.25301204819277107
+PLAIN-1,dev,Why Deep Fried Foods May Cause Cancer,100,49,10,0.20408163265306123
+PLAIN-11,dev,Living Longer by Reducing Leucine Intake,100,57,3,0.05263157894736842
+PLAIN-22,dev,Why are Cancer Rates so Low in India?,100,44,3,0.06818181818181818
+PLAIN-32,dev,Peeks Behind the Egg Industry Curtain,100,21,1,0.047619047619047616
+PLAIN-43,dev,Organic Milk and Prostate Cancer,100,30,8,0.26666666666666666
+PLAIN-55,dev,Foods for Macular Degeneration,100,43,8,0.18604651162790697
+PLAIN-67,dev,How Beans Help Our Bones,100,54,4,0.07407407407407407
+PLAIN-77,dev,Phosphate Additives in Chicken Banned Elsewhere,100,29,13,0.4482758620689655
+PLAIN-90,dev,How to Boost the Benefits of Exercise,100,56,20,0.35714285714285715
+PLAIN-101,dev,How to Treat Multiple Sclerosis With Diet,100,31,5,0.16129032258064516
+PLAIN-111,dev,How to Get Kids to Eat Their Vegetables,100,47,9,0.19148936170212766
+PLAIN-122,dev,Citrus to Reduce Muscle Fatigue,100,45,12,0.26666666666666666
+PLAIN-132,dev,Can We Fight the Blues With Greens?,4,30,0,0.0
+PLAIN-142,dev,Dealing With Air Travel Radiation Exposure,100,68,25,0.36764705882352944
+PLAIN-152,dev,How Probiotics Affect Mental Health,100,71,18,0.2535211267605634
+PLAIN-164,dev,Down But Not Out,0,21,0,0.0
+PLAIN-174,dev,Cinnamon for Diabetes,100,48,15,0.3125
+PLAIN-185,dev,The Best Nutrition Bar,100,35,2,0.05714285714285714
+PLAIN-195,dev,Why are Children Starting Puberty Earlier?,100,30,5,0.16666666666666666
+PLAIN-206,dev,Foods That May Block Cancer Formation,100,41,2,0.04878048780487805
+PLAIN-216,dev,Plant-Based Diets for Metabolic Syndrome,100,32,3,0.09375
+PLAIN-226,dev,Bugs & Drugs in Pork: Yersinia and Ractopamine,100,43,20,0.46511627906976744
+PLAIN-237,dev,Pollutants in Californian Breast Tissue,100,49,2,0.04081632653061224
+PLAIN-247,dev,How Do Plant-Based Diets Fight Cancer?,100,36,3,0.08333333333333333
+PLAIN-258,dev,Nuts Don't Cause Expected Weight Gain,100,9,4,0.4444444444444444
+PLAIN-269,dev,Preventing and Treating Kidney Failure With Diet,100,41,3,0.07317073170731707
+PLAIN-279,dev,Latest in Clinical Nutrition Volume 10 Now on DVD,100,21,1,0.047619047619047616
+PLAIN-290,dev,Coffee Caveats,76,4,0,0.0
+PLAIN-304,dev,"EPA dioxin limit has National Chicken Council worried products could be declared ""unfit for consumption""",100,4,0,0.0
+PLAIN-319,dev,Bowel movements: the scoop on poop,100,13,2,0.15384615384615385
+PLAIN-331,dev,How to live longer in four easy steps,100,4,0,0.0
+PLAIN-343,dev,Three Brands of Nutritional Yeast Contain Detectable Lead Levels But the Risk is Minimal,100,27,5,0.18518518518518517
+PLAIN-357,dev,Can diet be used to treat kidney cancer?,100,63,4,0.06349206349206349
+PLAIN-370,dev,Do microgreens have more nutrition?,100,6,1,0.16666666666666666
+PLAIN-382,dev,Is vanilla almond milk healthy?,100,5,4,0.8
+PLAIN-394,dev,Should we take algae supplements for astaxanthin?,100,4,0,0.0
+PLAIN-406,dev,Can hibiscus tea cause coughing?,100,25,1,0.04
+PLAIN-417,dev,Does wild rice contain the same levels of arsenic as brown rice?,100,5,5,1.0
+PLAIN-428,dev,"In making water alkaline, how much baking soda is too much?",100,3,3,1.0
+PLAIN-440,dev,What's the right dose of saffron?,100,13,11,0.8461538461538461
+PLAIN-456,dev,Is multivitamin use really associated to an increased risk of breast cancer?,100,2,2,1.0
+PLAIN-467,dev,"Isn't regular cocoa powder healthier than alkali-processed ""dutched"" cocoa?",100,5,4,0.8
+PLAIN-477,dev,acarbose,0,7,0,0.0
+PLAIN-487,dev,addiction,11,47,10,0.2127659574468085
+PLAIN-498,dev,African Americans,61,10,2,0.2
+PLAIN-508,dev,air travel,36,6,0,0.0
+PLAIN-519,dev,allergies,19,194,15,0.07731958762886598
+PLAIN-530,dev,ALS,18,37,17,0.4594594594594595
+PLAIN-540,dev,American College of Lifestyle Medicine,100,5,0,0.0
+PLAIN-550,dev,ammonia,9,8,2,0.25
+PLAIN-560,dev,anesthesia,4,3,0,0.0
+PLAIN-570,dev,animal studies,100,172,7,0.040697674418604654
+PLAIN-582,dev,antihistamines,3,3,0,0.0
+PLAIN-592,dev,apigen,0,8,0,0.0
+PLAIN-602,dev,Aricept,0,2,0,0.0
+PLAIN-612,dev,asbestos,4,1,0,0.0
+PLAIN-622,dev,Ativan,0,6,0,0.0
+PLAIN-633,dev,avocado oil,100,1,1,1.0
+PLAIN-644,dev,bad breath,28,8,1,0.125
+PLAIN-656,dev,Barrett's esophagus,100,1,0,0.0
+PLAIN-670,dev,bell peppers,7,37,2,0.05405405405405406
+PLAIN-680,dev,beta-carboline alkaloids,100,15,7,0.4666666666666667
+PLAIN-690,dev,bio identical hormones,90,6,1,0.16666666666666666
+PLAIN-700,dev,black beans,100,12,6,0.5
+PLAIN-710,dev,blood cancer,100,45,1,0.022222222222222223
+PLAIN-720,dev,bluefish,1,1,0,0.0
+PLAIN-730,dev,bone cancer,100,20,3,0.15
+PLAIN-740,dev,BPA,4,4,3,0.75
+PLAIN-750,dev,brazil nuts,100,10,9,0.9
+PLAIN-760,dev,breast milk,100,76,9,0.11842105263157894
+PLAIN-770,dev,Broccomax,0,7,0,0.0
+PLAIN-781,dev,burritos,0,2,0,0.0
+PLAIN-791,dev,cabbage,10,116,5,0.04310344827586207
+PLAIN-805,dev,California Raison Marketing Board,59,6,0,0.0
+PLAIN-816,dev,candy,5,101,2,0.019801980198019802
+PLAIN-826,dev,carboxy-methyl cellulose,63,9,0,0.0
+PLAIN-837,dev,carotid arteries,39,3,2,0.6666666666666666
+PLAIN-848,dev,cats,7,26,3,0.11538461538461539
+PLAIN-859,dev,cellulite,3,8,3,0.375
+PLAIN-871,dev,champagne grapes,16,1,0,0.0
+PLAIN-881,dev,chemotherapy,25,249,14,0.05622489959839357
+PLAIN-891,dev,chicken embryo lethal orphan virus,100,15,8,0.5333333333333333
+PLAIN-901,dev,chlorination,0,9,0,0.0
+PLAIN-912,dev,cilantro,3,4,2,0.5
+PLAIN-923,dev,Coca-Cola,11,128,5,0.0390625
+PLAIN-933,dev,cod liver oil,100,40,13,0.325
+PLAIN-945,dev,colon health,100,314,45,0.14331210191082802
+PLAIN-955,dev,cookies,4,37,2,0.05405405405405406
+PLAIN-965,dev,Cornell,2,7,1,0.14285714285714285
+PLAIN-976,dev,cretinism,1,4,1,0.25
+PLAIN-986,dev,cucumbers,0,26,0,0.0
+PLAIN-996,dev,cytoskeleton,1,3,0,0.0
+PLAIN-1007,dev,DDT,12,71,7,0.09859154929577464
+PLAIN-1017,dev,detoxification,10,67,2,0.029850746268656716
+PLAIN-1027,dev,dietary guidelines,100,123,14,0.11382113821138211
+PLAIN-1038,dev,dogs,11,30,6,0.2
+PLAIN-1049,dev,Dr. David Spence,14,3,0,0.0
+PLAIN-1065,dev,Dr. Walter Kempner,13,9,0,0.0
+PLAIN-1077,dev,dulse,0,10,0,0.0
+PLAIN-1087,dev,Easter Island,20,9,1,0.1111111111111111
+PLAIN-1097,dev,Eggbeaters,0,2,0,0.0
+PLAIN-1108,dev,endocannabinoids,0,3,0,0.0
+PLAIN-1118,dev,energy,100,53,5,0.09433962264150944
+PLAIN-1129,dev,erectile dysfunction,100,92,34,0.3695652173913043
+PLAIN-1140,dev,European Food Safety Authority,100,7,0,0.0
+PLAIN-1150,dev,eye parasites,37,23,4,0.17391304347826086
+PLAIN-1160,dev,fatty liver disease,100,23,10,0.43478260869565216
+PLAIN-1171,dev,fennel,0,5,0,0.0
+PLAIN-1181,dev,figs,2,8,1,0.125
+PLAIN-1192,dev,flavonols,15,13,2,0.15384615384615385
+PLAIN-1202,dev,folate,38,57,5,0.08771929824561403
+PLAIN-1213,dev,formaldehyde,2,2,0,0.0
+PLAIN-1224,dev,fructans,1,19,0,0.0
+PLAIN-1235,dev,galactose,9,5,0,0.0
+PLAIN-1245,dev,gastric emptying,42,11,2,0.18181818181818182
+PLAIN-1261,dev,glaucoma,8,27,5,0.18518518518518517
+PLAIN-1273,dev,goiter,1,2,0,0.0
+PLAIN-1287,dev,grapefruit juice,100,38,17,0.4473684210526316
+PLAIN-1298,dev,grilling,2,21,1,0.047619047619047616
+PLAIN-1308,dev,hair loss,100,1,0,0.0
+PLAIN-1319,dev,Harvard Nurses' Health Study,100,109,13,0.11926605504587157
+PLAIN-1330,dev,health food stores,100,22,6,0.2727272727272727
+PLAIN-1341,dev,HeLa cells,100,4,1,0.25
+PLAIN-1352,dev,herbs,23,40,6,0.15
+PLAIN-1362,dev,hijiki,1,15,1,0.06666666666666667
+PLAIN-1373,dev,hormesis,4,27,3,0.1111111111111111
+PLAIN-1386,dev,Hydroxycut,2,7,2,0.2857142857142857
+PLAIN-1397,dev,IgA,13,11,0,0.0
+PLAIN-1408,dev,industrial pollutants,63,45,2,0.044444444444444446
+PLAIN-1418,dev,insecticides,8,14,0,0.0
+PLAIN-1428,dev,iodine,17,34,14,0.4117647058823529
+PLAIN-1440,dev,jam,2,23,1,0.043478260869565216
+PLAIN-1451,dev,juice,99,160,38,0.2375
+PLAIN-1462,dev,kidney,71,6,1,0.16666666666666666
+PLAIN-1472,dev,kiwi fruit,100,55,6,0.10909090909090909
+PLAIN-1484,dev,lamb,7,13,0,0.0
+PLAIN-1495,dev,lecithin,2,11,0,0.0
+PLAIN-1505,dev,lettuce,6,87,2,0.022988505747126436
+PLAIN-1515,dev,limonin,0,6,0,0.0
+PLAIN-1526,dev,liver cancer,100,112,23,0.20535714285714285
+PLAIN-1536,dev,lovastatin,1,20,1,0.05
+PLAIN-1546,dev,lycopene,18,35,7,0.2
+PLAIN-1556,dev,maggots,0,3,0,0.0
+PLAIN-1567,dev,MAO Inhibitors,67,9,4,0.4444444444444444
+PLAIN-1578,dev,mastectomy,2,16,2,0.125
+PLAIN-1589,dev,medical education,100,56,14,0.25
+PLAIN-1600,dev,MelQx,0,4,0,0.0
+PLAIN-1610,dev,mesothelioma,2,17,2,0.11764705882352941
+PLAIN-1620,dev,methylmalonic acid,100,3,2,0.6666666666666666
+PLAIN-1634,dev,migraines,2,12,0,0.0
+PLAIN-1644,dev,mitochondria,13,20,2,0.1
+PLAIN-1655,dev,mortality,100,919,72,0.07834602829162132
+PLAIN-1666,dev,muscle disease,100,19,2,0.10526315789473684
+PLAIN-1678,dev,mycotoxins,0,1,0,0.0
+PLAIN-1689,dev,nasal irrigation,16,3,3,1.0
+PLAIN-1699,dev,National Pork Producers Council,100,7,0,0.0
+PLAIN-1709,dev,Neu5Gc,1,25,1,0.04
+PLAIN-1720,dev,nightshades,0,7,0,0.0
+PLAIN-1740,dev,nutritional yeast,100,16,5,0.3125
+PLAIN-1750,dev,oils,34,100,7,0.07
+PLAIN-1761,dev,oral health,100,99,26,0.26262626262626265
+PLAIN-1771,dev,organochlorines,6,11,2,0.18181818181818182
+PLAIN-1783,dev,oxalates,1,29,1,0.034482758620689655
+PLAIN-1793,dev,palmitic acid,100,31,2,0.06451612903225806
+PLAIN-1804,dev,parasites,10,86,6,0.06976744186046512
+PLAIN-1816,dev,peaches,5,24,2,0.08333333333333333
+PLAIN-1826,dev,penis size,89,30,1,0.03333333333333333
+PLAIN-1836,dev,persistent organic pollutants,100,251,35,0.1394422310756972
+PLAIN-1846,dev,phenolics,23,20,3,0.15
+PLAIN-1856,dev,phytates,2,68,2,0.029411764705882353
+PLAIN-1866,dev,pineapple juice,100,1,1,1.0
+PLAIN-1876,dev,plant protein,100,252,29,0.11507936507936507
+PLAIN-1886,dev,pneumovax,0,1,0,0.0
+PLAIN-1896,dev,polyphenols,71,99,24,0.24242424242424243
+PLAIN-1907,dev,porcine endogenous retroviruses,67,21,7,0.3333333333333333
+PLAIN-1918,dev,poultry viruses,94,62,14,0.22580645161290322
+PLAIN-1928,dev,premenstrual syndrome,100,19,8,0.42105263157894735
+PLAIN-1939,dev,processed meats,100,7,0,0.0
+PLAIN-1949,dev,Prozac,0,28,0,0.0
+PLAIN-1961,dev,pulmonary embolism,32,6,1,0.16666666666666666
+PLAIN-1971,dev,quercitin,0,23,0,0.0
+PLAIN-1982,dev,ranking foods,100,77,6,0.07792207792207792
+PLAIN-1994,dev,red onions,100,11,0,0.0
+PLAIN-2007,dev,reversing chronic disease,100,39,3,0.07692307692307693
+PLAIN-2018,dev,Richard Dawkins,1,1,0,0.0
+PLAIN-2029,dev,rutabagas,0,3,0,0.0
+PLAIN-2039,dev,saliva,18,34,2,0.058823529411764705
+PLAIN-2050,dev,saturate fat,100,5,1,0.2
+PLAIN-2060,dev,sea vegetables,100,15,1,0.06666666666666667
+PLAIN-2070,dev,sense of smell,20,2,0,0.0
+PLAIN-2080,dev,sheep,10,53,4,0.07547169811320754
+PLAIN-2091,dev,sinusitis,1,3,0,0.0
+PLAIN-2101,dev,smoked foods,100,11,4,0.36363636363636365
+PLAIN-2112,dev,sodium bicarbonate,99,1,1,1.0
+PLAIN-2123,dev,Spain,10,8,0,0.0
+PLAIN-2133,dev,spirulina,6,9,5,0.5555555555555556
+PLAIN-2144,dev,SSRI's,100,27,2,0.07407407407407407
+PLAIN-2155,dev,steroids,29,62,7,0.11290322580645161
+PLAIN-2166,dev,stroke,87,300,33,0.11
+PLAIN-2176,dev,sulforaphane,24,36,22,0.6111111111111112
+PLAIN-2186,dev,supplements,100,443,60,0.13544018058690746
+PLAIN-2196,dev,sweet potatoes,56,41,19,0.4634146341463415
+PLAIN-2208,dev,tapeworms,0,26,0,0.0
+PLAIN-2219,dev,telomeres,11,27,11,0.4074074074074074
+PLAIN-2229,dev,thermogenics,0,3,0,0.0
+PLAIN-2239,dev,tick bites,9,18,3,0.16666666666666666
+PLAIN-2249,dev,tongue cancer,100,16,2,0.125
+PLAIN-2260,dev,trans fat,100,6,2,0.3333333333333333
+PLAIN-2270,dev,tryptophan,7,5,3,0.6
+PLAIN-2280,dev,turmeric,38,168,38,0.2261904761904762
+PLAIN-2290,dev,ulcerative colitis,28,64,13,0.203125
+PLAIN-2300,dev,uterine cancer,100,22,1,0.045454545454545456
+PLAIN-2310,dev,Vaseline,0,6,0,0.0
+PLAIN-2320,dev,veggie burgers,3,62,0,0.0
+PLAIN-2331,dev,Vioxx,1,9,1,0.1111111111111111
+PLAIN-2342,dev,vitamin E,100,65,13,0.2
+PLAIN-2353,dev,walnut,16,6,0,0.0
+PLAIN-2363,dev,weeds,2,4,0,0.0
+PLAIN-2374,dev,Whitecoat project,30,5,0,0.0
+PLAIN-2385,dev,World Health Organization,100,156,8,0.05128205128205128
+PLAIN-2395,dev,xylitol,1,16,1,0.0625
+PLAIN-2407,dev,zingerone,2,11,2,0.18181818181818182
+PLAIN-2429,dev,Diverticulosis: When Our Most Common Gut Disorder Hardly Existed,100,6,2,0.3333333333333333
+PLAIN-2439,dev,From Table to Able: Combating Disabling Diseases with Food,100,21,0,0.0
+PLAIN-2449,dev,How to Make Your Own Fruit and Vegetable Wash,100,12,0,0.0
+PLAIN-2459,dev,How to Prevent a Stroke,100,50,7,0.14
+PLAIN-2469,dev,"If White Rice is Linked to Diabetes, What About China?",100,75,16,0.21333333333333335
+PLAIN-2479,dev,Stool pH and Colon Cancer,100,50,15,0.3
+PLAIN-2489,dev,Why Prevention is Worth a Ton of Cure,100,6,0,0.0
+PLAIN-2499,dev,The Saturated Fat Studies: Set Up to Fail,100,11,6,0.5454545454545454
+PLAIN-2509,dev,Chicken Big: Poultry and Obesity,100,41,15,0.36585365853658536
+PLAIN-2519,dev,How Much Added Sugar Is Too Much?,100,21,5,0.23809523809523808
+PLAIN-2529,dev,Juicing Removes More Than Just Fiber,100,27,6,0.2222222222222222
+PLAIN-2539,dev,Cooked Beans or Sprouted Beans?,100,43,12,0.27906976744186046
+PLAIN-2549,dev,How the Egg Board Designs Misleading Studies,100,8,4,0.5
+PLAIN-2559,dev,Treating Hepatitis C with Chlorella,100,38,8,0.21052631578947367
+PLAIN-2569,dev,Prevent Cancer From Going on TOR,100,39,7,0.1794871794871795
+PLAIN-2579,dev,Alzheimer’s Disease: Grain Brain or Meathead?,100,39,11,0.28205128205128205
+PLAIN-2589,dev,Anti-inflammatory Life is a Bowl of Cherries,100,66,27,0.4090909090909091
+PLAIN-2599,dev,Alpha Gal and the Lone Star Tick,100,71,15,0.2112676056338028
+PLAIN-2609,dev,Treating Asthma and Eczema With Plant-Based Diets,100,99,22,0.2222222222222222
+PLAIN-2619,dev,Fully Consensual Heart Disease Treatment,100,18,5,0.2777777777777778
+PLAIN-2629,dev,Dietary Sources of Alkylphenol Endocrine Disruptors,100,102,12,0.11764705882352941
+PLAIN-2639,dev,Who Determines if Food Additives are Safe?,100,74,24,0.32432432432432434
+PLAIN-2649,dev,Boosting the Bioavailability of Curcumin,100,28,8,0.2857142857142857
+PLAIN-2659,dev,Greens vs. Glaucoma,100,8,4,0.5
+PLAIN-2669,dev,Autopsy of Chicken Nuggets,73,55,13,0.23636363636363636
+PLAIN-2679,dev,Phosphate Additives in Meat Purge and Cola,100,40,20,0.5
+PLAIN-2689,dev,Enhanced Athletic Recovery Without Undermining Adaptation,100,42,7,0.16666666666666666
+PLAIN-2699,dev,Treating Multiple Sclerosis With the Swank MS Diet,100,32,5,0.15625
+PLAIN-2709,dev,Tricks to Get Kids to Eat Healthier at School,100,16,6,0.375
+PLAIN-2719,dev,Reducing Muscle Fatigue With Citrus,100,24,12,0.5
+PLAIN-2729,dev,Fighting the Blues With Greens?,4,37,0,0.0
+PLAIN-2739,dev,Do Dental X-Rays Cause Brain Tumors?,100,43,4,0.09302325581395349
+PLAIN-2749,dev,"Should Probiotics Be Taken Before, During, or After Meals?",100,32,11,0.34375
+PLAIN-2759,dev,Breast Cancer and Alcohol: How Much is Safe?,100,40,13,0.325
+PLAIN-2769,dev,The McGovern Report,100,4,0,0.0
+PLAIN-2779,dev,Raisins vs. Jelly Beans for Athletic Performance,100,18,3,0.16666666666666666
+PLAIN-2789,dev,"Protein, Puberty, and Pollutants",100,35,9,0.2571428571428571
+PLAIN-2799,dev,Meat Fumes: Dietary Secondhand Smoke,100,28,3,0.10714285714285714
+PLAIN-2809,dev,Apple Skin: Peeling Back Cancer,100,15,4,0.26666666666666666
+PLAIN-2819,dev,Potassium and Autoimmune Disease,100,19,4,0.21052631578947367
+PLAIN-2829,dev,Unsweetening the Diet,100,6,0,0.0
+PLAIN-2839,dev,Side-Effect of Fenugreek Consumption,100,4,3,0.75
+PLAIN-2849,dev,Protein and Heart Disease,100,5,1,0.2
+PLAIN-2859,dev,Pollutants in Californian Breast Tissue,100,10,2,0.2
+PLAIN-2869,dev,Good Grub: The Healthiest Meat,100,3,1,0.3333333333333333
+PLAIN-2879,dev,How Plant-Based to Lower IGF-1?,100,15,7,0.4666666666666667
+PLAIN-2889,dev,Extra Virgin Olive Oil vs. Nuts,100,1,1,1.0
+PLAIN-2899,dev,Tipping Firmicutes to Bacteroidetes,4,20,3,0.15
+PLAIN-2909,dev,Optimal Phytosterol Source,100,12,2,0.16666666666666666
+PLAIN-2919,dev,The Wrong Way to Boost Serotonin,87,11,1,0.09090909090909091
+PLAIN-2929,dev,Kiwifruit and DNA Repair,100,9,3,0.3333333333333333
+PLAIN-2939,dev,The Leaky Gut Theory of Why Animal Products Cause Inflammation,100,20,0,0.0
+PLAIN-2949,dev,Zero Tolerance to Acceptable Risk,100,12,1,0.08333333333333333
+PLAIN-2959,dev,Dietary Supplement Snake Oil,100,13,2,0.15384615384615385
+PLAIN-2969,dev,SAD States: Standard American Diet State-By-State Comparison,100,1,0,0.0
+PLAIN-2979,dev,Cow’s Milk Casomorphin and Crib Death,100,2,2,1.0
+PLAIN-2990,dev,Watermelon as Treatment for Erectile Dysfunction,100,4,4,1.0
+PLAIN-3000,dev,"Chicken Dioxins, Viruses, or Antibiotics?",100,1,0,0.0
+PLAIN-3013,dev,Lung Cancer Metastases and Broccoli,100,1,0,0.0
+PLAIN-3025,dev,So Should We Drink Beet Juice or Not?,100,2,0,0.0
+PLAIN-3036,dev,Asparagus Pee,0,2,0,0.0
+PLAIN-3052,dev,Anti Up on the Veggies,100,2,0,0.0
+PLAIN-3062,dev,Amla Versus Cancer Cell Growth,100,8,3,0.375
+PLAIN-3073,dev,Glycotoxins,2,2,0,0.0
+PLAIN-3084,dev,How the Institute of Medicine Arrived at Their Vitamin D Recommendation,100,1,1,1.0
+PLAIN-3096,dev,Phytochemicals: The Nutrition Facts Missing From the Label,100,8,0,0.0
+PLAIN-3114,dev,Plant Protein Preferable,100,1,0,0.0
+PLAIN-3130,dev,Are Avocados Bad for You?,11,13,1,0.07692307692307693
+PLAIN-3140,dev,Stool Size Matters,100,34,2,0.058823529411764705
+PLAIN-3150,dev,Golden Glow,8,25,0,0.0
+PLAIN-3160,dev,Egg Cholesterol in the Diet,100,19,8,0.42105263157894735
+PLAIN-3170,dev,Melatonin & Breast Cancer,100,35,12,0.34285714285714286
+PLAIN-3180,dev,Is Kimchi Good For You?,82,9,0,0.0
+PLAIN-3190,dev,Obesity-Causing Pollutants in Food,100,35,10,0.2857142857142857
+PLAIN-3200,dev,Anabolic Steroids in Meat,100,17,6,0.35294117647058826
+PLAIN-3210,dev,Caffeine During Pregnancy,100,28,14,0.5
+PLAIN-3220,dev,Reversing Cognitive Decline,100,33,3,0.09090909090909091
+PLAIN-3230,dev,Wart Cancer Viruses in Food,100,22,8,0.36363636363636365
+PLAIN-3240,dev,Is Homeopathy Just Placebo?,100,33,17,0.5151515151515151
+PLAIN-3250,dev,Improving Memory Through Diet,100,41,5,0.12195121951219512
+PLAIN-3260,dev,Update on Juice Plus+®,100,11,0,0.0
+PLAIN-3270,dev,Flaxseeds vs. Chia Seeds,100,30,3,0.1
+PLAIN-3280,dev,Brown Rice vs. Black Rice,100,7,5,0.7142857142857143
+PLAIN-3291,dev,"Lutein, Lycopene, and Selenium Pills",61,13,3,0.23076923076923078
+PLAIN-3301,dev,Amalgam Fillings vs. Canned Tuna,100,38,3,0.07894736842105263
+PLAIN-3311,dev,New Corpse Smell,100,10,2,0.2
+PLAIN-3321,dev,#1 Anticancer Vegetable,100,38,0,0.0
+PLAIN-3331,dev,Salt OK if Blood Pressure is OK?,100,24,2,0.08333333333333333
+PLAIN-3341,dev,Are Avocados Good for You?,84,7,1,0.14285714285714285
+PLAIN-3351,dev,Update on Spirulina,35,1,1,1.0
+PLAIN-3361,dev,Update on Chocolate,65,12,8,0.6666666666666666
+PLAIN-3371,dev,A Harmless Artificial Sweetener,28,15,3,0.2
+PLAIN-3381,dev,Are Artificial Colors Harmful?,61,1,0,0.0
+PLAIN-3391,dev,Bottled Water vs. Tap,100,7,6,0.8571428571428571
+PLAIN-3401,dev,Superfood Bargains,1,68,0,0.0
+PLAIN-3411,dev,Dairy & Acne,100,18,14,0.7777777777777778
+PLAIN-3421,dev,Broccoli Sprouts,40,28,9,0.32142857142857145
+PLAIN-3431,dev,Omnivore vs. Vegan Nutrient Deficiencies,100,35,0,0.0
+PLAIN-3441,dev,Doctors' Nutritional Ignorance,100,4,2,0.5
+PLAIN-3451,dev,Blue-Green Algae & Spirulina,100,6,6,1.0
+PLAIN-3461,dev,Coffee and Mortality,100,43,20,0.46511627906976744
+PLAIN-3471,dev,Uprooting the Leading Causes of Death,100,21,0,0.0
+PLAIN-2,test,Do Cholesterol Statin Drugs Cause Breast Cancer?,100,24,16,0.6666666666666666
+PLAIN-12,test,Exploiting Autophagy to Live Longer,100,30,3,0.1
+PLAIN-23,test,How to Reduce Exposure to Alkylphenols Through Your Diet,100,90,12,0.13333333333333333
+PLAIN-33,test,What’s Driving America’s Obesity Problem?,100,32,3,0.09375
+PLAIN-44,test,Who Should be Careful About Curcumin?,89,58,12,0.20689655172413793
+PLAIN-56,test,Foods for Glaucoma,100,50,6,0.12
+PLAIN-68,test,What is Actually in Chicken Nuggets?,88,55,13,0.23636363636363636
+PLAIN-78,test,What Do Meat Purge and Cola Have in Common?,100,62,6,0.0967741935483871
+PLAIN-91,test,Chronic Headaches and Pork Parasites,100,64,10,0.15625
+PLAIN-102,test,Stopping Heart Disease in Childhood,100,24,1,0.041666666666666664
+PLAIN-112,test,Food Dyes and ADHD,100,56,5,0.08928571428571429
+PLAIN-123,test,How Citrus Might Help Keep Your Hands Warm,100,51,4,0.0784313725490196
+PLAIN-133,test,Starving Tumors of Their Blood Supply,100,36,1,0.027777777777777776
+PLAIN-143,test,Are Dental X-Rays Safe?,100,51,4,0.0784313725490196
+PLAIN-153,test,How Should I Take Probiotics?,19,47,11,0.23404255319148937
+PLAIN-165,test,Breast Cancer & Alcohol: How Much is Safe?,100,36,9,0.25
+PLAIN-175,test,Diet and Cellulite,100,37,3,0.08108108108108109
+PLAIN-186,test,Best Treatment for Constipation,100,24,1,0.041666666666666664
+PLAIN-196,test,Should We Avoid Titanium Dioxide?,49,69,7,0.10144927536231885
+PLAIN-207,test,Avoiding Cooked Meat Carcinogens,100,55,15,0.2727272727272727
+PLAIN-217,test,Plant-Based Diets for Psoriasis,100,36,2,0.05555555555555555
+PLAIN-227,test,Increasing Muscle Strength with Fenugreek,100,40,1,0.025
+PLAIN-238,test,How Chemically Contaminated Are We?,81,54,3,0.05555555555555555
+PLAIN-248,test,Treating an Enlarged Prostate With Diet,100,31,5,0.16129032258064516
+PLAIN-259,test,Optimal Phytosterol Dose and Source,100,14,3,0.21428571428571427
+PLAIN-270,test,Is Caffeinated Tea Really Dehydrating?,100,52,11,0.21153846153846154
+PLAIN-280,test,Mercury Testing Recommended Before Pregnancy,100,20,8,0.4
+PLAIN-291,test,Stool Size and Breast Cancer Risk,100,13,3,0.23076923076923078
+PLAIN-307,test,Vitamin D: Shedding some light on the new recommendations,100,3,3,1.0
+PLAIN-320,test,Breast Cancer and Diet,100,42,6,0.14285714285714285
+PLAIN-332,test,Can antioxidant-rich spices counteract the effects of a high-fat meal?,100,2,1,0.5
+PLAIN-344,test,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,100,61,5,0.08196721311475409
+PLAIN-358,test,Didn't another study show carnitine was good for the heart?,100,3,0,0.0
+PLAIN-371,test,Any update on the scary in vitro avocado data?,100,2,2,1.0
+PLAIN-383,test,What do you think of Dr. Jenkins' take on paleolithic diets?,100,5,2,0.4
+PLAIN-395,test,What about pepper plus turmeric in V8 juice?,100,3,0,0.0
+PLAIN-407,test,Is annatto food coloring safe?,100,3,2,0.6666666666666666
+PLAIN-418,test,Fresh fruit versus frozen--which is better?,100,3,2,0.6666666666666666
+PLAIN-430,test,Are krill oil supplements better than fish oil capsules?,100,8,5,0.625
+PLAIN-441,test,Is apple cider vinegar good for you?,100,5,5,1.0
+PLAIN-457,test,How can you believe in any scientific study?,100,5,0,0.0
+PLAIN-468,test,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,100,10,7,0.7
+PLAIN-478,test,accidents,7,1,0,0.0
+PLAIN-488,test,adenovirus 36,100,15,11,0.7333333333333333
+PLAIN-499,test,African-American,100,34,5,0.14705882352941177
+PLAIN-510,test,airport scanners,0,6,0,0.0
+PLAIN-520,test,Alli,0,1,0,0.0
+PLAIN-531,test,alternative medicine,100,308,20,0.06493506493506493
+PLAIN-541,test,American Dental Association,100,6,3,0.5
+PLAIN-551,test,amnesia,0,2,0,0.0
+PLAIN-561,test,aneurysm,2,25,2,0.08
+PLAIN-571,test,anisakis,5,7,2,0.2857142857142857
+PLAIN-583,test,antinutrients,0,44,0,0.0
+PLAIN-593,test,apnea,2,3,1,0.3333333333333333
+PLAIN-603,test,Arkansas,3,1,0,0.0
+PLAIN-613,test,ascorbic acid,100,10,2,0.2
+PLAIN-623,test,Atkins diet,100,41,4,0.0975609756097561
+PLAIN-634,test,avocados,2,21,1,0.047619047619047616
+PLAIN-645,test,bagels,0,29,0,0.0
+PLAIN-660,test,beans,46,475,30,0.06315789473684211
+PLAIN-671,test,benzene,4,1,1,1.0
+PLAIN-681,test,betel nuts,96,1,1,1.0
+PLAIN-691,test,bioavailability,78,21,1,0.047619047619047616
+PLAIN-701,test,black raspberries,82,8,4,0.5
+PLAIN-711,test,blood clots,100,57,3,0.05263157894736842
+PLAIN-721,test,BMAA,18,25,18,0.72
+PLAIN-731,test,bone fractures,77,54,24,0.4444444444444444
+PLAIN-741,test,BPH,11,19,8,0.42105263157894735
+PLAIN-751,test,BRCA genes,89,7,0,0.0
+PLAIN-761,test,breast pain,100,6,1,0.16666666666666666
+PLAIN-771,test,bronchiolitis obliterans,3,3,3,1.0
+PLAIN-782,test,Bush administration,100,2,0,0.0
+PLAIN-792,test,cadaverine,3,6,3,0.5
+PLAIN-806,test,caloric restriction,100,96,24,0.25
+PLAIN-817,test,canker sores,0,1,0,0.0
+PLAIN-827,test,carcinogens,29,244,18,0.07377049180327869
+PLAIN-838,test,carrageenan,7,9,7,0.7777777777777778
+PLAIN-850,test,cauliflower,7,57,5,0.08771929824561403
+PLAIN-872,test,chanterelle mushrooms,13,1,0,0.0
+PLAIN-882,test,Chernobyl,2,15,2,0.13333333333333333
+PLAIN-892,test,chickpeas,6,92,6,0.06521739130434782
+PLAIN-902,test,chlorophyll,4,4,2,0.5
+PLAIN-913,test,cinnamon,14,34,9,0.2647058823529412
+PLAIN-924,test,cocaine,1,32,1,0.03125
+PLAIN-934,test,coffee,76,101,36,0.3564356435643564
+PLAIN-946,test,coma,5,31,2,0.06451612903225806
+PLAIN-956,test,cooking methods,100,206,32,0.1553398058252427
+PLAIN-966,test,cortisol,13,3,1,0.3333333333333333
+PLAIN-977,test,crib death,100,3,1,0.3333333333333333
+PLAIN-987,test,cumin,3,3,1,0.3333333333333333
+PLAIN-997,test,Czechoslovakia,0,2,0,0.0
+PLAIN-1008,test,deafness,0,5,0,0.0
+PLAIN-1018,test,DHA,25,60,8,0.13333333333333333
+PLAIN-1028,test,dietary scoring,100,1,0,0.0
+PLAIN-1039,test,domoic acid,100,2,2,1.0
+PLAIN-1050,test,Dr. Dean Ornish,13,94,1,0.010638297872340425
+PLAIN-1066,test,Dr. Walter Willett,14,9,0,0.0
+PLAIN-1088,test,ECMO,2,5,2,0.4
+PLAIN-1098,test,eggnog,0,5,0,0.0
+PLAIN-1109,test,endocrine disruptors,42,98,12,0.12244897959183673
+PLAIN-1119,test,energy drinks,100,11,0,0.0
+PLAIN-1130,test,ergothioneine,1,1,1,1.0
+PLAIN-1141,test,Evidence-based medicine,100,16,3,0.1875
+PLAIN-1151,test,factory farming practices,83,153,10,0.06535947712418301
+PLAIN-1161,test,fava beans,46,1,0,0.0
+PLAIN-1172,test,fenugreek,1,19,1,0.05263157894736842
+PLAIN-1183,test,Finland,14,25,2,0.08
+PLAIN-1193,test,flax oil,100,18,8,0.4444444444444444
+PLAIN-1203,test,folic acid,100,12,2,0.16666666666666666
+PLAIN-1214,test,Fosamax,0,17,0,0.0
+PLAIN-1225,test,fructose,24,27,10,0.37037037037037035
+PLAIN-1236,test,galactosemia,1,5,1,0.2
+PLAIN-1249,test,genetic manipulation,100,4,0,0.0
+PLAIN-1262,test,Global Burden of Disease Study,100,10,3,0.3
+PLAIN-1275,test,goji berries,30,55,6,0.10909090909090909
+PLAIN-1288,test,grapes,16,196,10,0.05102040816326531
+PLAIN-1299,test,growth promoters,100,61,3,0.04918032786885246
+PLAIN-1309,test,halibut,0,4,0,0.0
+PLAIN-1320,test,Harvard Physicians’ Study II,100,6,3,0.5
+PLAIN-1331,test,hearing,3,1,0,0.0
+PLAIN-1342,test,heme iron,59,16,5,0.3125
+PLAIN-1353,test,hernia,2,4,0,0.0
+PLAIN-1363,test,Hiroshima,1,11,1,0.09090909090909091
+PLAIN-1374,test,hormonal dysfunction,100,26,3,0.11538461538461539
+PLAIN-1387,test,hyperactivity,15,12,8,0.6666666666666666
+PLAIN-1398,test,IGF-1,100,103,28,0.27184466019417475
+PLAIN-1409,test,industrial toxins,47,253,6,0.023715415019762844
+PLAIN-1419,test,insects,4,65,2,0.03076923076923077
+PLAIN-1429,test,Iowa Women’s Health Study,100,6,0,0.0
+PLAIN-1441,test,Japan,60,186,24,0.12903225806451613
+PLAIN-1453,test,junk food,100,245,25,0.10204081632653061
+PLAIN-1463,test,kidney beans,100,24,8,0.3333333333333333
+PLAIN-1473,test,kohlrabi,1,1,1,1.0
+PLAIN-1485,test,lard,1,54,0,0.0
+PLAIN-1496,test,leeks,0,1,0,0.0
+PLAIN-1506,test,leucine,7,15,2,0.13333333333333333
+PLAIN-1516,test,Lindane,2,2,0,0.0
+PLAIN-1527,test,liver disease,100,202,32,0.15841584158415842
+PLAIN-1537,test,low-carb diets,100,45,8,0.17777777777777778
+PLAIN-1547,test,lyme disease,100,6,0,0.0
+PLAIN-1557,test,magnesium,29,26,4,0.15384615384615385
+PLAIN-1568,test,maple syrup,12,2,2,1.0
+PLAIN-1579,test,mastitis,2,5,1,0.2
+PLAIN-1590,test,medical ethics,100,18,4,0.2222222222222222
+PLAIN-1601,test,memory,40,74,17,0.22972972972972974
+PLAIN-1611,test,mesquite,0,6,0,0.0
+PLAIN-1621,test,Mevacor,0,4,0,0.0
+PLAIN-1635,test,milk,100,431,65,0.15081206496519722
+PLAIN-1645,test,molasses,1,6,1,0.16666666666666666
+PLAIN-1656,test,mouth cancer,100,28,1,0.03571428571428571
+PLAIN-1667,test,muscle health,100,159,36,0.22641509433962265
+PLAIN-1679,test,myelopathy,0,1,0,0.0
+PLAIN-1690,test,National Academy of Sciences,100,4,1,0.25
+PLAIN-1700,test,Native Americans,59,5,0,0.0
+PLAIN-1710,test,neurocysticercosis,13,16,13,0.8125
+PLAIN-1721,test,NIH-AARP study,100,31,6,0.1935483870967742
+PLAIN-1731,test,norovirus,5,3,2,0.6666666666666666
+PLAIN-1741,test,nuts,94,420,65,0.15476190476190477
+PLAIN-1752,test,okra,0,1,0,0.0
+PLAIN-1762,test,oral intraepithelial neoplasia,100,8,5,0.625
+PLAIN-1772,test,organotins,2,2,2,1.0
+PLAIN-1784,test,oxen meat,100,2,0,0.0
+PLAIN-1794,test,Panama,2,2,2,1.0
+PLAIN-1805,test,Parkinson's disease,100,116,26,0.22413793103448276
+PLAIN-1817,test,peanut butter,27,27,4,0.14814814814814814
+PLAIN-1827,test,Peoria,0,3,0,0.0
+PLAIN-1837,test,pesticides,56,196,47,0.23979591836734693
+PLAIN-1847,test,philippines,3,11,2,0.18181818181818182
+PLAIN-1857,test,phytic acid,100,33,6,0.18181818181818182
+PLAIN-1867,test,pineapples,0,7,0,0.0
+PLAIN-1877,test,plant-based diet,100,36,2,0.05555555555555555
+PLAIN-1887,test,poisonous plants,76,4,0,0.0
+PLAIN-1897,test,polypropylene plastic,5,2,0,0.0
+PLAIN-1909,test,pork,56,463,33,0.07127429805615551
+PLAIN-1919,test,poultry workers,100,27,18,0.6666666666666666
+PLAIN-1929,test,prenatal vitamins,100,10,0,0.0
+PLAIN-1940,test,prolactin,7,12,2,0.16666666666666666
+PLAIN-1950,test,prunes,5,13,2,0.15384615384615385
+PLAIN-1962,test,pumpkin,2,13,0,0.0
+PLAIN-1972,test,quinine,2,11,0,0.0
+PLAIN-1983,test,rapamycin,24,32,16,0.5
+PLAIN-1995,test,red tea,100,11,1,0.09090909090909091
+PLAIN-2009,test,rhabdomyolysis,5,8,1,0.125
+PLAIN-2019,test,rickets,1,3,1,0.3333333333333333
+PLAIN-2030,test,Rutin,2,6,1,0.16666666666666666
+PLAIN-2040,test,salmon,13,132,8,0.06060606060606061
+PLAIN-2051,test,saturated fat,100,355,45,0.1267605633802817
+PLAIN-2061,test,seafood,41,410,32,0.07804878048780488
+PLAIN-2071,test,serotonin,21,45,9,0.2
+PLAIN-2081,test,shelf life,100,1,1,1.0
+PLAIN-2092,test,sirtuins,5,10,5,0.5
+PLAIN-2102,test,smoking,100,421,42,0.0997624703087886
+PLAIN-2113,test,soil health,100,1,0,0.0
+PLAIN-2124,test,spearmint,2,17,2,0.11764705882352941
+PLAIN-2134,test,Splenda,0,12,0,0.0
+PLAIN-2145,test,St. John's wort,100,9,1,0.1111111111111111
+PLAIN-2156,test,stevia,3,6,3,0.5
+PLAIN-2167,test,subsidies,2,1,0,0.0
+PLAIN-2177,test,sulfur,10,24,3,0.125
+PLAIN-2187,test,suppositories,2,9,2,0.2222222222222222
+PLAIN-2197,test,sweeteners,11,58,8,0.13793103448275862
+PLAIN-2209,test,taro,0,2,0,0.0
+PLAIN-2220,test,tempeh,1,9,1,0.1111111111111111
+PLAIN-2230,test,thiamine,3,7,0,0.0
+PLAIN-2240,test,titanium dioxide,9,11,5,0.45454545454545453
+PLAIN-2250,test,tongue worm,7,2,0,0.0
+PLAIN-2261,test,trans fats,91,60,9,0.15
+PLAIN-2271,test,Tufts,0,10,0,0.0
+PLAIN-2281,test,turnips,0,1,0,0.0
+PLAIN-2291,test,ultra-processed foods,100,5,2,0.4
+PLAIN-2301,test,uterine health,100,13,0,0.0
+PLAIN-2311,test,veal,3,2,0,0.0
+PLAIN-2321,test,veggie chicken,67,5,0,0.0
+PLAIN-2332,test,viral infections,100,97,13,0.13402061855670103
+PLAIN-2343,test,vitamin K,100,2,0,0.0
+PLAIN-2354,test,walnut oil,100,5,2,0.4
+PLAIN-2364,test,weight gain,100,15,0,0.0
+PLAIN-2375,test,whiting,0,2,0,0.0
+PLAIN-2386,test,worms,3,19,0,0.0
+PLAIN-2396,test,Yale,0,18,0,0.0
+PLAIN-2408,test,Zoloft,0,5,0,0.0
+PLAIN-2430,test,Preventing Brain Loss with B Vitamins?,100,46,8,0.17391304347826086
+PLAIN-2440,test,More Than an Apple a Day: Combating Common Diseases,100,21,0,0.0
+PLAIN-2450,test,Are Organic Foods Safer?,100,38,7,0.18421052631578946
+PLAIN-2460,test,Diabetes as a Disease of Fat Toxicity,100,31,8,0.25806451612903225
+PLAIN-2470,test,Is Milk Good for Our Bones?,100,73,14,0.1917808219178082
+PLAIN-2480,test,Preventing Ulcerative Colitis with Diet,100,18,6,0.3333333333333333
+PLAIN-2490,test,The Actual Benefit of Diet vs. Drugs,100,23,6,0.2608695652173913
+PLAIN-2500,test,The Saturated Fat Studies: Buttering Up the Public,100,7,3,0.42857142857142855
+PLAIN-2510,test,Coffee and Artery Function,100,46,25,0.5434782608695652
+PLAIN-2520,test,Caloric Restriction vs. Plant-Based Diets,100,73,9,0.1232876712328767
+PLAIN-2530,test,Infectobesity: Adenovirus 36 and Childhood Obesity,100,72,22,0.3055555555555556
+PLAIN-2540,test,Does Cholesterol Size Matter?,100,21,9,0.42857142857142855
+PLAIN-2550,test,Barriers to Heart Disease Prevention,100,25,6,0.24
+PLAIN-2560,test,Childhood Constipation and Cow’s Milk,100,21,15,0.7142857142857143
+PLAIN-2570,test,Diabetics Should Take Their Pulses,19,40,2,0.05
+PLAIN-2580,test,Academy of Nutrition and Dietetics Conflicts of Interest,100,23,3,0.13043478260869565
+PLAIN-2590,test,Do Vegetarians Get Enough Protein?,100,63,5,0.07936507936507936
+PLAIN-2600,test,Eggs and Arterial Function,100,10,3,0.3
+PLAIN-2610,test,Treating Asthma With Plants vs. Supplements?,100,61,9,0.14754098360655737
+PLAIN-2620,test,Phytates for the Treatment of Cancer,100,55,10,0.18181818181818182
+PLAIN-2630,test,Alkylphenol Endocrine Disruptors and Allergies,64,48,13,0.2708333333333333
+PLAIN-2640,test,Chicken Salmonella Thanks to Meat Industry Lawsuit,100,48,26,0.5416666666666666
+PLAIN-2650,test,Turmeric Curcumin and Osteoarthritis,87,29,11,0.3793103448275862
+PLAIN-2660,test,How Long to Detox From Fish Before Pregnancy?,100,27,7,0.25925925925925924
+PLAIN-2670,test,Is Caramel Color Carcinogenic?,94,35,4,0.11428571428571428
+PLAIN-2680,test,Counteracting the Effects of Dioxins Through Diet,100,14,4,0.2857142857142857
+PLAIN-2690,test,Chronic Headaches and Pork Tapeworms,100,43,5,0.11627906976744186
+PLAIN-2700,test,Heart Disease Starts in Childhood,100,10,3,0.3
+PLAIN-2710,test,Artificial Food Colors and ADHD,100,21,5,0.23809523809523808
+PLAIN-2720,test,Keeping Your Hands Warm With Citrus,46,36,6,0.16666666666666666
+PLAIN-2730,test,Anti-Angiogenesis: Cutting Off Tumor Supply Lines,100,29,10,0.3448275862068966
+PLAIN-2740,test,Cancer Risk From CT Scan Radiation,100,50,13,0.26
+PLAIN-2750,test,Preventing the Common Cold with Probiotics?,100,59,13,0.22033898305084745
+PLAIN-2760,test,Eating Healthy on a Budget,100,8,0,0.0
+PLAIN-2770,test,Flaxseeds & Breast Cancer Survival: Clinical Evidence,100,41,11,0.2682926829268293
+PLAIN-2780,test,Do Fruit & Nut Bars Cause Weight Gain?,100,22,9,0.4090909090909091
+PLAIN-2790,test,Titanium Dioxide & Inflammatory Bowel Disease,100,59,8,0.13559322033898305
+PLAIN-2800,test,Prolonged Liver Function Enhancement From Broccoli,100,24,3,0.125
+PLAIN-2810,test,Apple Juice May Be Worse Than Sugar Water,100,8,4,0.5
+PLAIN-2820,test,Preventing Strokes with Diet,100,8,1,0.125
+PLAIN-2830,test,Neurobiology of Artificial Sweeteners,28,3,1,0.3333333333333333
+PLAIN-2840,test,Benefits of Fenugreek Seeds,100,17,0,0.0
+PLAIN-2850,test,More Antibiotics In White Meat or Dark Meat?,100,9,3,0.3333333333333333
+PLAIN-2860,test,BPA Plastic and Male Sexual Dysfunction,100,2,2,1.0
+PLAIN-2870,test,Filled Full of Lead,100,5,1,0.2
+PLAIN-2880,test,The Answer to the Pritikin Puzzle,11,17,0,0.0
+PLAIN-2890,test,To Snack or Not to Snack?,19,29,1,0.034482758620689655
+PLAIN-2900,test,Boosting Good Bacteria in the Colon Without Probiotics,100,12,2,0.16666666666666666
+PLAIN-2910,test,Optimal Phytosterol Dose,100,15,1,0.06666666666666667
+PLAIN-2920,test,Human Neurotransmitters in Plants,100,7,1,0.14285714285714285
+PLAIN-2930,test,Kiwifruit for Irritable Bowel Syndrome,100,14,6,0.42857142857142855
+PLAIN-2940,test,Dietary Treatment of Crohn's Disease,100,22,0,0.0
+PLAIN-2950,test,Unsafe at Any Feed,32,2,0,0.0
+PLAIN-2960,test,Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?,100,2,1,0.5
+PLAIN-2970,test,Preventing Cataracts with Diet,100,9,0,0.0
+PLAIN-2981,test,Cheese Mites and Maggots,25,7,2,0.2857142857142857
+PLAIN-2991,test,Cholesterol and Lower Back Pain,100,2,1,0.5
+PLAIN-3001,test,EPIC Findings on Lymphoma,100,2,1,0.5
+PLAIN-3014,test,Sometimes the Enzyme Myth Is True,100,1,0,0.0
+PLAIN-3026,test,Vitamin C-Enriched Bacon,100,1,1,1.0
+PLAIN-3037,test,Out of the Lab Onto the Track,6,4,0,0.0
+PLAIN-3053,test,Dragon's Blood,100,3,2,0.6666666666666666
+PLAIN-3063,test,Better Than Goji Berries,100,4,0,0.0
+PLAIN-3074,test,How to Help Prevent Abdominal Aortic Aneurysms,100,1,1,1.0
+PLAIN-3085,test,The Difficulty of Arriving at a Vitamin D Recommendation,100,2,2,1.0
+PLAIN-3097,test,Amyloid and Apple Juice,100,4,2,0.5
+PLAIN-3116,test,Dietary Guidelines: From Dairies to Berries,100,1,0,0.0
+PLAIN-3131,test,Are Avocados Good for You?,84,6,1,0.16666666666666666
+PLAIN-3141,test,Relieving Yourself of Excess Estrogen,100,34,5,0.14705882352941177
+PLAIN-3151,test,Too Much Iodine Can Be as Bad as Too Little,100,18,10,0.5555555555555556
+PLAIN-3161,test,Is Milk and Mucus a Myth?,100,43,15,0.3488372093023256
+PLAIN-3171,test,Convergence of Evidence,100,34,8,0.23529411764705882
+PLAIN-3181,test,Is Dragon Fruit Good For You?,100,27,3,0.1111111111111111
+PLAIN-3191,test,Is Distilled Fish Oil Toxin-Free?,100,16,7,0.4375
+PLAIN-3201,test,Acne & Cancer Connection,100,32,4,0.125
+PLAIN-3211,test,Overdosing on Greens,2,18,0,0.0
+PLAIN-3221,test,Dietary Theory of Alzheimer's,100,24,3,0.125
+PLAIN-3231,test,Meat & Multiple Myeloma,100,8,2,0.25
+PLAIN-3241,test,Apthous Ulcer Mystery Solved,19,29,0,0.0
+PLAIN-3251,test,EPIC Study,100,21,2,0.09523809523809523
+PLAIN-3261,test,Update on Herbalife®,32,13,2,0.15384615384615385
+PLAIN-3271,test,Saturated Fat & Cancer Progression,100,49,3,0.061224489795918366
+PLAIN-3281,test,Aluminum in Vaccines vs. Food,100,26,2,0.07692307692307693
+PLAIN-3292,test,Are Multivitamins Good For You?,93,7,5,0.7142857142857143
+PLAIN-3302,test,Fish Fog,100,37,14,0.3783783783783784
+PLAIN-3312,test,Sexually Transmitted Fish Toxin,100,13,7,0.5384615384615384
+PLAIN-3322,test,Veggies vs. Cancer,100,79,6,0.0759493670886076
+PLAIN-3332,test,Alcohol Risks vs. Benefits,100,14,9,0.6428571428571429
+PLAIN-3342,test,Is Coconut Milk Good For You?,100,3,3,1.0
+PLAIN-3352,test,Boosting Heart Nerve Control,100,39,6,0.15384615384615385
+PLAIN-3362,test,Kuna Indian Secret,28,11,3,0.2727272727272727
+PLAIN-3372,test,The Healthiest Sweetener,16,14,0,0.0
+PLAIN-3382,test,Are Artificial Colors Bad for You?,35,14,4,0.2857142857142857
+PLAIN-3392,test,Healthiest Airplane Beverage,43,23,2,0.08695652173913043
+PLAIN-3402,test,Antioxidant Content of 300 Foods,100,14,1,0.07142857142857142
+PLAIN-3412,test,Plant vs. Cow Calcium,100,49,8,0.16326530612244897
+PLAIN-3422,test,Vitamin Supplements Worth Taking,100,31,17,0.5483870967741935
+PLAIN-3432,test,Healthy Chocolate Milkshakes,100,42,9,0.21428571428571427
+PLAIN-3442,test,The Healthiest Vegetables,100,29,2,0.06896551724137931
+PLAIN-3452,test,Bowel Movement Frequency,100,17,7,0.4117647058823529
+PLAIN-3462,test,Olive Oil and Artery Function,100,64,29,0.453125
+PLAIN-3472,test,How Doctors Responded to Being Named a Leading Killer,100,17,0,0.0

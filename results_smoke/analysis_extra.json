@@ -1,0 +1,11 @@
+{
+  "n_queries_changed": 31,
+  "n_queries_unchanged": 29,
+  "unchanged_with_zero_recall": 13,
+  "spearman_delta_vs_bm25_ndcg": -0.0659705360280581,
+  "spearman_delta_ndcg_vs_delta_pairacc": 0.44753788107353487,
+  "n_queries_ndcg_up_pairacc_down": 4,
+  "n_queries_ndcg_down_pairacc_up": 4,
+  "best_model": "ranksvm_sampled",
+  "share_of_valid_pairs_with_a_bm25_top10_doc": 0.37181597023468804
+}

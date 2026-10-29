@@ -1,0 +1,13 @@
+name: ltr
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pytest
+  - pip
+  - pip:
+      - ranx   # optional: metric cross-check only

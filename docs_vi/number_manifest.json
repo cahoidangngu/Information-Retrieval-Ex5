@@ -1,0 +1,9281 @@
+[
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "n_docs",
+   ",d"
+  ],
+  "value": "3,633"
+ },
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "count",
+  "args": [
+   "weights_table.csv",
+   "",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "cfg",
+  "args": [
+   "C_GRID",
+   "s"
+  ],
+  "value": "[0.001, 0.01, 0.1, 1, 10, 100]"
+ },
+ {
+  "doc": "00_doc_truoc.md",
+  "kind": "count",
+  "args": [
+   "weights_table.csv",
+   "",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "n_docs",
+   ",d"
+  ],
+  "value": "3,633"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_micro",
+   ".1%"
+  ],
+  "value": "15.3%"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_zero_rel_in_cand",
+   ".1%"
+  ],
+  "value": "23.5%"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "count",
+  "args": [
+   "weights_table.csv",
+   "",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "top10_improved.csv",
+   "qid=PLAIN-1537",
+   "query",
+   "s"
+  ],
+  "value": "low-carb diets"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=bm25_top1_not_relevant",
+   "title",
+   "s"
+  ],
+  "value": "Effects of very-low-carbohydrate (horsemeat- or beef-based) "
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=relevant",
+   "title",
+   "s"
+  ],
+  "value": "Low-Carbohydrate Diets and All-Cause Mortality: A Systematic"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=bm25_top1_not_relevant",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=relevant",
+   "label",
+   "d"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=bm25_top1_not_relevant",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "21.20"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=relevant",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.01"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=bm25_top1_not_relevant",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=relevant",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=bm25_top1_not_relevant",
+   "coverage_ratio",
+   ".3f"
+  ],
+  "value": "1.000"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/example_pair_features.csv",
+   "role=relevant",
+   "coverage_ratio",
+   ".3f"
+  ],
+  "value": "0.667"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "scaler_stats.csv",
+   "feature=bm25_comb",
+   "train_mean",
+   ".2f"
+  ],
+  "value": "6.06"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "scaler_stats.csv",
+   "feature=bm25_comb",
+   "train_std",
+   ".2f"
+  ],
+  "value": "2.71"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "scaler_stats.csv",
+   "feature=doc_len",
+   "train_mean",
+   ".1f"
+  ],
+  "value": "152.7"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "scaler_stats.csv",
+   "feature=doc_len",
+   "train_std",
+   ".1f"
+  ],
+  "value": "61.9"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "(2-1.5)**2",
+   ".2f"
+  ],
+  "value": "0.25"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "(0-0.5)**2",
+   ".2f"
+  ],
+  "value": "0.25"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "(1-0.8)**2",
+   ".2f"
+  ],
+  "value": "0.04"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "1000*999/2",
+   ",d"
+  ],
+  "value": "499,500"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_train_queries",
+   ",d"
+  ],
+  "value": "2,440"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_train_rows",
+   ",d"
+  ],
+  "value": "167,902"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_valid_pairs_all",
+   ",d"
+  ],
+  "value": "977,151"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "est_train_memory_gb_all_pairs",
+   ".2f"
+  ],
+  "value": "0.33"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "memory_budget_gb",
+   ".1f"
+  ],
+  "value": "2.0"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "sample_cap_per_query",
+   "d"
+  ],
+  "value": "200"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_pairs_ranksvm_sampled",
+   ",d"
+  ],
+  "value": "283,577"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.4*3+1.5*1+0.5*0.8",
+   ".1f"
+  ],
+  "value": "3.1"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.4*5+1.5*0+0.5*0.4",
+   ".1f"
+  ],
+  "value": "2.2"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "(0.4*3+1.5*1+0.5*0.8)-(0.4*5+1.5*0+0.5*0.4)",
+   ".1f"
+  ],
+  "value": "0.9"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "1-((0.4*3+1.5*1+0.5*0.8)-(0.4*5+1.5*0+0.5*0.4))",
+   ".1f"
+  ],
+  "value": "0.1"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.4*(-2)+1.5*1+0.5*0.4",
+   ".1f"
+  ],
+  "value": "0.9"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "1-0.9",
+   ".1f"
+  ],
+  "value": "0.1"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "(1-0.9)**2",
+   ".2f"
+  ],
+  "value": "0.01"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "feature",
+   "s"
+  ],
+  "value": "bm25_comb"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "0.438"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "linreg",
+   ".3f"
+  ],
+  "value": "0.106"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "logreg",
+   ".3f"
+  ],
+  "value": "0.746"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "feature",
+   "s"
+  ],
+  "value": "lm_dirichlet"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-3.135"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "linreg",
+   ".3f"
+  ],
+  "value": "-0.049"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "logreg",
+   ".3f"
+  ],
+  "value": "-0.297"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "feature",
+   "s"
+  ],
+  "value": "matched_terms"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-0.213"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "linreg",
+   ".3f"
+  ],
+  "value": "-0.081"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "logreg",
+   ".3f"
+  ],
+  "value": "-0.438"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=query_len",
+   "feature",
+   "s"
+  ],
+  "value": "query_len"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=query_len",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "0.000"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=query_len",
+   "linreg",
+   ".3f"
+  ],
+  "value": "0.005"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=query_len",
+   "logreg",
+   ".3f"
+  ],
+  "value": "0.005"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=query_len",
+   "ranksvm_all",
+   ".1f"
+  ],
+  "value": "0.0"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "2/3",
+   ".3f"
+  ],
+  "value": "0.667"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "toy",
+  "args": [
+   "ap_example",
+   ".4f"
+  ],
+  "value": "0.5556"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "toy",
+  "args": [
+   "dcg_example",
+   ".4f"
+  ],
+  "value": "3.5000"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "toy",
+  "args": [
+   "idcg_example",
+   ".4f"
+  ],
+  "value": "3.6309"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "toy",
+  "args": [
+   "ndcg_example",
+   ".4f"
+  ],
+  "value": "0.9639"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "toy",
+  "args": [
+   "pairacc_example",
+   ".3f"
+  ],
+  "value": "0.667"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "5/20",
+   ".2f"
+  ],
+  "value": "0.25"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1534"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_macro",
+   ".4f"
+  ],
+  "value": "0.2331"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "oracle_upper_bound.csv",
+   "",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.5235"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "pair_acc_all_pairs",
+   ".4f"
+  ],
+  "value": "0.7358"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "pair_acc_pairs_with_a_BM25_top10_doc",
+   ".4f"
+  ],
+  "value": "0.8468"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "pair_acc_pairs_entirely_below_BM25_top10",
+   ".4f"
+  ],
+  "value": "0.6640"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "pair_acc_all_pairs",
+   ".4f"
+  ],
+  "value": "0.7426"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "pair_acc_pairs_with_a_BM25_top10_doc",
+   ".4f"
+  ],
+  "value": "0.8473"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "pair_acc_pairs_entirely_below_BM25_top10",
+   ".4f"
+  ],
+  "value": "0.6750"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "analysis_extra.json",
+   "share_of_valid_pairs_with_a_bm25_top10_doc",
+   ".1%"
+  ],
+  "value": "39.3%"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "train.n_queries",
+   ",d"
+  ],
+  "value": "2,590"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "dev.n_queries",
+   "d"
+  ],
+  "value": "324"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "cfg",
+  "args": [
+   "C_GRID",
+   "s"
+  ],
+  "value": "[0.001, 0.01, 0.1, 1, 10, 100]"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.001",
+   "C",
+   "s"
+  ],
+  "value": "0.001"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.001",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2798"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.01",
+   "C",
+   "s"
+  ],
+  "value": "0.01"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.01",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2804"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.1",
+   "C",
+   "s"
+  ],
+  "value": "0.1"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.1",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2805"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=1.0",
+   "C",
+   "s"
+  ],
+  "value": "1.0"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=1.0",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2805"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=10.0",
+   "C",
+   "s"
+  ],
+  "value": "10.0"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=10.0",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2805"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=100.0",
+   "C",
+   "s"
+  ],
+  "value": "100.0"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=100.0",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2805"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "train.levels.1",
+   ",d"
+  ],
+  "value": "110,575"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "dev.levels.2",
+   "d"
+  ],
+  "value": "521"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "cfg",
+  "args": [
+   "N_BOOT",
+   ",d"
+  ],
+  "value": "10,000"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.01",
+   ".2f"
+  ],
+  "value": "0.01"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.05",
+   ".2f"
+  ],
+  "value": "0.05"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0017"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0098"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0057"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.6550"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.6894"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_improved",
+   "d"
+  ],
+  "value": "67"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_harmed",
+   "d"
+  ],
+  "value": "78"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_unchanged",
+   "d"
+  ],
+  "value": "178"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0167"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0065"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0271"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0017"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0048"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.4*3+1.5*1+0.5*0.8",
+   ".1f"
+  ],
+  "value": "3.1"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "0.4*5+1.5*0+0.5*0.4",
+   ".1f"
+  ],
+  "value": "2.2"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "(0.4*3+1.5*1+0.5*0.8)-(0.4*5+1.5*0+0.5*0.4)",
+   ".1f"
+  ],
+  "value": "0.9"
+ },
+ {
+  "doc": "01_kien_thuc_chuong8.md",
+  "kind": "calc",
+  "args": [
+   "1-((0.4*3+1.5*1+0.5*0.8)-(0.4*5+1.5*0+0.5*0.4))",
+   ".1f"
+  ],
+  "value": "0.1"
+ },
+ {
+  "doc": "02_ban_do_file.md",
+  "kind": "count",
+  "args": [
+   "weights_table.csv",
+   "",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "weights_table.csv",
+   "",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "n_docs",
+   ",d"
+  ],
+  "value": "3,633"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "train.n_queries",
+   ",d"
+  ],
+  "value": "2,590"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "dev.n_queries",
+   "d"
+  ],
+  "value": "324"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_micro",
+   ".1%"
+  ],
+  "value": "15.3%"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_zero_rel_in_cand",
+   ".1%"
+  ],
+  "value": "23.5%"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1408"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1425"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&p_ttest<0.05",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10",
+   "d"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7426"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7358"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&p_ttest<0.05&p_wilcoxon<0.05&ci95_lo>0",
+   "d"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10",
+   "d"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&mean_delta>=0.01",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0035"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0167"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "count",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&p_ttest<0.05&p_wilcoxon<0.05&ci95_lo>0",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=train",
+   "split",
+   "s"
+  ],
+  "value": "train"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=train",
+   "n_queries",
+   ".4f"
+  ],
+  "value": "2590.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=train",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1448"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=train",
+   "recall@100_macro",
+   ".4f"
+  ],
+  "value": "0.2323"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=train",
+   "frac_queries_zero_rel_in_cand",
+   ".4f"
+  ],
+  "value": "0.2255"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=train",
+   "frac_queries_lt100_cand",
+   ".4f"
+  ],
+  "value": "0.4502"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=dev",
+   "split",
+   "s"
+  ],
+  "value": "dev"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=dev",
+   "n_queries",
+   ".4f"
+  ],
+  "value": "324.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=dev",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1572"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=dev",
+   "recall@100_macro",
+   ".4f"
+  ],
+  "value": "0.2049"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=dev",
+   "frac_queries_zero_rel_in_cand",
+   ".4f"
+  ],
+  "value": "0.2747"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=dev",
+   "frac_queries_lt100_cand",
+   ".4f"
+  ],
+  "value": "0.4599"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "split",
+   "s"
+  ],
+  "value": "test"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "n_queries",
+   ".4f"
+  ],
+  "value": "323.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1534"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_macro",
+   ".4f"
+  ],
+  "value": "0.2331"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_zero_rel_in_cand",
+   ".4f"
+  ],
+  "value": "0.2353"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_lt100_cand",
+   ".4f"
+  ],
+  "value": "0.4613"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1408"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3433"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7358"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1408"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3426"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3097"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7175"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1419"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3449"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3125"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7234"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "C",
+   ".4f"
+  ],
+  "value": "0.0100"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1418"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3437"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7426"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "C",
+   ".4f"
+  ],
+  "value": "10.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1425"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3465"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7437"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "C",
+   ".4f"
+  ],
+  "value": "0.1000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_gapweighted",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1418"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_gapweighted",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3437"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_gapweighted",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_gapweighted",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7426"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_gapweighted",
+   "C",
+   ".4f"
+  ],
+  "value": "10.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1421"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "NDCG@5",
+   ".4f"
+  ],
+  "value": "0.3469"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3127"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7434"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "C",
+   ".4f"
+  ],
+  "value": "0.0100"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "model",
+   "s"
+  ],
+  "value": "linreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "train_s",
+   ".4f"
+  ],
+  "value": "0.0359"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "predict_s",
+   ".4f"
+  ],
+  "value": "0.0001"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "peak_mb",
+   ".4f"
+  ],
+  "value": "274.8398"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "model",
+   "s"
+  ],
+  "value": "logreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "train_s",
+   ".4f"
+  ],
+  "value": "0.1969"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "predict_s",
+   ".4f"
+  ],
+  "value": "0.0001"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "peak_mb",
+   ".4f"
+  ],
+  "value": "279.3438"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_all"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "train_s",
+   ".4f"
+  ],
+  "value": "6.5558"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "predict_s",
+   ".4f"
+  ],
+  "value": "0.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "peak_mb",
+   ".4f"
+  ],
+  "value": "668.6562"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_sampled"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "train_s",
+   ".4f"
+  ],
+  "value": "1.9761"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "predict_s",
+   ".4f"
+  ],
+  "value": "0.0000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "peak_mb",
+   ".4f"
+  ],
+  "value": "387.4453"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "model",
+   "s"
+  ],
+  "value": "linreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0037"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0097"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0021"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.2148"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.3257"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=linreg",
+   "cohen_dz",
+   ".4f"
+  ],
+  "value": "-0.0692"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "model",
+   "s"
+  ],
+  "value": "logreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0009"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0066"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0043"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.7412"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.7370"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=logreg",
+   "cohen_dz",
+   ".4f"
+  ],
+  "value": "-0.0184"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_all"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0041"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0122"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0036"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.3133"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.4490"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "cohen_dz",
+   ".4f"
+  ],
+  "value": "-0.0562"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_sampled"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0017"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0098"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0057"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.6550"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.6894"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "cohen_dz",
+   ".4f"
+  ],
+  "value": "-0.0249"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_gapweighted"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0041"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0122"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0038"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.3133"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.4490"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "cohen_dz",
+   ".4f"
+  ],
+  "value": "-0.0562"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_dndcgweighted_extra"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0007"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0073"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0058"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.8411"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.9297"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "cohen_dz",
+   ".4f"
+  ],
+  "value": "-0.0112"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "feature",
+   "s"
+  ],
+  "value": "bm25_comb"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "0.438"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "linreg",
+   ".3f"
+  ],
+  "value": "0.106"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "logreg",
+   ".3f"
+  ],
+  "value": "0.746"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "expected_sign",
+   ".3f"
+  ],
+  "value": "1.000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "VIF",
+   ".3f"
+  ],
+  "value": "39.008"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "feature",
+   "s"
+  ],
+  "value": "lm_dirichlet"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-3.135"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "linreg",
+   ".3f"
+  ],
+  "value": "-0.049"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "logreg",
+   ".3f"
+  ],
+  "value": "-0.297"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "expected_sign",
+   ".3f"
+  ],
+  "value": "1.000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "VIF",
+   ".3f"
+  ],
+  "value": "9.776"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "feature",
+   "s"
+  ],
+  "value": "matched_terms"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-0.213"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "linreg",
+   ".3f"
+  ],
+  "value": "-0.081"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "logreg",
+   ".3f"
+  ],
+  "value": "-0.438"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "expected_sign",
+   ".3f"
+  ],
+  "value": "1.000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=matched_terms",
+   "VIF",
+   ".3f"
+  ],
+  "value": "9.464"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=coverage_ratio",
+   "feature",
+   "s"
+  ],
+  "value": "coverage_ratio"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=coverage_ratio",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "0.083"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=coverage_ratio",
+   "linreg",
+   ".3f"
+  ],
+  "value": "0.117"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=coverage_ratio",
+   "logreg",
+   ".3f"
+  ],
+  "value": "0.904"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=coverage_ratio",
+   "expected_sign",
+   ".3f"
+  ],
+  "value": "1.000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=coverage_ratio",
+   "VIF",
+   ".3f"
+  ],
+  "value": "4.730"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_rank",
+   "feature",
+   "s"
+  ],
+  "value": "bm25_rank"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_rank",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-0.049"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_rank",
+   "linreg",
+   ".3f"
+  ],
+  "value": "0.024"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_rank",
+   "logreg",
+   ".3f"
+  ],
+  "value": "0.166"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_rank",
+   "expected_sign",
+   ".3f"
+  ],
+  "value": "-1.000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_rank",
+   "VIF",
+   ".3f"
+  ],
+  "value": "1.875"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_hinge_all"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1413"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3086"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7444"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "converged",
+   "s"
+  ],
+  "value": "False"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_sampled",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_hinge_sampled"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_sampled",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1421"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3109"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_sampled",
+   "pair_acc_micro",
+   ".4f"
+  ],
+  "value": "0.7448"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_sampled",
+   "converged",
+   "s"
+  ],
+  "value": "False"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "n_iter",
+   "d"
+  ],
+  "value": "1000"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "train_s",
+   ".1f"
+  ],
+  "value": "49.3"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "train_s",
+   ".1f"
+  ],
+  "value": "6.6"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_tuning_dev.csv",
+   "model=ranksvm_hinge_all&C=100.0",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.1991"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=bm25",
+   "model",
+   "s"
+  ],
+  "value": "bm25"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=bm25",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3037"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=bm25",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0130"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=bm25",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1257"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=bm25",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0079"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=linreg",
+   "model",
+   "s"
+  ],
+  "value": "linreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=linreg",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3063"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=linreg",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0131"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=linreg",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1268"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=linreg",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0080"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=logreg",
+   "model",
+   "s"
+  ],
+  "value": "logreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=logreg",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3068"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=logreg",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0124"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=logreg",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1272"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=logreg",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0080"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_all",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_all"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_all",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3060"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_all",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0123"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_all",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1265"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_all",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0073"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_sampled",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_sampled"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3072"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0114"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_sampled",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1272"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_sampled",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0074"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_gapweighted",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_gapweighted"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_gapweighted",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3059"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_gapweighted",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0123"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_gapweighted",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1265"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_gapweighted",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0073"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_dndcgweighted_extra"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "NDCG@10_mean",
+   ".4f"
+  ],
+  "value": "0.3071"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "NDCG@10_std",
+   ".4f"
+  ],
+  "value": "0.0119"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "MAP_mean",
+   ".4f"
+  ],
+  "value": "0.1271"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_summary.csv",
+   "model=ranksvm_dndcgweighted_extra",
+   "MAP_std",
+   ".4f"
+  ],
+  "value": "0.0074"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_queries",
+   ",d"
+  ],
+  "value": "3,237"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "model",
+   "s"
+  ],
+  "value": "linreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0026"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0005"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0048"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0164"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0042"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=linreg",
+   "p_ttest_holm",
+   ".4f"
+  ],
+  "value": "0.0492"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "model",
+   "s"
+  ],
+  "value": "logreg"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0031"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0011"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0052"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0022"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0003"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=logreg",
+   "p_ttest_holm",
+   ".4f"
+  ],
+  "value": "0.0091"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_all"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0023"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0001"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0048"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0612"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0967"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_all",
+   "p_ttest_holm",
+   ".4f"
+  ],
+  "value": "0.1224"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_sampled"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0035"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0013"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0058"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0018"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0044"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_sampled",
+   "p_ttest_holm",
+   ".4f"
+  ],
+  "value": "0.0091"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_gapweighted"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0022"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0002"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0046"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0713"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0993"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_gapweighted",
+   "p_ttest_holm",
+   ".4f"
+  ],
+  "value": "0.1224"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "model",
+   "s"
+  ],
+  "value": "ranksvm_dndcgweighted_extra"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0035"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0014"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0056"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0010"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0006"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&model=ranksvm_dndcgweighted_extra",
+   "p_ttest_holm",
+   ".4f"
+  ],
+  "value": "0.0063"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v1&model=linreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3097"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v2&model=linreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3202"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v1&model=logreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3125"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v2&model=logreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3246"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v1&model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v2&model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3233"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v1&model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v2&model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3234"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_single_feature_reranks.csv",
+   "split=test&model=rerank:bm25_stem_comb",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3204"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_significance.csv",
+   "comparison=v2:logreg vs rerank:bm25_stem_comb&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0042"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_significance.csv",
+   "comparison=v2:logreg vs rerank:bm25_stem_comb&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.2293"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_vif_pruning_v1.csv",
+   "feature=bm25_comb",
+   "vif_at_drop",
+   ".1f"
+  ],
+  "value": "39.0"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_sign_check.csv",
+   "feature_set=v1_reduced&feature=lm_dirichlet",
+   "w_ranksvm_all",
+   ".3f"
+  ],
+  "value": "-1.509"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_sign_check.csv",
+   "feature_set=v1_reduced&feature=lm_dirichlet",
+   "ok_ranksvm_all",
+   "s"
+  ],
+  "value": "NO"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=unstemmed (main)&split=test",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1534"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=Porter-stemmed&split=test",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1729"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=unstemmed (main)&split=test",
+   "frac_queries_no_relevant_candidate",
+   ".4f"
+  ],
+  "value": "0.2353"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=Porter-stemmed&split=test",
+   "frac_queries_no_relevant_candidate",
+   ".4f"
+  ],
+  "value": "0.2105"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=unstemmed (main)&split=test",
+   "oracle_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.5235"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=Porter-stemmed&split=test",
+   "oracle_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.5472"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=unstemmed (main)&split=test",
+   "stage1_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_stage1_summary.csv",
+   "stage1=Porter-stemmed&split=test",
+   "stage1_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3302"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=stemmed_bm25",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0167"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=stemmed_bm25",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0065"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=stemmed_bm25",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0271"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=stemmed_bm25",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0017"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=stemmed_bm25",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0048"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=linreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0149"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=linreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0037"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=linreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0260"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=linreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0093"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=linreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0164"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=logreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0179"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=logreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0070"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=logreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0290"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=logreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0014"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=logreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0043"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=ranksvm_sampled",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0185"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=ranksvm_sampled",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0061"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=ranksvm_sampled",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0310"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=ranksvm_sampled",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0034"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&metric=ndcg10&model=ranksvm_sampled",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.0199"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=linreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0019"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=linreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0086"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=linreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0047"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=linreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.5756"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=linreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.3951"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=logreg",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0012"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=logreg",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0046"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=logreg",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0071"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=logreg",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.6954"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=logreg",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.6499"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=ranksvm_sampled",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0018"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=ranksvm_sampled",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0051"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=ranksvm_sampled",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0090"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=ranksvm_sampled",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.6143"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(b) vs stemmed BM25 alone&metric=ndcg10&model=ranksvm_sampled",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.8977"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_zero_rel_in_cand",
+   ".1%"
+  ],
+  "value": "23.5%"
+ },
+ {
+  "doc": "03_doc_ket_qua.md",
+  "kind": "csv",
+  "args": [
+   "oracle_upper_bound.csv",
+   "",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.5235"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "top10_improved.csv",
+   "qid=PLAIN-1537",
+   "query",
+   "s"
+  ],
+  "value": "low-carb diets"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "n_rel_total",
+   "d"
+  ],
+  "value": "45"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "n_cand",
+   "d"
+  ],
+  "value": "100"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "n_rel_in_cand",
+   "d"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "top10_improved.csv",
+   "qid=PLAIN-1537",
+   "recall_at_100",
+   ".3f"
+  ],
+  "value": "0.178"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "pair_total",
+   ",d"
+  ],
+  "value": "736"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4880"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "21.20"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "1.00"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=1",
+   "title",
+   "s"
+  ],
+  "value": "Effects of very-low-carbohydrate (horsemeat- or beef-based) "
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3149"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.76"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=2",
+   "title",
+   "s"
+  ],
+  "value": "Four therapeutic diets: adherence and acceptability."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3273"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.66"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=3",
+   "title",
+   "s"
+  ],
+  "value": "The low-methionine content of vegan diets may make methionin"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4353"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.36"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "33"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=4",
+   "title",
+   "s"
+  ],
+  "value": "Effects of dietary proteins on plasma lipoprotein levels in "
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-1257"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.33"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "25"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=5",
+   "title",
+   "s"
+  ],
+  "value": "Protein and coronary heart disease: the role of different pr"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-5267"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.14"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=6",
+   "title",
+   "s"
+  ],
+  "value": "Mediterranean and low-fat diets improve endothelial function"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "7"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4831"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.07"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=7",
+   "title",
+   "s"
+  ],
+  "value": "Effects of plant-based diets on plasma lipids."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3874"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.06"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "48"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=8",
+   "title",
+   "s"
+  ],
+  "value": "Flaxseed Supplementation (not Dietary Fat Restriction) Reduc"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "9"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4885"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.06"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "50"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=9",
+   "title",
+   "s"
+  ],
+  "value": "Flaxseed Supplementation (not Dietary Fat Restriction) Reduc"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-5272"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "7.03"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "13"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_bm25_top10.csv",
+   "bm25_rank=10",
+   "title",
+   "s"
+  ],
+  "value": "Chronic effects of a high-fat diet enriched with virgin oliv"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "count",
+  "args": [
+   "weights_table.csv",
+   "",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.000"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "ap",
+   ".3f"
+  ],
+  "value": "0.018"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=1",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=1",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4880"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=1",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=1",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=1",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "1.465"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=1",
+   "title",
+   "s"
+  ],
+  "value": "Effects of very-low-carbohydrate (horsemeat- or beef-based) "
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=2",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=2",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-5267"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=2",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=2",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=2",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.419"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=2",
+   "title",
+   "s"
+  ],
+  "value": "Mediterranean and low-fat diets improve endothelial function"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-2588"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "label",
+   "d"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "11"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.441"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "title",
+   "s"
+  ],
+  "value": "Low-Carbohydrate Diets and All-Cause Mortality: A Systematic"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4514"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "label",
+   "d"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "21"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.457"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "title",
+   "s"
+  ],
+  "value": "Low-carbohydrate diets and all-cause and cause-specific mort"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=5",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=5",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3273"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=5",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=5",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=5",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.477"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=5",
+   "title",
+   "s"
+  ],
+  "value": "The low-methionine content of vegan diets may make methionin"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=6",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=6",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-1134"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=6",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=6",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "25"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=6",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.479"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=6",
+   "title",
+   "s"
+  ],
+  "value": "Effects of low animal protein or high-fiber diets on urine c"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=7",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "7"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=7",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-1669"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=7",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=7",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "20"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=7",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.493"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=7",
+   "title",
+   "s"
+  ],
+  "value": "The effect of two energy-restricted diets, a low-fructose di"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=8",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=8",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4831"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=8",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=8",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "7"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=8",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.501"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=8",
+   "title",
+   "s"
+  ],
+  "value": "Effects of plant-based diets on plasma lipids."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=9",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "9"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=9",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3557"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=9",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=9",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "59"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=9",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.503"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=9",
+   "title",
+   "s"
+  ],
+  "value": "VEGETARIAN DIETS AND THE INCIDENCE OF CANCER IN A LOW-RISK P"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=10",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=10",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3149"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=10",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=10",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=10",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "-0.529"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=10",
+   "title",
+   "s"
+  ],
+  "value": "Four therapeutic diets: adherence and acceptability."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "11"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "21"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=3",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q1537_ltr_top10.csv",
+   "ltr_rank=4",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.000"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=ranksvm_sampled",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.205"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_deltas_best_model.csv",
+   "qid=PLAIN-1537",
+   "delta_ndcg10",
+   "+.3f"
+  ],
+  "value": "+0.205"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "ap",
+   ".3f"
+  ],
+  "value": "0.018"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=ranksvm_sampled",
+   "ap",
+   ".3f"
+  ],
+  "value": "0.036"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-1537",
+   "top_feature_1",
+   "s"
+  ],
+  "value": "bm25_title"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-1537",
+   "top_feature_2",
+   "s"
+  ],
+  "value": "bm25_comb"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-1537",
+   "top_feature_3",
+   "s"
+  ],
+  "value": "lm_dirichlet"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-1537",
+   "n_entered",
+   "d"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-1537",
+   "n_entered_relevant",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-1537&model=bm25",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.000"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-1537",
+   "relevant_candidate_rank_moves",
+   "s"
+  ],
+  "value": "rel=1 BM25#11->LTR#3, rel=1 BM25#18->LTR#29, rel=1 BM25#21->LTR#4, rel=1 BM25#52->LTR#36, rel=1 BM25#53->LTR#15, rel=1 BM25#54->LTR#74, rel=1 BM25#85->LTR#72, rel=1 BM25#92->LTR#60"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "top10_harmed.csv",
+   "qid=PLAIN-3085",
+   "query",
+   "s"
+  ],
+  "value": "The Difficulty of Arriving at a Vitamin D Recommendation"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-3085&model=bm25",
+   "n_rel_total",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-3085&model=bm25",
+   "n_rel_in_cand",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "top10_harmed.csv",
+   "qid=PLAIN-3085",
+   "recall_at_100",
+   ".3f"
+  ],
+  "value": "1.000"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4872"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "13.15"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.60"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=1",
+   "title",
+   "s"
+  ],
+  "value": "Safety considerations and potential interactions of vitamins"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4470"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "11.28"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "9"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=2",
+   "title",
+   "s"
+  ],
+  "value": "Effects of vitamins C and E on N-nitroso compound formation,"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4573"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "label",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "11.26"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "22"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "title",
+   "s"
+  ],
+  "value": "Low Vitamin D Status: Definition, Prevalence, Consequences a"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-716"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "11.04"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=4",
+   "title",
+   "s"
+  ],
+  "value": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-920"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "11.01"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=5",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D in the treatment of pulmonary tuberculosis."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3990"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "10.98"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=6",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D supplementation for prevention of mortality in adu"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "7"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4574"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "10.94"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=7",
+   "title",
+   "s"
+  ],
+  "value": "Prevalence and correlates of vitamin D deficiency in US adul"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3986"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "10.94"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "20"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=8",
+   "title",
+   "s"
+  ],
+  "value": "Bioavailability of vitamin D₂ from UV-B-irradiated button mu"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "9"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3988"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "10.85"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "18"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=9",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D2 Is as Effective as Vitamin D3 in Maintaining Circ"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "bm25_rank",
+   "s"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4570"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "label",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "bm25_comb",
+   ".2f"
+  ],
+  "value": "10.81"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "matched_terms",
+   ".0f"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "coverage_ratio",
+   ".2f"
+  ],
+  "value": "0.40"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "ltr_rank",
+   "d"
+  ],
+  "value": "12"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D supplement doses and serum 25-hydroxyvitamin D in "
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=3",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_bm25_top10.csv",
+   "bm25_rank=10",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-3085&model=bm25",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.484"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=1",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=1",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4575"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=1",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=1",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "14"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=1",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "2.110"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=1",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D: extraskeletal health."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=2",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=2",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-920"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=2",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=2",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=2",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "2.103"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=2",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D in the treatment of pulmonary tuberculosis."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=3",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "3"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=3",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4872"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=3",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=3",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "1"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=3",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "2.032"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=3",
+   "title",
+   "s"
+  ],
+  "value": "Safety considerations and potential interactions of vitamins"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=4",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=4",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-961"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=4",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=4",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "21"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=4",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "2.024"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=4",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D(3) is more potent than vitamin D(2) in humans."
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=5",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "5"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=5",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-716"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=5",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=5",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=5",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "2.016"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=5",
+   "title",
+   "s"
+  ],
+  "value": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=6",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=6",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3985"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=6",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=6",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "18"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=6",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "2.010"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=6",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D deficiency treated by consuming UVB-irradiated mus"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=7",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "7"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=7",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-714"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=7",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=7",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "11"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=7",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "1.982"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=7",
+   "title",
+   "s"
+  ],
+  "value": "Towards prevention of vitamin D deficiency and beyond: knowl"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=8",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "8"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=8",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4574"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=8",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=8",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "7"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=8",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "1.959"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=8",
+   "title",
+   "s"
+  ],
+  "value": "Prevalence and correlates of vitamin D deficiency in US adul"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=9",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "9"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=9",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-4470"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=9",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=9",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=9",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "1.931"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=9",
+   "title",
+   "s"
+  ],
+  "value": "Effects of vitamins C and E on N-nitroso compound formation,"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=10",
+   "ltr_rank",
+   "s"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=10",
+   "doc_id",
+   "s"
+  ],
+  "value": "MED-3990"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=10",
+   "label",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=10",
+   "bm25_rank",
+   "d"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=10",
+   "ltr_score",
+   ".3f"
+  ],
+  "value": "1.930"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "docs_vi/data_vi/q3085_ltr_top10.csv",
+   "ltr_rank=10",
+   "title",
+   "s"
+  ],
+  "value": "Vitamin D supplementation for prevention of mortality in adu"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-3085&model=bm25",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.484"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "per_query_test.csv",
+   "qid=PLAIN-3085&model=ranksvm_sampled",
+   "ndcg10",
+   ".3f"
+  ],
+  "value": "0.000"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_deltas_best_model.csv",
+   "qid=PLAIN-3085",
+   "delta_ndcg10",
+   "+.3f"
+  ],
+  "value": "-0.484"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "n_entered",
+   "d"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "n_entered_relevant",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "n_left",
+   "d"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "n_left_relevant",
+   "d"
+  ],
+  "value": "2"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "top_feature_1",
+   "s"
+  ],
+  "value": "lm_dirichlet"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "top_feature_2",
+   "s"
+  ],
+  "value": "bm25_comb"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "query_evidence.csv",
+   "qid=PLAIN-3085",
+   "top_feature_3",
+   "s"
+  ],
+  "value": "bm25_title"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_improved",
+   "d"
+  ],
+  "value": "67"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_harmed",
+   "d"
+  ],
+  "value": "78"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_unchanged",
+   "d"
+  ],
+  "value": "178"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "json",
+  "args": [
+   "analysis_extra.json",
+   "n_queries_unchanged",
+   "d"
+  ],
+  "value": "178"
+ },
+ {
+  "doc": "04_theo_doi_mot_truy_van.md",
+  "kind": "json",
+  "args": [
+   "analysis_extra.json",
+   "unchanged_with_zero_recall",
+   "d"
+  ],
+  "value": "76"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "txt",
+  "args": [
+   "total_runtime_seconds.txt",
+   "x/60",
+   ".0f"
+  ],
+  "value": "27"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "txt",
+  "args": [
+   "total_runtime_seconds.txt",
+   "x",
+   ".0f"
+  ],
+  "value": "1631"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=bm25",
+   "MAP",
+   ".4f"
+  ],
+  "value": "0.1408"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1534"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_valid_pairs_all",
+   ",d"
+  ],
+  "value": "977,151"
+ },
+ {
+  "doc": "05_chay_va_doc_code.md",
+  "kind": "cfg",
+  "args": [
+   "SEED",
+   "d"
+  ],
+  "value": "42"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "cfg",
+  "args": [
+   "TOP_K",
+   "d"
+  ],
+  "value": "100"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "n_docs",
+   ",d"
+  ],
+  "value": "3,633"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=A within-query pairs, no intercept (reference)",
+   "test_pair_acc",
+   ".4f"
+  ],
+  "value": "0.7433"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=B cross-query pairs, no intercept (pitfall)",
+   "test_pair_acc",
+   ".4f"
+  ],
+  "value": "0.7233"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=A within-query pairs, no intercept (reference)",
+   "test_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3109"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=B cross-query pairs, no intercept (pitfall)",
+   "test_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3135"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=C within-query pairs, WITH intercept",
+   "intercept",
+   ".4f"
+  ],
+  "value": "0.0016"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=C within-query pairs, WITH intercept",
+   "test_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3111"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ablation.csv",
+   "variant=A within-query pairs, no intercept (reference)",
+   "test_NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3109"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "pair_acc_all_pairs",
+   ".4f"
+  ],
+  "value": "0.7426"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "pair_acc_all_pairs",
+   ".4f"
+  ],
+  "value": "0.7358"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3134"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=ranksvm_all",
+   "pair_acc_pairs_entirely_below_BM25_top10",
+   ".4f"
+  ],
+  "value": "0.6750"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "pairacc_vs_ndcg.csv",
+   "model=bm25",
+   "pair_acc_pairs_entirely_below_BM25_top10",
+   ".4f"
+  ],
+  "value": "0.6640"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "analysis_extra.json",
+   "share_of_valid_pairs_with_a_bm25_top10_doc",
+   ".1%"
+  ],
+  "value": "39.3%"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "train.levels.1",
+   ",d"
+  ],
+  "value": "110,575"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "MAP",
+   ".6f"
+  ],
+  "value": "0.141829"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_gapweighted",
+   "MAP",
+   ".6f"
+  ],
+  "value": "0.141829"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "count",
+  "args": [
+   "ext_hinge_tuning_dev.csv",
+   "no_converge=True",
+   "d"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "count",
+  "args": [
+   "ext_hinge_tuning_dev.csv",
+   "",
+   "d"
+  ],
+  "value": "12"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_tuning_dev.csv",
+   "model=ranksvm_hinge_all&C=100.0",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.1991"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_hinge_metrics_test.csv",
+   "model=ranksvm_hinge_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3086"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_micro",
+   ".4f"
+  ],
+  "value": "0.1534"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "recall@100_macro",
+   ".4f"
+  ],
+  "value": "0.2331"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_zero_rel_in_cand",
+   ".1%"
+  ],
+  "value": "23.5%"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "oracle_upper_bound.csv",
+   "",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.5235"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "candidate_recall_summary.csv",
+   "split=test",
+   "frac_queries_with_gt100_rel",
+   ".1%"
+  ],
+  "value": "6.8%"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "-0.0017"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "-0.0098"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0057"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.6550"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "p_wilcoxon",
+   ".4f"
+  ],
+  "value": "0.6894"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "count",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10&p_ttest<0.05",
+   "d"
+  ],
+  "value": "0"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "count",
+  "args": [
+   "significance.csv",
+   "metric=ndcg10",
+   "d"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0167"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_stem_significance.csv",
+   "comparison=(a) vs unstemmed BM25&model=stemmed_bm25&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0017"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "train.n_queries",
+   ",d"
+  ],
+  "value": "2,590"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "dev.n_queries",
+   "d"
+  ],
+  "value": "324"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "C",
+   "g"
+  ],
+  "value": "10"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "C",
+   "g"
+  ],
+  "value": "0.1"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.1",
+   "C",
+   "g"
+  ],
+  "value": "0.1"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=0.1",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2805"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=100.0",
+   "C",
+   "g"
+  ],
+  "value": "100"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "tuning_dev.csv",
+   "model=ranksvm_all&C=100.0",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.2805"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3097"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=logreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3125"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "train_s",
+   ".2f"
+  ],
+  "value": "0.04"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "train_s",
+   ".1f"
+  ],
+  "value": "6.6"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_valid_pairs_all",
+   ",d"
+  ],
+  "value": "977,151"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "est_train_memory_gb_all_pairs",
+   ".2f"
+  ],
+  "value": "0.33"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "memory_budget_gb",
+   ".1f"
+  ],
+  "value": "2.0"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "sample_cap_per_query",
+   "d"
+  ],
+  "value": "200"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "pair_stats.json",
+   "n_pairs_ranksvm_sampled",
+   ",d"
+  ],
+  "value": "283,577"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "train_s",
+   ".1f"
+  ],
+  "value": "2.0"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "train_s",
+   ".1f"
+  ],
+  "value": "6.6"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_all",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3093"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "spearman_with_label_train",
+   ".3f"
+  ],
+  "value": "0.187"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-3.135"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "VIF",
+   ".1f"
+  ],
+  "value": "39.0"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_sign_check.csv",
+   "feature_set=v1_reduced&feature=lm_dirichlet",
+   "w_ranksvm_all",
+   ".3f"
+  ],
+  "value": "-1.509"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_sign_check.csv",
+   "feature_set=v1_reduced&feature=lm_dirichlet",
+   "ok_ranksvm_all",
+   "s"
+  ],
+  "value": "NO"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "n_queries",
+   ",d"
+  ],
+  "value": "3,237"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0035"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "ci95_lo",
+   ".4f"
+  ],
+  "value": "0.0013"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "ci95_hi",
+   ".4f"
+  ],
+  "value": "0.0058"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_cv_significance.csv",
+   "model=ranksvm_sampled&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.0018"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "json",
+  "args": [
+   "dataset_stats.json",
+   "test.n_queries",
+   "d"
+  ],
+  "value": "323"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "count",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10&p_ttest<0.05&p_wilcoxon<0.05&ci95_lo>0",
+   "d"
+  ],
+  "value": "4"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "count",
+  "args": [
+   "ext_cv_significance.csv",
+   "metric=ndcg10",
+   "d"
+  ],
+  "value": "6"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "crosscheck_metrics.csv",
+   "model=bm25",
+   "max_abs_diff",
+   ".1e"
+  ],
+  "value": "5.6e-17"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=ranksvm_sampled",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3117"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "metrics_test.csv",
+   "model=linreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3097"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=lm_dirichlet",
+   "ranksvm_all",
+   ".3f"
+  ],
+  "value": "-3.135"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "weights_table.csv",
+   "feature=bm25_comb",
+   "VIF",
+   ".1f"
+  ],
+  "value": "39.0"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v2&model=logreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3246"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_metrics_test.csv",
+   "feature_set=v1&model=logreg",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3125"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_single_feature_reranks.csv",
+   "split=test&model=rerank:bm25_stem_comb",
+   "NDCG@10",
+   ".4f"
+  ],
+  "value": "0.3204"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_significance.csv",
+   "comparison=v2:logreg vs rerank:bm25_stem_comb&metric=ndcg10",
+   "mean_delta",
+   ".4f"
+  ],
+  "value": "0.0042"
+ },
+ {
+  "doc": "06_hoi_dap_bao_ve.md",
+  "kind": "csv",
+  "args": [
+   "ext_featuresets_significance.csv",
+   "comparison=v2:logreg vs rerank:bm25_stem_comb&metric=ndcg10",
+   "p_ttest",
+   ".4f"
+  ],
+  "value": "0.2293"
+ }
+]
